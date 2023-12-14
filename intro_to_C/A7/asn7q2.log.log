@@ -1,0 +1,9 @@
+//Emmanuella Eyo 11291003 eee917
+
+//I had 2 pipelines that worked both give the same output 
+
+eee917@tux5:~> ps -eF |tee asn7q2.txt | tr -s ' '|cut -d ' ' -f 7| sort -n |uniq -c |sort -r | tr -s ' ' | cut -d ' ' -f 3 | head -1
+3
+
+eee917@tux5:~> ps -eF|tee asn7q2.txt|tr -s ' '|cut -d ' ' -f 7|sort -n|uniq -c|sort -r|head -1| awk '{print $2}'
+3

@@ -1,0 +1,47 @@
+commit 2d9bd3959d0491c87377f63f7a623c3ab6bca035 (HEAD -> refs/heads/master, refs/heads/develop)
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Fri Dec 3 20:12:27 2021 -0600
+
+    the lsdir.sh script works well and meets the requirements
+
+commit 38e82c8f494b9722a6eead24bc7b5ad7645b0485
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Fri Dec 3 16:21:14 2021 -0600
+
+    addeed a line after the loop to output the files in the array width of at 80 ccharacters
+
+commit 96983240cfa7a210e16e3cd980af6848da849d27
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Fri Dec 3 15:55:47 2021 -0600
+
+    added lines to lsdir to check for directory names without spaces and add them in to an array
+
+commit ec65e6c15fcfd0536a569bc786e5e5819fe080f9
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Fri Dec 3 15:45:08 2021 -0600
+
+    added new lines to .lsdir to check for directory names with spaces and output them
+
+commit 9bab9d9341a765e5e657f9e5b34d42ce33c150ed
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Fri Dec 3 15:35:47 2021 -0600
+
+    ran ./lsdir.sh to check if NUM_COL is calculated correctly, and it workd properly
+
+commit cd482f13befb2893375ca886d903410ed260e5b7
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Fri Dec 3 15:25:55 2021 -0600
+
+    added lsdir.sh
+
+commit 895dd207f4187f5c740577de7081f1ebccaa6e58
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Fri Dec 3 15:24:28 2021 -0600
+
+    create directories and files for a7q3
+
+commit 6c631ea97422e4d8c1b104df2784cb407b0cd6a1
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Fri Dec 3 08:38:27 2021 -0600
+
+    Initial commit.\n Created lsdir.txt and added lsdir and rs
