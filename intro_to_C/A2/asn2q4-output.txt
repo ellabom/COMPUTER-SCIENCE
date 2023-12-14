@@ -1,0 +1,76 @@
+//NAME: EMMANUELLA EYO
+//NSID: eee917
+//STUDENT ID: 11291003t
+
+
+#1
+Monster starting level: 20
+Monster ending_level: 50
+Monster type (1=normal, 2=elite, 3=boss): 1
+Hero Level: 2
+Generating experience point table for Hero Level = 2   Monster type = 1
+  Monster Level    Experience Points (Adjusted)
+             20                             778
+             21                             868
+             22                             968
+             23                            1080
+             24                            1204
+             25                            1343
+             26                            1497
+             27                            1668
+             28                            1859
+             29                            2071
+             30                            2307
+             31                            2569
+             32                            2861
+             33                            3186
+             34                            3547
+             35                            3948
+             36                            4394
+             37                            4889
+             38                            5440
+             39                            6052
+             40                            6732
+             41                            7488
+             42                            8327
+             43                            9260
+             44                           10295
+             45                           11445
+             46                           12722
+             47                           14140
+             48                           15715
+             49                           17463
+             50                           19403
+
+#2
+Monster starting level: 1
+Monster ending_level: 7
+Monster type (1=normal, 2=elite, 3=boss): 2
+Hero Level: 15
+Generating experience point table for Hero Level = 15   Monster type = 2
+  Monster Level    Experience Points (Adjusted)
+              1                              26
+              2                              29
+              3                              33
+              4                              37
+              5                              41
+              6                              46
+              7                              52
+
+#3
+Monster starting level: 16
+Monster ending_level: 25
+Monster type (1=normal, 2=elite, 3=boss): 3
+Hero Level: 50
+Generating experience point table for Hero Level = 50   Monster type = 3
+  Monster Level    Experience Points (Adjusted)
+             16                               9
+             17                              11
+             18                              13
+             19                              15
+             20                              18
+             21                              21
+             22                              24
+             23                              29
+             24                              33
+             25                              39

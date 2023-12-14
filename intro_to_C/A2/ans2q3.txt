@@ -1,0 +1,11 @@
+//NAME: EMMANUELLA EYO
+//NSID: eee917
+//STUDENT ID: 11291003
+
+
+x, y and z were initialized as 2(line13), 5(line14), and 3(line15) respectively.The value pointed to by w(line16) is stored as the address of x.
+z, &y(the address of y) and &x(address of x) are passed as parameters in the pointer_stuff function(line 18).
+By dereferencing, the value pointed to at w(*w) which is also the same as the parameter *&x is now equal to the addition
+of z and the value pointed to by &y.
+So, *w(line 16) is changed to refer to the value 8, same as the value of x. The return value from the function(result, line 18) is the multiplication of
+value *&x and *&x.

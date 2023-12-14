@@ -1,0 +1,78 @@
+//NAME: EMMANUELLA EYO
+//NSID: eee917
+//STUDENT ID: 11291003
+
+
+##1
+current position is (0,0)
+move: D
+current position is (0,-1)
+move: L
+current position is (-1,-1)
+move: l
+current position is (-2,-1)
+move: r
+current position is (-1,-1)
+move: r
+current position is (0,-1)
+move: u
+current position is (0,0)
+move: p
+Invalid inputcurrent position is (0,0)
+move: u
+current position is (0,1)
+move: U
+current position is (0,2)
+move: q
+final position is (0,2)
+
+##2
+current position is (0,0)
+move: u
+current position is (0,1)
+move: r
+current position is (1,1)
+move: r
+current position is (2,1)
+move: u
+current position is (2,2)
+move: r
+current position is (3,2)
+move: u
+current position is (3,3)
+move: l
+current position is (2,3)
+move: d
+current position is (2,2)
+move: d
+current position is (2,1)
+move: l
+current position is (1,1)
+move: q
+final position is (1,1)
+
+##3
+current position is (0,0)
+move:e
+ Invalid inputcurrent position is (0,0)
+move:w
+ Invalid inputcurrent position is (0,0)
+move:t
+ Invalid inputcurrent position is (0,0)
+move:q
+ final position is (0,0)
+
+##4
+current position is (0,0)
+move:v
+ Invalid inputcurrent position is (0,0)
+move:s
+ Invalid inputcurrent position is (0,0)
+move:3
+ Invalid inputcurrent position is (0,0)
+move:5
+ Invalid inputcurrent position is (0,0)
+move:r
+ current position is (1,0)
+move:q
+ final position is (1,0)
