@@ -1,6 +1,5 @@
 //NAME: EMMANUELLA EYO
-//NSID: eee917
-//STUDENT ID: 11291003
+
 
 #1
 Monster starting level: 20
