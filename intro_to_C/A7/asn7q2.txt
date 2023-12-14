@@ -1,0 +1,1234 @@
+UID          PID    PPID  C    SZ   RSS PSR STIME TTY          TIME CMD
+root           1       0  0 43088 16072   4 Aug26 ?        00:26:04 /usr/lib/systemd/systemd rhgb --system --deserialize 105
+root           2       0  0     0     0  40 Aug26 ?        00:00:18 [kthreadd]
+root           3       2  0     0     0  31 Aug26 ?        00:00:00 [rcu_gp]
+root           4       2  0     0     0  21 Aug26 ?        00:00:00 [rcu_par_gp]
+root           6       2  0     0     0   0 Aug26 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0     0     0  15 Aug26 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0     0     0   0 Aug26 ?        00:00:00 [rcu_tasks_kthre]
+root          12       2  0     0     0   0 Aug26 ?        00:00:00 [rcu_tasks_rude_]
+root          13       2  0     0     0   0 Aug26 ?        00:00:00 [rcu_tasks_trace]
+root          14       2  2     0     0   0 Aug26 ?        2-03:40:14 [ksoftirqd/0]
+root          15       2  0     0     0  32 Aug26 ?        01:07:26 [rcu_sched]
+root          16       2  0     0     0   0 Aug26 ?        00:00:09 [migration/0]
+root          17       2  0     0     0   0 Aug26 ?        00:00:00 [cpuhp/0]
+root          18       2  0     0     0   1 Aug26 ?        00:00:00 [cpuhp/1]
+root          19       2  0     0     0   1 Aug26 ?        00:01:09 [migration/1]
+root          20       2  1     0     0   1 Aug26 ?        1-00:32:44 [ksoftirqd/1]
+root          22       2  0     0     0   1 Aug26 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          24       2  0     0     0   2 Aug26 ?        00:00:00 [cpuhp/2]
+root          25       2  0     0     0   2 Aug26 ?        00:00:13 [migration/2]
+root          26       2  2     0     0   2 Aug26 ?        2-03:57:08 [ksoftirqd/2]
+root          28       2  0     0     0   2 Aug26 ?        00:00:00 [kworker/2:0H-events_highpri]
+root          29       2  0     0     0   3 Aug26 ?        00:00:00 [cpuhp/3]
+root          30       2  0     0     0   3 Aug26 ?        00:00:18 [migration/3]
+root          31       2  1     0     0   3 Aug26 ?        1-00:33:39 [ksoftirqd/3]
+root          33       2  0     0     0   3 Aug26 ?        00:00:00 [kworker/3:0H-events_highpri]
+root          34       2  0     0     0   4 Aug26 ?        00:00:00 [cpuhp/4]
+root          35       2  0     0     0   4 Aug26 ?        00:00:13 [migration/4]
+root          36       2  2     0     0   4 Aug26 ?        2-02:48:57 [ksoftirqd/4]
+root          38       2  0     0     0   4 Aug26 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          39       2  0     0     0   5 Aug26 ?        00:00:00 [cpuhp/5]
+root          40       2  0     0     0   5 Aug26 ?        00:00:18 [migration/5]
+root          41       2  1     0     0   5 Aug26 ?        1-00:26:10 [ksoftirqd/5]
+root          43       2  0     0     0   5 Aug26 ?        00:00:00 [kworker/5:0H-events_highpri]
+root          44       2  0     0     0   6 Aug26 ?        00:00:00 [cpuhp/6]
+root          45       2  0     0     0   6 Aug26 ?        00:00:13 [migration/6]
+root          46       2  2     0     0   6 Aug26 ?        2-03:58:52 [ksoftirqd/6]
+root          48       2  0     0     0   6 Aug26 ?        00:00:00 [kworker/6:0H-events_highpri]
+root          49       2  0     0     0   7 Aug26 ?        00:00:00 [cpuhp/7]
+root          50       2  0     0     0   7 Aug26 ?        00:00:18 [migration/7]
+root          51       2  1     0     0   7 Aug26 ?        1-00:40:17 [ksoftirqd/7]
+root          53       2  0     0     0   7 Aug26 ?        00:00:00 [kworker/7:0H-events_highpri]
+root          54       2  0     0     0   8 Aug26 ?        00:00:00 [cpuhp/8]
+root          55       2  0     0     0   8 Aug26 ?        00:00:13 [migration/8]
+root          56       2  2     0     0   8 Aug26 ?        2-04:29:05 [ksoftirqd/8]
+root          58       2  0     0     0   8 Aug26 ?        00:00:00 [kworker/8:0H-events_highpri]
+root          59       2  0     0     0   9 Aug26 ?        00:00:00 [cpuhp/9]
+root          60       2  0     0     0   9 Aug26 ?        00:00:18 [migration/9]
+root          61       2  1     0     0   9 Aug26 ?        1-00:50:10 [ksoftirqd/9]
+root          63       2  0     0     0   9 Aug26 ?        00:00:00 [kworker/9:0H-events_highpri]
+root          64       2  0     0     0  10 Aug26 ?        00:00:00 [cpuhp/10]
+root          65       2  0     0     0  10 Aug26 ?        00:00:13 [migration/10]
+root          66       2  2     0     0  10 Aug26 ?        2-04:59:17 [ksoftirqd/10]
+root          68       2  0     0     0  10 Aug26 ?        00:00:00 [kworker/10:0H-events_highpri]
+root          69       2  0     0     0  11 Aug26 ?        00:00:00 [cpuhp/11]
+root          70       2  0     0     0  11 Aug26 ?        00:00:18 [migration/11]
+root          71       2  1     0     0  11 Aug26 ?        1-00:48:07 [ksoftirqd/11]
+root          73       2  0     0     0  11 Aug26 ?        00:00:00 [kworker/11:0H-events_highpri]
+root          74       2  0     0     0  12 Aug26 ?        00:00:00 [cpuhp/12]
+root          75       2  0     0     0  12 Aug26 ?        00:00:13 [migration/12]
+root          76       2  2     0     0  12 Aug26 ?        2-04:27:37 [ksoftirqd/12]
+root          78       2  0     0     0  12 Aug26 ?        00:00:00 [kworker/12:0H-events_highpri]
+root          79       2  0     0     0  13 Aug26 ?        00:00:00 [cpuhp/13]
+root          80       2  0     0     0  13 Aug26 ?        00:00:18 [migration/13]
+root          81       2  1     0     0  13 Aug26 ?        1-00:47:24 [ksoftirqd/13]
+root          83       2  0     0     0  13 Aug26 ?        00:00:00 [kworker/13:0H-events_highpri]
+root          84       2  0     0     0  14 Aug26 ?        00:00:00 [cpuhp/14]
+root          85       2  0     0     0  14 Aug26 ?        00:00:13 [migration/14]
+root          86       2  2     0     0  14 Aug26 ?        2-04:11:20 [ksoftirqd/14]
+root          88       2  0     0     0  14 Aug26 ?        00:00:00 [kworker/14:0H-events_highpri]
+root          89       2  0     0     0  15 Aug26 ?        00:00:00 [cpuhp/15]
+root          90       2  0     0     0  15 Aug26 ?        00:00:18 [migration/15]
+root          91       2  1     0     0  15 Aug26 ?        1-01:01:25 [ksoftirqd/15]
+root          93       2  0     0     0  15 Aug26 ?        00:00:00 [kworker/15:0H-events_highpri]
+root          94       2  0     0     0  16 Aug26 ?        00:00:00 [cpuhp/16]
+root          95       2  0     0     0  16 Aug26 ?        00:00:13 [migration/16]
+root          96       2  2     0     0  16 Aug26 ?        2-03:52:20 [ksoftirqd/16]
+root          98       2  0     0     0  16 Aug26 ?        00:00:00 [kworker/16:0H-kblockd]
+root          99       2  0     0     0  17 Aug26 ?        00:00:00 [cpuhp/17]
+root         100       2  0     0     0  17 Aug26 ?        00:00:18 [migration/17]
+root         101       2  1     0     0  17 Aug26 ?        1-00:32:04 [ksoftirqd/17]
+root         103       2  0     0     0  17 Aug26 ?        00:00:00 [kworker/17:0H-events_highpri]
+root         104       2  0     0     0  18 Aug26 ?        00:00:00 [cpuhp/18]
+root         105       2  0     0     0  18 Aug26 ?        00:00:13 [migration/18]
+root         106       2  2     0     0  18 Aug26 ?        2-04:09:27 [ksoftirqd/18]
+root         108       2  0     0     0  18 Aug26 ?        00:00:00 [kworker/18:0H-events_highpri]
+root         109       2  0     0     0  19 Aug26 ?        00:00:00 [cpuhp/19]
+root         110       2  0     0     0  19 Aug26 ?        00:00:18 [migration/19]
+root         111       2  1     0     0  19 Aug26 ?        1-00:34:45 [ksoftirqd/19]
+root         113       2  0     0     0  19 Aug26 ?        00:00:00 [kworker/19:0H-events_highpri]
+root         114       2  0     0     0  20 Aug26 ?        00:00:00 [cpuhp/20]
+root         115       2  0     0     0  20 Aug26 ?        00:00:12 [migration/20]
+root         116       2  2     0     0  20 Aug26 ?        2-04:03:50 [ksoftirqd/20]
+root         118       2  0     0     0  20 Aug26 ?        00:00:00 [kworker/20:0H-events_highpri]
+root         119       2  0     0     0  21 Aug26 ?        00:00:00 [cpuhp/21]
+root         120       2  0     0     0  21 Aug26 ?        00:00:18 [migration/21]
+root         121       2  1     0     0  21 Aug26 ?        1-00:22:50 [ksoftirqd/21]
+root         123       2  0     0     0  21 Aug26 ?        00:00:00 [kworker/21:0H-events_highpri]
+root         124       2  0     0     0  22 Aug26 ?        00:00:00 [cpuhp/22]
+root         125       2  0     0     0  22 Aug26 ?        00:00:14 [migration/22]
+root         126       2  2     0     0  22 Aug26 ?        2-03:38:28 [ksoftirqd/22]
+root         128       2  0     0     0  22 Aug26 ?        00:00:00 [kworker/22:0H-kblockd]
+root         129       2  0     0     0  23 Aug26 ?        00:00:00 [cpuhp/23]
+root         130       2  0     0     0  23 Aug26 ?        00:00:18 [migration/23]
+root         131       2  1     0     0  23 Aug26 ?        1-00:17:01 [ksoftirqd/23]
+root         133       2  0     0     0  23 Aug26 ?        00:00:00 [kworker/23:0H-events_highpri]
+root         134       2  0     0     0  24 Aug26 ?        00:00:00 [cpuhp/24]
+root         135       2  0     0     0  24 Aug26 ?        00:00:13 [migration/24]
+root         136       2  2     0     0  24 Aug26 ?        2-04:03:55 [ksoftirqd/24]
+root         138       2  0     0     0  24 Aug26 ?        00:00:00 [kworker/24:0H-kblockd]
+root         139       2  0     0     0  25 Aug26 ?        00:00:00 [cpuhp/25]
+root         140       2  0     0     0  25 Aug26 ?        00:00:28 [migration/25]
+root         141       2  1     0     0  25 Aug26 ?        1-02:27:53 [ksoftirqd/25]
+root         143       2  0     0     0  25 Aug26 ?        00:00:00 [kworker/25:0H-events_highpri]
+root         144       2  0     0     0  26 Aug26 ?        00:00:00 [cpuhp/26]
+root         145       2  0     0     0  26 Aug26 ?        00:00:12 [migration/26]
+root         146       2  2     0     0  26 Aug26 ?        2-04:06:57 [ksoftirqd/26]
+root         148       2  0     0     0  26 Aug26 ?        00:00:00 [kworker/26:0H-events_highpri]
+root         149       2  0     0     0  27 Aug26 ?        00:00:00 [cpuhp/27]
+root         150       2  0     0     0  27 Aug26 ?        00:00:18 [migration/27]
+root         151       2  1     0     0  27 Aug26 ?        1-01:42:47 [ksoftirqd/27]
+root         153       2  0     0     0  27 Aug26 ?        00:00:00 [kworker/27:0H-events_highpri]
+root         154       2  0     0     0  28 Aug26 ?        00:00:00 [cpuhp/28]
+root         155       2  0     0     0  28 Aug26 ?        00:00:12 [migration/28]
+root         156       2  2     0     0  28 Aug26 ?        2-03:32:10 [ksoftirqd/28]
+root         158       2  0     0     0  28 Aug26 ?        00:00:00 [kworker/28:0H-kblockd]
+root         159       2  0     0     0  29 Aug26 ?        00:00:00 [cpuhp/29]
+root         160       2  0     0     0  29 Aug26 ?        00:00:18 [migration/29]
+root         161       2  1     0     0  29 Aug26 ?        1-02:01:51 [ksoftirqd/29]
+root         163       2  0     0     0  29 Aug26 ?        00:00:00 [kworker/29:0H-events_highpri]
+root         164       2  0     0     0  30 Aug26 ?        00:00:00 [cpuhp/30]
+root         165       2  0     0     0  30 Aug26 ?        00:00:13 [migration/30]
+root         166       2  2     0     0  30 Aug26 ?        2-03:49:37 [ksoftirqd/30]
+root         168       2  0     0     0  30 Aug26 ?        00:00:00 [kworker/30:0H-kblockd]
+root         169       2  0     0     0  31 Aug26 ?        00:00:00 [cpuhp/31]
+root         170       2  0     0     0  31 Aug26 ?        00:00:18 [migration/31]
+root         171       2  1     0     0  31 Aug26 ?        1-02:21:44 [ksoftirqd/31]
+root         173       2  0     0     0  31 Aug26 ?        00:00:00 [kworker/31:0H-events_highpri]
+root         174       2  0     0     0  32 Aug26 ?        00:00:00 [cpuhp/32]
+root         175       2  0     0     0  32 Aug26 ?        00:00:12 [migration/32]
+root         176       2  2     0     0  32 Aug26 ?        2-04:33:39 [ksoftirqd/32]
+root         178       2  0     0     0  32 Aug26 ?        00:00:00 [kworker/32:0H-events_highpri]
+root         179       2  0     0     0  33 Aug26 ?        00:00:00 [cpuhp/33]
+root         180       2  0     0     0  33 Aug26 ?        00:00:18 [migration/33]
+root         181       2  1     0     0  33 Aug26 ?        1-02:19:18 [ksoftirqd/33]
+root         183       2  0     0     0  33 Aug26 ?        00:00:00 [kworker/33:0H-events_highpri]
+root         184       2  0     0     0  34 Aug26 ?        00:00:00 [cpuhp/34]
+root         185       2  0     0     0  34 Aug26 ?        00:00:12 [migration/34]
+root         186       2  2     0     0  34 Aug26 ?        2-04:57:59 [ksoftirqd/34]
+root         188       2  0     0     0  34 Aug26 ?        00:00:00 [kworker/34:0H-events_highpri]
+root         189       2  0     0     0  35 Aug26 ?        00:00:00 [cpuhp/35]
+root         190       2  0     0     0  35 Aug26 ?        00:00:18 [migration/35]
+root         191       2  1     0     0  35 Aug26 ?        1-02:11:22 [ksoftirqd/35]
+root         193       2  0     0     0  35 Aug26 ?        00:00:00 [kworker/35:0H-kblockd]
+root         194       2  0     0     0  36 Aug26 ?        00:00:00 [cpuhp/36]
+root         195       2  0     0     0  36 Aug26 ?        00:00:13 [migration/36]
+root         196       2  2     0     0  36 Aug26 ?        2-04:35:15 [ksoftirqd/36]
+root         198       2  0     0     0  36 Aug26 ?        00:00:00 [kworker/36:0H-events_highpri]
+root         199       2  0     0     0  37 Aug26 ?        00:00:00 [cpuhp/37]
+root         200       2  0     0     0  37 Aug26 ?        00:00:18 [migration/37]
+root         201       2  1     0     0  37 Aug26 ?        1-02:12:27 [ksoftirqd/37]
+root         203       2  0     0     0  37 Aug26 ?        00:00:00 [kworker/37:0H-events_highpri]
+root         204       2  0     0     0  38 Aug26 ?        00:00:00 [cpuhp/38]
+root         205       2  0     0     0  38 Aug26 ?        00:00:12 [migration/38]
+root         206       2  2     0     0  38 Aug26 ?        2-04:21:16 [ksoftirqd/38]
+root         208       2  0     0     0  38 Aug26 ?        00:00:00 [kworker/38:0H-events_highpri]
+root         209       2  0     0     0  39 Aug26 ?        00:00:00 [cpuhp/39]
+root         210       2  0     0     0  39 Aug26 ?        00:00:18 [migration/39]
+root         211       2  1     0     0  39 Aug26 ?        1-02:27:32 [ksoftirqd/39]
+root         213       2  0     0     0  39 Aug26 ?        00:00:00 [kworker/39:0H-events_highpri]
+root         214       2  0     0     0  40 Aug26 ?        00:00:00 [cpuhp/40]
+root         215       2  0     0     0  40 Aug26 ?        00:00:12 [migration/40]
+root         216       2  2     0     0  40 Aug26 ?        2-03:24:45 [ksoftirqd/40]
+root         218       2  0     0     0  40 Aug26 ?        00:00:00 [kworker/40:0H-events_highpri]
+root         219       2  0     0     0  41 Aug26 ?        00:00:00 [cpuhp/41]
+root         220       2  0     0     0  41 Aug26 ?        00:00:18 [migration/41]
+root         221       2  1     0     0  41 Aug26 ?        1-02:06:53 [ksoftirqd/41]
+root         223       2  0     0     0  41 Aug26 ?        00:00:00 [kworker/41:0H-events_highpri]
+root         224       2  0     0     0  42 Aug26 ?        00:00:00 [cpuhp/42]
+root         225       2  0     0     0  42 Aug26 ?        00:00:12 [migration/42]
+root         226       2  2     0     0  42 Aug26 ?        2-04:08:59 [ksoftirqd/42]
+root         228       2  0     0     0  42 Aug26 ?        00:00:00 [kworker/42:0H-events_highpri]
+root         229       2  0     0     0  43 Aug26 ?        00:00:00 [cpuhp/43]
+root         230       2  0     0     0  43 Aug26 ?        00:00:18 [migration/43]
+root         231       2  1     0     0  43 Aug26 ?        1-01:54:57 [ksoftirqd/43]
+root         233       2  0     0     0  43 Aug26 ?        00:00:00 [kworker/43:0H-events_highpri]
+root         234       2  0     0     0  44 Aug26 ?        00:00:00 [cpuhp/44]
+root         235       2  0     0     0  44 Aug26 ?        00:00:12 [migration/44]
+root         236       2  2     0     0  44 Aug26 ?        2-04:04:02 [ksoftirqd/44]
+root         238       2  0     0     0  44 Aug26 ?        00:00:00 [kworker/44:0H-events_highpri]
+root         239       2  0     0     0  45 Aug26 ?        00:00:00 [cpuhp/45]
+root         240       2  0     0     0  45 Aug26 ?        00:00:19 [migration/45]
+root         241       2  1     0     0  45 Aug26 ?        1-01:05:54 [ksoftirqd/45]
+root         243       2  0     0     0  45 Aug26 ?        00:00:00 [kworker/45:0H-events_highpri]
+root         244       2  0     0     0  46 Aug26 ?        00:00:00 [cpuhp/46]
+root         245       2  0     0     0  46 Aug26 ?        00:00:12 [migration/46]
+root         246       2  2     0     0  46 Aug26 ?        2-03:54:12 [ksoftirqd/46]
+root         248       2  0     0     0  46 Aug26 ?        00:00:00 [kworker/46:0H-events_highpri]
+root         249       2  0     0     0  47 Aug26 ?        00:00:00 [cpuhp/47]
+root         250       2  0     0     0  47 Aug26 ?        00:00:18 [migration/47]
+root         251       2  1     0     0  47 Aug26 ?        1-01:43:33 [ksoftirqd/47]
+root         253       2  0     0     0  47 Aug26 ?        00:00:00 [kworker/47:0H-events_highpri]
+root         254       2  0     0     0  11 Aug26 ?        00:00:00 [kdevtmpfs]
+root         255       2  0     0     0   4 Aug26 ?        00:00:00 [netns]
+root         256       2  0     0     0  27 Aug26 ?        00:00:00 [inet_frag_wq]
+root         257       2  0     0     0   7 Aug26 ?        00:00:51 [kauditd]
+root         261       2  0     0     0  38 Aug26 ?        00:00:00 [oom_reaper]
+root         262       2  0     0     0  43 Aug26 ?        00:00:00 [writeback]
+root         263       2  0     0     0   2 Aug26 ?        00:02:02 [kcompactd0]
+root         264       2  0     0     0  15 Aug26 ?        00:01:53 [kcompactd1]
+root         265       2  0     0     0  23 Aug26 ?        00:00:00 [ksmd]
+root         266       2  0     0     0  13 Aug26 ?        00:00:04 [khugepaged]
+root         290       2  0     0     0  32 Aug26 ?        00:00:00 [cryptd]
+root         342       2  0     0     0   6 Aug26 ?        00:00:00 [kintegrityd]
+root         343       2  0     0     0  20 Aug26 ?        00:00:00 [kblockd]
+root         344       2  0     0     0  34 Aug26 ?        00:00:00 [blkcg_punt_bio]
+root         345       2  0     0     0  42 Aug26 ?        00:00:00 [tpm_dev_wq]
+root         346       2  0     0     0  22 Aug26 ?        00:00:00 [ata_sff]
+root         347       2  0     0     0  36 Aug26 ?        00:00:00 [md]
+root         348       2  0     0     0  38 Aug26 ?        00:00:00 [edac-poller]
+root         349       2  0     0     0  40 Aug26 ?        00:00:00 [watchdogd]
+root         352       2  0     0     0  32 Aug26 ?        00:00:03 [kworker/32:1H-kblockd]
+root         353       2  0     0     0  40 Aug26 ?        00:09:14 [kswapd0]
+root         354       2  0     0     0   3 Aug26 ?        00:11:08 [kswapd1]
+root         356       2  0     0     0  40 Aug26 ?        00:00:00 [kthrotld]
+root         358       2  0     0     0   4 Aug26 ?        00:00:00 [irq/25-aerdrv]
+root         359       2  0     0     0   6 Aug26 ?        00:00:00 [irq/26-aerdrv]
+root         360       2  0     0     0   8 Aug26 ?        00:00:00 [irq/27-aerdrv]
+root         361       2  0     0     0  10 Aug26 ?        00:00:00 [irq/28-pciehp]
+root         362       2  0     0     0  12 Aug26 ?        00:00:00 [irq/29-aerdrv]
+root         363       2  0     0     0  14 Aug26 ?        00:00:00 [irq/30-aerdrv]
+root         364       2  0     0     0  16 Aug26 ?        00:00:00 [irq/31-aerdrv]
+root         365       2  0     0     0  34 Aug26 ?        00:00:00 [acpi_thermal_pm]
+root         367       2  0     0     0  44 Aug26 ?        00:00:00 [scsi_eh_0]
+root         368       2  0     0     0  26 Aug26 ?        00:00:00 [scsi_tmf_0]
+root         369       2  0     0     0  46 Aug26 ?        00:00:00 [scsi_eh_1]
+root         370       2  0     0     0  46 Aug26 ?        00:00:00 [scsi_tmf_1]
+root         371       2  0     0     0  38 Aug26 ?        00:00:00 [scsi_eh_2]
+root         372       2  0     0     0  36 Aug26 ?        00:00:00 [scsi_tmf_2]
+root         373       2  0     0     0  28 Aug26 ?        00:00:00 [scsi_eh_3]
+root         374       2  0     0     0  40 Aug26 ?        00:00:00 [scsi_tmf_3]
+root         378       2  0     0     0  34 Aug26 ?        00:00:00 [scsi_eh_4]
+root         379       2  0     0     0  44 Aug26 ?        00:00:00 [scsi_tmf_4]
+root         380       2  0     0     0  26 Aug26 ?        00:00:00 [scsi_eh_5]
+root         381       2  0     0     0  36 Aug26 ?        00:00:00 [scsi_tmf_5]
+root         382       2  0     0     0  42 Aug26 ?        00:00:00 [scsi_eh_6]
+root         383       2  0     0     0  38 Aug26 ?        00:00:00 [scsi_tmf_6]
+root         384       2  0     0     0  46 Aug26 ?        00:00:00 [scsi_eh_7]
+root         385       2  0     0     0  28 Aug26 ?        00:00:00 [scsi_tmf_7]
+root         386       2  0     0     0  40 Aug26 ?        00:00:00 [scsi_eh_8]
+root         387       2  0     0     0  30 Aug26 ?        00:00:00 [scsi_tmf_8]
+root         388       2  0     0     0  21 Aug26 ?        00:00:00 [scsi_eh_9]
+root         389       2  0     0     0  42 Aug26 ?        00:00:00 [scsi_tmf_9]
+root         396       2  0     0     0  30 Aug26 ?        00:00:00 [dm_bufio_cache]
+root         398       2  0     0     0  46 Aug26 ?        00:00:00 [mld]
+root         400       2  0     0     0  22 Aug26 ?        00:00:00 [ipv6_addrconf]
+root         407       2  0     0     0  38 Aug26 ?        00:00:00 [kstrp]
+root         457       2  0     0     0  32 Aug26 ?        00:00:00 [zswap-shrink]
+root         458       2  0     0     0  40 Aug26 ?        00:00:00 [kworker/u99:0]
+root         498       2  0     0     0  24 Aug26 ?        00:00:03 [kworker/24:1H-kblockd]
+root         542       2  0     0     0   8 Aug26 ?        00:00:04 [kworker/8:1H-kblockd]
+root         561       2  0     0     0  38 Aug26 ?        00:00:03 [kworker/38:1H-kblockd]
+root         571       2  0     0     0  44 Aug26 ?        00:00:03 [kworker/44:1H-kblockd]
+root         682       2  0     0     0  46 Aug26 ?        00:00:00 [iscsi_eh]
+root         683       2  0     0     0   6 Aug26 ?        00:00:00 [iscsi_conn_clea]
+root         686       2  0     0     0  10 Aug26 ?        00:00:00 [cnic_wq]
+root         687       2  0     0     0   0 Aug26 ?        00:00:00 [bnx2i_thread/0]
+root         688       2  0     0     0   1 Aug26 ?        00:00:00 [bnx2i_thread/1]
+root         689       2  0     0     0   2 Aug26 ?        00:00:00 [bnx2i_thread/2]
+root         690       2  0     0     0   3 Aug26 ?        00:00:00 [bnx2i_thread/3]
+root         691       2  0     0     0   4 Aug26 ?        00:00:00 [bnx2i_thread/4]
+root         692       2  0     0     0   5 Aug26 ?        00:00:00 [bnx2i_thread/5]
+root         693       2  0     0     0   6 Aug26 ?        00:00:00 [bnx2i_thread/6]
+root         694       2  0     0     0   7 Aug26 ?        00:00:00 [bnx2i_thread/7]
+root         695       2  0     0     0   8 Aug26 ?        00:00:00 [bnx2i_thread/8]
+root         696       2  0     0     0   9 Aug26 ?        00:00:00 [bnx2i_thread/9]
+root         697       2  0     0     0  10 Aug26 ?        00:00:00 [bnx2i_thread/10]
+root         698       2  0     0     0  11 Aug26 ?        00:00:00 [bnx2i_thread/11]
+root         699       2  0     0     0  12 Aug26 ?        00:00:00 [bnx2i_thread/12]
+root         700       2  0     0     0  13 Aug26 ?        00:00:00 [bnx2i_thread/13]
+root         701       2  0     0     0  14 Aug26 ?        00:00:00 [bnx2i_thread/14]
+root         702       2  0     0     0  15 Aug26 ?        00:00:00 [bnx2i_thread/15]
+root         703       2  0     0     0  16 Aug26 ?        00:00:00 [bnx2i_thread/16]
+root         704       2  0     0     0  17 Aug26 ?        00:00:00 [bnx2i_thread/17]
+root         705       2  0     0     0  18 Aug26 ?        00:00:00 [bnx2i_thread/18]
+root         706       2  0     0     0  19 Aug26 ?        00:00:00 [bnx2i_thread/19]
+root         707       2  0     0     0  20 Aug26 ?        00:00:00 [bnx2i_thread/20]
+root         708       2  0     0     0  21 Aug26 ?        00:00:00 [bnx2i_thread/21]
+root         709       2  0     0     0  22 Aug26 ?        00:00:00 [bnx2i_thread/22]
+root         710       2  0     0     0  23 Aug26 ?        00:00:00 [bnx2i_thread/23]
+root         711       2  0     0     0  24 Aug26 ?        00:00:00 [bnx2i_thread/24]
+root         712       2  0     0     0  25 Aug26 ?        00:00:00 [bnx2i_thread/25]
+root         713       2  0     0     0  26 Aug26 ?        00:00:00 [bnx2i_thread/26]
+root         714       2  0     0     0  27 Aug26 ?        00:00:00 [bnx2i_thread/27]
+root         715       2  0     0     0  28 Aug26 ?        00:00:00 [bnx2i_thread/28]
+root         716       2  0     0     0  29 Aug26 ?        00:00:00 [bnx2i_thread/29]
+root         717       2  0     0     0  30 Aug26 ?        00:00:00 [bnx2i_thread/30]
+root         718       2  0     0     0  31 Aug26 ?        00:00:00 [bnx2i_thread/31]
+root         719       2  0     0     0  32 Aug26 ?        00:00:00 [bnx2i_thread/32]
+root         720       2  0     0     0  33 Aug26 ?        00:00:00 [bnx2i_thread/33]
+root         721       2  0     0     0  34 Aug26 ?        00:00:00 [bnx2i_thread/34]
+root         722       2  0     0     0  35 Aug26 ?        00:00:00 [bnx2i_thread/35]
+root         723       2  0     0     0  36 Aug26 ?        00:00:00 [bnx2i_thread/36]
+root         724       2  0     0     0  37 Aug26 ?        00:00:00 [bnx2i_thread/37]
+root         725       2  0     0     0  38 Aug26 ?        00:00:00 [bnx2i_thread/38]
+root         726       2  0     0     0  39 Aug26 ?        00:00:00 [bnx2i_thread/39]
+root         727       2  0     0     0  40 Aug26 ?        00:00:00 [bnx2i_thread/40]
+root         728       2  0     0     0  41 Aug26 ?        00:00:00 [bnx2i_thread/41]
+root         729       2  0     0     0  42 Aug26 ?        00:00:00 [bnx2i_thread/42]
+root         730       2  0     0     0  43 Aug26 ?        00:00:00 [bnx2i_thread/43]
+root         731       2  0     0     0  44 Aug26 ?        00:00:00 [bnx2i_thread/44]
+root         732       2  0     0     0  45 Aug26 ?        00:00:00 [bnx2i_thread/45]
+root         733       2  0     0     0  46 Aug26 ?        00:00:00 [bnx2i_thread/46]
+root         734       2  0     0     0  47 Aug26 ?        00:00:00 [bnx2i_thread/47]
+root         770       2  0     0     0  40 Aug26 ?        00:00:01 [rpciod]
+root         771       2  0     0     0  30 Aug26 ?        00:00:00 [xprtiod]
+root         794       2  0     0     0  40 Aug26 ?        00:00:00 [kmpathd]
+root         795       2  0     0     0  18 Aug26 ?        00:00:00 [kmpath_handlerd]
+root         807       2  0     0     0   4 Aug26 ?        00:00:04 [kworker/4:1H-kblockd]
+root         852       2  0     0     0  46 Aug26 ?        00:00:03 [kworker/46:1H-kblockd]
+root         853       2  0     0     0  34 Aug26 ?        00:00:03 [kworker/34:1H-kblockd]
+root         864       2  0     0     0  18 Aug26 ?        00:00:03 [kworker/18:1H-kblockd]
+root         885       2  0     0     0  20 Aug26 ?        00:00:03 [kworker/20:1H-kblockd]
+root         912       2  0     0     0  10 Aug26 ?        00:00:03 [kworker/10:1H-kblockd]
+root         915       2  0     0     0  26 Aug26 ?        00:00:03 [kworker/26:1H-kblockd]
+root         924       2  0     0     0   7 Aug26 ?        00:00:04 [kworker/7:1H-kblockd]
+root         930       2  0     0     0  11 Aug26 ?        00:00:00 [scsi_eh_10]
+root         931       2  0     0     0  11 Aug26 ?        00:00:00 [scsi_tmf_10]
+root         932       2  0     0     0  41 Aug26 ?        00:00:03 [kworker/41:1H-kblockd]
+root         994       2  0     0     0  43 Aug26 ?        00:00:00 [poll_megasas10_]
+root         995       2  0     0     0   5 Aug26 ?        00:00:04 [kworker/5:1H-kblockd]
+root         997       2  0     0     0  11 Aug26 ?        00:00:04 [kworker/11:1H-kblockd]
+root         998       2  0     0     0  40 Aug26 ?        00:00:03 [kworker/40:1H-kblockd]
+root        1000       2  0     0     0  21 Aug26 ?        00:00:04 [kworker/21:1H-kblockd]
+root        1002       2  0     0     0  29 Aug26 ?        00:00:03 [kworker/29:1H-kblockd]
+root        1005       2  0     0     0  14 Aug26 ?        00:00:04 [kworker/14:1H-kblockd]
+root        1010       2  0     0     0  12 Aug26 ?        00:00:04 [kworker/12:1H-kblockd]
+root        1032       2  0     0     0  36 Aug26 ?        00:00:03 [kworker/36:1H-kblockd]
+root        1034       2  0     0     0  16 Aug26 ?        00:00:03 [kworker/16:1H-kblockd]
+root        1035       2  0     0     0   6 Aug26 ?        00:04:35 [jbd2/sda2-8]
+root        1036       2  0     0     0  41 Aug26 ?        00:00:00 [ext4-rsv-conver]
+root        1113       2  0     0     0  13 Aug26 ?        00:00:04 [kworker/13:1H-kblockd]
+root        1114       2  0     0     0  35 Aug26 ?        00:00:03 [kworker/35:1H-kblockd]
+root        1116       2  0     0     0   2 Aug26 ?        00:00:04 [kworker/2:1H-kblockd]
+root        1117       2  0     0     0   0 Aug26 ?        00:00:04 [kworker/0:1H-kblockd]
+root        1119       2  0     0     0  42 Aug26 ?        00:00:03 [kworker/42:1H-kblockd]
+root        1120       2  0     0     0  22 Aug26 ?        00:00:04 [kworker/22:1H-kblockd]
+root        1142       2  0     0     0  28 Aug26 ?        00:00:03 [kworker/28:1H-kblockd]
+root        1149       2  0     0     0  30 Aug26 ?        00:00:03 [kworker/30:1H-kblockd]
+root        1313       2  0     0     0   6 Aug26 ?        00:00:04 [kworker/6:1H-kblockd]
+root        1316       2  0     0     0  43 Aug26 ?        00:00:04 [kworker/43:1H-kblockd]
+root        1317       2  0     0     0  33 Aug26 ?        00:00:03 [kworker/33:1H-kblockd]
+root        1319       2  0     0     0  31 Aug26 ?        00:00:03 [kworker/31:1H-kblockd]
+root        1321       2  0     0     0  47 Aug26 ?        00:00:04 [kworker/47:1H-kblockd]
+root        1322       2  0     0     0  37 Aug26 ?        00:00:03 [kworker/37:1H-kblockd]
+root        1324       2  0     0     0  27 Aug26 ?        00:00:03 [kworker/27:1H-kblockd]
+root        1346       2  0     0     0  23 Aug26 ?        00:00:04 [kworker/23:1H-kblockd]
+root        1364       2  0     0     0  19 Aug26 ?        00:00:04 [kworker/19:1H-kblockd]
+root        1369       2  0     0     0   9 Aug26 ?        00:00:04 [kworker/9:1H-kblockd]
+root        1374       2  0     0     0   3 Aug26 ?        00:00:04 [kworker/3:1H-kblockd]
+root        1375       2  0     0     0  39 Aug26 ?        00:00:03 [kworker/39:1H-kblockd]
+root        1405       2  0     0     0  25 Aug26 ?        00:00:03 [kworker/25:1H-kblockd]
+root        1420       2  0     0     0  17 Aug26 ?        00:00:04 [kworker/17:1H-kblockd]
+root        1430       2  0     0     0  45 Aug26 ?        00:00:03 [kworker/45:1H-kblockd]
+root        1508       2  0     0     0  15 Aug26 ?        00:00:04 [kworker/15:1H-kblockd]
+root        1524       2  0     0     0   1 Aug26 ?        00:00:04 [kworker/1:1H-kblockd]
+root        3220       2  0     0     0  24 Aug26 ?        00:00:00 [jbd2/sda5-8]
+root        3221       2  0     0     0  46 Aug26 ?        00:00:00 [ext4-rsv-conver]
+systemd+    3230       1  0  7857  8536  10 Aug26 ?        00:18:19 /usr/lib/systemd/systemd-resolved
+avahi       3236       1  0  3381  3736  40 Aug26 ?        00:08:12 avahi-daemon: running [fedora-4.local]
+chrony      3248       1  0 21477  2484  12 Aug26 ?        00:00:17 /usr/sbin/chronyd
+earlyoom    3265       1  0   667  2024  31 Aug26 ?        00:06:01 /usr/bin/earlyoom -r 0 -m 4 -M 409600 --prefer ^Web Content$ --avoid ^(dnf|packagekitd|gnome-shell|gnome-session-c|gnome-session-b|lightdm|sddm|sddm-helper|gdm|gdm-wayland-ses|gdm-session-wor|gdm-x-session|Xorg|Xwayland|systemd|systemd-logind|dbus-daemon|dbus-broker|cinnamon|cinnamon-sessio|kwin_x11|kwin_wayland|plasmashell|ksmserver|plasma_session|startplasma-way|xfce4-session|mate-session|marco|lxqt-session|openbox|cryptsetup)$
+root        3285       1  0 19907  2580  17 Aug26 ?        00:32:52 /usr/sbin/irqbalance --foreground
+root        3296       1  0   623    56  38 Aug26 ?        00:00:00 /usr/sbin/gpm -m /dev/input/mice -t exps2
+root        3302       1  0   648  1672  20 Aug26 ?        00:00:00 /usr/sbin/mcelog --daemon --foreground
+polkitd     3306       1  0 751465 38764 10 Aug26 ?        00:55:40 /usr/lib/polkit-1/polkitd --no-debug
+root        3311       1  0 735506 56580 41 Aug26 ?        08:15:06 /usr/sbin/rsyslogd -n
+rtkit       3312       1  0 38742  3016   6 Aug26 ?        00:01:19 /usr/libexec/rtkit-daemon
+root        3314       1  0 60905  5808  42 Aug26 ?        00:00:10 /usr/sbin/sssd -i --logger=files
+root        3315       1  0 112059 2416   6 Aug26 ?        00:00:00 /usr/libexec/switcheroo-control
+root        3316       1  0  4467  3944   5 Aug26 ?        00:05:15 /usr/lib/systemd/systemd-machined
+avahi       3320    3236  0  3276   368   8 Aug26 ?        00:00:00 avahi-daemon: chroot helper
+dbus        3321       1  0  3726  6804  36 Aug26 ?        00:00:07 /usr/bin/dbus-broker-launch --scope system --audit
+root        3339    3314  0 61532  5728   0 Aug26 ?        00:00:36 /usr/libexec/sssd/sssd_be --domain implicit_files --uid 0 --gid 0 --logger=files
+root        3340    3314  0 67054  4884  28 Aug26 ?        00:00:34 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+root        3341       1  0 113119 5444   3 Aug26 ?        00:18:40 /usr/libexec/accounts-daemon
+root        3342       1  0  7335  8928  10 Aug26 ?        00:01:54 /usr/lib/systemd/systemd-logind
+dbus        3371    3321  0 30098 117128  8 Aug26 ?        00:07:22 dbus-broker --log 4 --controller 9 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+root        3388       1  0 60601  5888  14 Aug26 ?        00:00:22 /usr/sbin/ModemManager
+root        3395       1  0 173654 10652 14 Aug26 ?        03:13:42 /usr/sbin/NetworkManager --no-daemon
+root        3755       2  0     0     0  38 Aug26 ?        00:00:00 [cfg80211]
+nrpe        3887       1  0  1639  2276  14 Aug26 ?        00:00:10 /usr/sbin/nrpe -c /etc/nagios/nrpe.cfg -f
+boinc       3915       1  0 25921  7128  37 Aug26 ?        09:03:54 /usr/bin/boinc
+root        3944       1  0 953187 34412 32 Aug26 ?        18:29:20 /usr/sbin/rpc.gssd
+colord      3961       1  0 115931 11128 36 Aug26 ?        00:00:12 /usr/libexec/colord
+rpc         4002       1  0  3011  2968  29 Aug26 ?        00:00:06 /usr/bin/rpcbind -w -f
+rpcuser     4004       1  0  2099  1396  37 Aug26 ?        00:00:00 /usr/sbin/rpc.statd
+root        4103       1  0  5269  1332  16 Aug26 ?        00:01:43 /var/ossec/bin/ossec-execd
+root        4125       2  0     0     0  24 Aug26 ?        00:00:00 [nfsiod]
+root        4191       2  0     0     0  42 Aug26 ?        00:00:00 [lockd]
+root        4228       1  0  1278  2212  34 Aug26 ?        00:00:00 /usr/sbin/atd -f
+root        4231       1  0 131786 6448  20 Aug26 ?        00:00:00 /usr/sbin/gdm
+ossec       4394       1  0 42532  3700  12 Aug26 ?        00:21:31 /var/ossec/bin/ossec-agentd
+root        4400    4231  0 97005  4312  24 Aug26 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+root        4678       1  0 11087  2048  41 Aug26 ?        00:00:27 /usr/libexec/postfix/master -w
+postfix     4685    4678  0 11627  3308   3 Aug26 ?        00:00:07 qmgr -l -t unix -u
+root        4695       1  0 23863  1544  27 Aug26 ?        00:01:06 /var/ossec/bin/ossec-syscheckd
+gdm         4704       1  0  5119  6692   2 Aug26 ?        00:01:10 /usr/lib/systemd/systemd --user
+gdm         4887    4704  0 44601   368  12 Aug26 ?        00:00:00 (sd-pam)
+root        4911       1  0 97427  2784  17 Aug26 ?        00:26:41 /var/ossec/bin/ossec-logcollector
+root        5193       1  0 99491  2156  46 Aug26 ?        02:20:37 /var/ossec/bin/wazuh-modulesd
+root        5208       2  0     0     0  16 Aug26 ?        00:00:38 [NFSv4 callback]
+gdm         5409    4400  0 94467  3032   8 Aug26 tty1     00:00:00 /usr/libexec/gdm-x-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         5443    5409  0 734869 14520 36 Aug26 tty1     00:00:36 /usr/libexec/Xorg vt1 -displayfd 3 -auth /run/user/42/gdm/Xauthority -nolisten tcp -background none -noreset -keeptty -novtswitch -verbose 3
+gdm         5534    4704  0  2624  3940  46 Aug26 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+gdm         5557    5534  0  1260   676   4 Aug26 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+gdm         5761    5409  0  1844   532  38 Aug26 tty1     00:00:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm         5763    5761  0  3441  3208  39 Aug26 tty1     00:00:00 dbus-daemon --nofork --print-address 4 --session
+gdm         5771    5761  0 156186 4948  26 Aug26 tty1     00:00:16 /usr/libexec/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+dnsmasq     5781       1  0  2717  1036  16 Aug26 ?        00:00:09 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+root        5783    5781  0  2690   192  12 Aug26 ?        00:00:00 /usr/sbin/dnsmasq --conf-file=/var/lib/libvirt/dnsmasq/default.conf --leasefile-ro --dhcp-script=/usr/libexec/libvirt_leaseshelper
+gdm         5833       1  0 77277  2880  34 Aug26 tty1     00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm         5838    5833  0  3295  2116  27 Aug26 tty1     00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm         5918    5771  0 1698528 78736 26 Aug26 tty1    00:55:08 /usr/bin/gnome-shell
+gdm         5986    5918  0 131873 2820  42 Aug26 tty1     00:00:02 ibus-daemon --panel disable --xim
+gdm         5991    5986  0 112294 2636  42 Aug26 tty1     00:00:00 /usr/libexec/ibus-dconf
+gdm         5994       1  0 100653 3700   0 Aug26 tty1     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm         5999       1  0 112281 2204   2 Aug26 tty1     00:00:00 /usr/libexec/ibus-portal
+gdm         6007       1  0 40473  1856   8 Aug26 tty1     00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm         6013       1  0 112046 1288  14 Aug26 tty1     00:00:00 /usr/libexec/xdg-permission-store
+root        6022       1  0 113516 4856  24 Aug26 ?        00:00:09 /usr/libexec/upowerd
+gdm         6024    4704  0 224729 4056  36 Aug26 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+root        6046       1  0  3605  2780  25 Aug26 ?        00:00:15 /usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+gdm         6048       1  0 782154 3776  10 Aug26 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm         6049    5771  0 169587 4076  22 Aug26 tty1     00:00:00 /usr/libexec/gsd-sharing
+gdm         6054    5771  0 137450 3588  24 Aug26 tty1     00:00:00 /usr/libexec/gsd-wacom
+gdm         6056    5771  0 159419 6284  24 Aug26 tty1     00:00:21 /usr/libexec/gsd-color
+gdm         6059    5771  0 137399 4036  34 Aug26 tty1     00:00:00 /usr/libexec/gsd-keyboard
+gdm         6061    5771  0 116579 4060  32 Aug26 tty1     00:00:00 /usr/libexec/gsd-print-notifications
+gdm         6063    5771  0 167439 3256  35 Aug26 tty1     00:00:00 /usr/libexec/gsd-rfkill
+gdm         6065    5771  0 152284 1860  16 Aug26 tty1     00:03:45 /usr/libexec/gsd-smartcard
+gdm         6067    5771  0 139499 3636   8 Aug26 tty1     00:00:00 /usr/libexec/gsd-datetime
+gdm         6069    5771  0 241331 6016  43 Aug26 tty1     00:00:09 /usr/libexec/gsd-media-keys
+gdm         6071    5771  0 112043 2716  14 Aug26 tty1     00:00:00 /usr/libexec/gsd-screensaver-proxy
+gdm         6074    5771  0 133366 4416  34 Aug26 tty1     00:00:00 /usr/libexec/gsd-sound
+gdm         6076    5771  0 130658 2696  46 Aug26 tty1     00:00:00 /usr/libexec/gsd-a11y-settings
+gdm         6078    5771  0 131379 4656  29 Aug26 tty1     00:11:09 /usr/libexec/gsd-housekeeping
+gdm         6080    5771  0 156261 5292  34 Aug26 tty1     00:00:16 /usr/libexec/gsd-power
+gdm         6104    5986  0 93834  2480  14 Aug26 tty1     00:00:00 /usr/libexec/ibus-engine-simple
+gdm         6132       1  0 800587 3608  32 Aug26 tty1     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+gdm         6194       1  0 139995 4732  16 Aug26 tty1     00:00:00 /usr/libexec/gsd-printer
+postfix     6686    4678  0 11782  3196  27 Aug26 ?        00:00:02 tlsmgr -l -t unix -u
+root        6902       1  0 55296  1360   0 Aug26 tty2     00:00:00 /sbin/agetty -o -p -- \u --noclear tty2 linux
+riz438     73269       1  0  5121  6936  43 Aug27 ?        00:01:13 /usr/lib/systemd/systemd --user
+riz438     73293   73269  0 44634   436  23 Aug27 ?        00:00:00 (sd-pam)
+riz438     73423   73269  0  2586  3768   6 Aug27 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+riz438     73424   73423  0  1260  2188  25 Aug27 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+riz438     73425   73269  0 58086  2648  30 Aug27 ?        00:00:09 /usr/libexec/gconfd-2
+nhw067    155535       1  0  5122  7848  20 Sep13 ?        00:01:10 /usr/lib/systemd/systemd --user
+nhw067    155561  155535  0 44758   528  34 Sep13 ?        00:00:00 (sd-pam)
+nhw067    155684  155535  0  2608  3920  45 Sep13 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+nhw067    155685  155684  0  1260   828  35 Sep13 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+nhw067    155686  155535  0 58086  3756   5 Sep13 ?        00:00:08 /usr/libexec/gconfd-2
+nhw067    173370       1  0  1802   316   0 Sep13 ?        00:00:00 ssh-agent -s
+root      179038       1  0  2919  5424  20 Nov12 ?        00:00:00 /usr/sbin/smartd -n -q never --capabilities
+pcp       182251       1  0  4508  5992   5 Nov12 ?        00:00:54 /usr/libexec/pcp/bin/pmcd -A
+root      182255  182251  0  4431  7228  32 Nov12 ?        00:00:00 /var/lib/pcp/pmdas/root/pmdaroot
+root      182256  182255  0  5365 11788  31 Nov12 ?        00:15:05 /var/lib/pcp/pmdas/proc/pmdaproc -d 3
+root      182258  182255  0  4251  6920   7 Nov12 ?        00:00:10 /var/lib/pcp/pmdas/xfs/pmdaxfs -d 11
+root      182260  182255  0  4264  7160   9 Nov12 ?        00:00:19 /var/lib/pcp/pmdas/kvm/pmdakvm -d 95
+pcp       182264       1  0  4208  6408  32 Nov12 ?        00:00:00 /usr/libexec/pcp/bin/pmpause
+pcp       182272       1  0  4208  3564  14 Nov12 ?        00:00:00 /usr/libexec/pcp/bin/pmpause
+pcp       183212       1  0  4330  7976   9 Nov12 ?        00:00:03 /usr/bin/pmie -b -F -P -l /var/log/pcp/pmie/tux5/pmie.log -c config.default
+pcp       183217       1  0  5535 12588   7 Nov12 ?        00:01:16 /usr/libexec/pcp/bin/pmlogger -N -P -r -T24h10m -c config.default -v 100mb -mreexec %Y%m%d.%H.%M
+root      215181 3272547  0  4602 11448  14 Nov26 ?        00:00:00 sshd: gmo132 [priv]
+gmo132    215546  215181  0  4635  6248  15 Nov26 ?        00:00:02 sshd: gmo132@pts/0
+gmo132    215549  215546  0 56556  7956  29 Nov26 pts/0    00:00:00 -bash
+riz438    308814   73269  0 113066 6432   3 Oct06 ?        00:00:00 /usr/libexec/gvfsd
+riz438    308819   73269  0 94984  5248   4 Oct06 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/11790974/gvfs -f
+root      311366       1  0 58561  7852   3 Sep17 ?        00:00:00 /usr/sbin/xrdp-sesman --nodaemon
+root      311369       1  0 56888  2712  40 Sep17 ?        00:00:00 /usr/sbin/xrdp --nodaemon
+root      358339       2  0     0     0  33 Nov30 ?        00:00:00 [kworker/33:0-rcu_gp]
+root      389427       2  0     0     0  46 Nov30 ?        00:00:00 [kworker/46:2-events]
+root      429935 3272547  0  4612 11200  28 Nov30 ?        00:00:00 sshd: dwm138 [priv]
+makaroff  430204       1  0  5085 11776   6 Nov30 ?        00:00:00 /usr/lib/systemd/systemd --user
+makaroff  430239  430204  0 43930  6896  22 Nov30 ?        00:00:00 (sd-pam)
+makaroff  430263  430204  0 94025  9820  10 Nov30 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+makaroff  430265  429935  0  4612  6296   0 Nov30 ?        00:00:00 sshd: dwm138@pts/2
+makaroff  430279  430265  0 56555  7796  38 Nov30 pts/2    00:00:00 -bash
+makaroff  430635  430263  0  4632  5892  12 Nov30 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+makaroff  430636  430204  0  2473  4276  24 Nov30 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+makaroff  430637  430636  0  1260  1280   1 Nov30 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+makaroff  430651  430204  0 58086  6760   2 Nov30 ?        00:00:00 /usr/libexec/gconfd-2
+gmo132    457421       1  0  5403  7296   5 Sep02 ?        00:01:17 /usr/lib/systemd/systemd --user
+gmo132    457445  457421  0 44725   440  16 Sep02 ?        00:00:00 (sd-pam)
+gmo132    457555  457421  0  2472  2340  23 Sep02 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+gmo132    457556  457555  0  1382  2696  37 Sep02 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+gmo132    457557  457421  0 58086  3172  25 Sep02 ?        00:00:09 /usr/libexec/gconfd-2
+gmo132    457938  457421  0 113066 3944  47 Sep02 ?        00:00:00 /usr/libexec/gvfsd
+gmo132    457943  457421  0 94984  2412  14 Sep02 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/4447668/gvfs -f
+qiw436    462520       1  0  5119  6640  21 Sep02 ?        00:01:15 /usr/lib/systemd/systemd --user
+qiw436    462545  462520  0 44725   696  27 Sep02 ?        00:00:00 (sd-pam)
+qiw436    462653  462520  0  2591  3744  29 Sep02 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+qiw436    462654  462653  0  1260   808  37 Sep02 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+qiw436    462655  462520  0 58086  3452  10 Sep02 ?        00:00:09 /usr/libexec/gconfd-2
+qiw436    463160       1  0 56027  3392  39 Sep02 ?        00:00:16 tmux
+qiw436    463161  463160  0 56740  3208  10 Sep02 pts/8    00:00:00 -bash
+qiw436    486791  463160  0 56740  1800   2 Sep02 pts/10   00:00:00 -bash
+qiw436    486988  486791  0 62809  2716  32 Sep02 pts/10   00:00:00 vim compare_ifi_files_by_experiements.py
+qiw436    486992  463160  0 56740  1716  42 Sep02 pts/12   00:00:00 -bash
+qiw436    487138  463160  0 56740  3232  44 Sep02 pts/13   00:00:00 -bash
+haf094    535360       1  0  5110 11872  42 Nov12 ?        00:00:22 /usr/lib/systemd/systemd --user
+haf094    535372  535360  0 43868  6772   5 Nov12 ?        00:00:00 (sd-pam)
+haf094    535869  535360  0  2504  4444  34 Nov12 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+haf094    535872  535869  0  1260  1260  17 Nov12 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+haf094    535873  535360  0 58086  6736  33 Nov12 ?        00:00:01 /usr/libexec/gconfd-2
+haf094    535970       1  0 55609  3332   6 Nov12 ?        00:00:00 sh /student/haf094/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/server.sh --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /student/haf094/.vscode-server/.3a6960b964327f0e3882ce18fcebd07ed191b316.token
+haf094    535978  535970  0 225153 52628  8 Nov12 ?        00:00:59 /student/haf094/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/node /student/haf094/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /student/haf094/.vscode-server/.3a6960b964327f0e3882ce18fcebd07ed191b316.token
+haf094    536016  535978  0 153484 38832 12 Nov12 ?        00:00:41 /student/haf094/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/node /student/haf094/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/out/bootstrap-fork --type=ptyHost
+root      550499       2  0     0     0  36 Nov30 ?        00:00:00 [kworker/36:0-events]
+root      564217       2  0     0     0  19 Sep03 ?        00:00:00 [xfsalloc]
+root      564218       2  0     0     0  21 Sep03 ?        00:00:00 [xfs_mru_cache]
+root      564238       2  0     0     0  47 Sep03 ?        00:00:00 [jfsIO]
+root      564239       2  0     0     0   1 Sep03 ?        00:00:00 [jfsCommit]
+root      564240       2  0     0     0   7 Sep03 ?        00:00:00 [jfsCommit]
+root      564241       2  0     0     0  33 Sep03 ?        00:00:00 [jfsCommit]
+root      564242       2  0     0     0  11 Sep03 ?        00:00:00 [jfsCommit]
+root      564243       2  0     0     0  39 Sep03 ?        00:00:00 [jfsCommit]
+root      564244       2  0     0     0   3 Sep03 ?        00:00:00 [jfsCommit]
+root      564245       2  0     0     0  13 Sep03 ?        00:00:00 [jfsCommit]
+root      564246       2  0     0     0  45 Sep03 ?        00:00:00 [jfsCommit]
+root      564247       2  0     0     0  19 Sep03 ?        00:00:00 [jfsCommit]
+root      564248       2  0     0     0  47 Sep03 ?        00:00:00 [jfsCommit]
+root      564249       2  0     0     0   1 Sep03 ?        00:00:00 [jfsCommit]
+root      564250       2  0     0     0   7 Sep03 ?        00:00:00 [jfsCommit]
+root      564251       2  0     0     0  33 Sep03 ?        00:00:00 [jfsCommit]
+root      564252       2  0     0     0  11 Sep03 ?        00:00:00 [jfsCommit]
+root      564253       2  0     0     0  39 Sep03 ?        00:00:00 [jfsCommit]
+root      564254       2  0     0     0   3 Sep03 ?        00:00:00 [jfsCommit]
+root      564255       2  0     0     0  13 Sep03 ?        00:00:00 [jfsCommit]
+root      564256       2  0     0     0  19 Sep03 ?        00:00:00 [jfsCommit]
+root      564257       2  0     0     0  45 Sep03 ?        00:00:00 [jfsCommit]
+root      564258       2  0     0     0  47 Sep03 ?        00:00:00 [jfsCommit]
+root      564259       2  0     0     0   1 Sep03 ?        00:00:00 [jfsCommit]
+root      564260       2  0     0     0   7 Sep03 ?        00:00:00 [jfsCommit]
+root      564261       2  0     0     0   3 Sep03 ?        00:00:00 [jfsCommit]
+root      564262       2  0     0     0  33 Sep03 ?        00:00:00 [jfsCommit]
+root      564263       2  0     0     0  11 Sep03 ?        00:00:00 [jfsCommit]
+root      564264       2  0     0     0  39 Sep03 ?        00:00:00 [jfsCommit]
+root      564265       2  0     0     0  13 Sep03 ?        00:00:00 [jfsCommit]
+root      564266       2  0     0     0  19 Sep03 ?        00:00:00 [jfsCommit]
+root      564267       2  0     0     0   3 Sep03 ?        00:00:00 [jfsCommit]
+root      564268       2  0     0     0  39 Sep03 ?        00:00:00 [jfsCommit]
+root      564269       2  0     0     0  13 Sep03 ?        00:00:00 [jfsCommit]
+root      564270       2  0     0     0  47 Sep03 ?        00:00:00 [jfsCommit]
+root      564271       2  0     0     0   1 Sep03 ?        00:00:00 [jfsCommit]
+root      564272       2  0     0     0   7 Sep03 ?        00:00:00 [jfsCommit]
+root      564273       2  0     0     0  33 Sep03 ?        00:00:00 [jfsCommit]
+root      564274       2  0     0     0  11 Sep03 ?        00:00:00 [jfsCommit]
+root      564275       2  0     0     0  19 Sep03 ?        00:00:00 [jfsCommit]
+root      564276       2  0     0     0  45 Sep03 ?        00:00:00 [jfsCommit]
+root      564277       2  0     0     0  33 Sep03 ?        00:00:00 [jfsCommit]
+root      564278       2  0     0     0   7 Sep03 ?        00:00:00 [jfsCommit]
+root      564279       2  0     0     0  11 Sep03 ?        00:00:00 [jfsCommit]
+root      564280       2  0     0     0   3 Sep03 ?        00:00:00 [jfsCommit]
+root      564281       2  0     0     0  39 Sep03 ?        00:00:00 [jfsCommit]
+root      564282       2  0     0     0  13 Sep03 ?        00:00:00 [jfsCommit]
+root      564283       2  0     0     0  47 Sep03 ?        00:00:00 [jfsCommit]
+root      564284       2  0     0     0   1 Sep03 ?        00:00:00 [jfsCommit]
+root      564285       2  0     0     0  19 Sep03 ?        00:00:00 [jfsCommit]
+root      564286       2  0     0     0  47 Sep03 ?        00:00:00 [jfsCommit]
+root      564287       2  0     0     0   1 Sep03 ?        00:00:00 [jfsSync]
+root      591500       2  0     0     0  45 Nov30 ?        00:00:00 [kworker/45:0-events]
+root      595171       2  0     0     0   3 Nov30 ?        00:00:00 [kworker/3:1-events]
+zgc565    604564 3458970  0 56568  8004  30 Nov17 pts/42   00:00:00 -bash
+zgc565    604641 3458970  0 56842  8004  42 Nov17 pts/43   00:00:00 -bash
+root      611610       2  0     0     0  21 Nov30 ?        00:00:00 [kworker/u96:1-ext4-rsv-conversion]
+nslcd     634905       1  0 95683  8824  34 Oct16 ?        03:13:34 /usr/sbin/nslcd
+root      654313       2  0     0     0  18 Nov30 ?        00:00:00 [kworker/18:2-events]
+root      749693       2  0     0     0   9 00:03 ?        00:00:00 [kworker/9:1-events]
+root      750561       2  0     0     0  35 00:03 ?        00:00:00 [kworker/35:1-events]
+root      752567       2  0     0     0  14 00:05 ?        00:00:00 [kworker/14:0-rcu_par_gp]
+zgc565    761492 3458970  0 56843  7996  34 Nov17 pts/60   00:00:00 -bash
+zgc565    761556 3458970  0 56842  8092  30 Nov17 pts/61   00:00:00 -bash
+root      787541       2  0     0     0  38 00:30 ?        00:00:00 [kworker/38:0-mm_percpu_wq]
+zgc565    804775 3458970  0 56842  7952  30 Nov17 pts/67   00:00:00 -bash
+root      823535       2  0     0     0  37 00:58 ?        00:00:00 [kworker/37:1-events]
+root      829272       2  0     0     0  23 01:03 ?        00:00:00 [kworker/23:1-events_power_efficient]
+root      832556       2  0     0     0  21 01:05 ?        00:00:00 [kworker/21:0-events]
+root      844087       2  0     0     0   1 01:14 ?        00:00:00 [kworker/1:1-cgroup_destroy]
+root      856908       2  0     0     0  43 01:25 ?        00:00:00 [kworker/43:1-mm_percpu_wq]
+root      863571       2  0     0     0  47 01:30 ?        00:00:00 [kworker/47:2-events]
+root      869814       2  0     0     0  25 01:35 ?        00:00:00 [kworker/25:2-events]
+root      882612       2  0     0     0   5 01:45 ?        00:00:00 [kworker/5:2-events]
+root      882774  311366  0 58656  6524  39 Nov21 ?        00:00:00 /usr/sbin/xrdp-sesman --nodaemon
+mel196    882863       1  0  5238 12412   4 Nov21 ?        00:00:11 /usr/lib/systemd/systemd --user
+mel196    882865  882863  0 43947  6908   9 Nov21 ?        00:00:00 (sd-pam)
+mel196    882886  882863  0 290657 11020 30 Nov21 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+mel196    882892  882774  0 119237 14704 16 Nov21 ?        00:00:00 /usr/libexec/gnome-session-binary
+mel196    882893  882774  0 719662 109572 39 Nov21 ?       00:00:51 Xvnc :13 -auth .Xauthority -geometry 1920x1080 -depth 32 -rfbauth /student/mel196/.vnc/sesman_passwd-mel196@tux5:13 -bs -nolisten tcp -localhost -dpi 96
+mel196    882974  882774  0 75238  6116  19 Nov21 ?        00:00:00 /usr/sbin/xrdp-chansrv
+mel196    883163  882863  0  2506  4404  34 Nov21 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+mel196    883164  883163  0  1841  4920  46 Nov21 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+mel196    883172  882863  0 76963  8772   6 Nov21 ?        00:00:00 /usr/libexec/imsettings-daemon
+mel196    883175  882863  0 113066 8176  13 Nov21 ?        00:00:00 /usr/libexec/gvfsd
+mel196    883180  882863  0 94984  6312  21 Nov21 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/8292732/gvfs -f
+mel196    883295  882863  0 57412  5780  46 Nov21 ?        00:00:00 /usr/lib64/xfce4/xfconf/xfconfd
+mel196    883385  882892  0  1802   528  41 Nov21 ?        00:00:01 /usr/bin/ssh-agent /etc/X11/xinit/Xclients
+mel196    883451  882863  0 77254  7960   0 Nov21 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+mel196    883456  883451  0  2406  3740  10 Nov21 ?        00:00:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+mel196    883457  883456  0  1289  2716  11 Nov21 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+mel196    883541  882863  0 75959  4692  26 Nov21 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+mel196    883543  882863  0 39854  4732   4 Nov21 ?        00:00:00 /usr/libexec/uresourced --user
+mel196    883545  882863  0 156404 16996 28 Nov21 ?        00:00:01 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+mel196    883565  882863  0 113171 6096  25 Nov21 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --components=secrets
+mel196    883586  882863  0 2757594 506724 37 Nov21 ?      00:26:39 /usr/bin/gnome-shell
+mel196    883716  883586  0 150604 13808 42 Nov21 ?        00:02:23 ibus-daemon --panel disable --xim
+mel196    883717  882863  0 112167 6660  22 Nov21 ?        00:00:00 /usr/libexec/xdg-permission-store
+mel196    883725  882863  0 179579 53720  8 Nov21 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+geoclue   883736       1  0 119481 22972 16 Nov21 ?        00:00:13 /usr/libexec/geoclue
+mel196    883740  882863  0 39039  5936  34 Nov21 ?        00:00:00 /usr/libexec/dconf-service
+mel196    883748  882863  0 366197 56752 34 Nov21 ?        00:00:00 /usr/libexec/evolution-source-registry
+mel196    883774  883716  0 130734 7484  40 Nov21 ?        00:01:15 /usr/libexec/ibus-dconf
+mel196    883775  883716  0 160821 42748  7 Nov21 ?        00:01:24 /usr/libexec/ibus-extension-gtk3
+mel196    883777  882863  0 140969 36732  5 Nov21 ?        00:01:23 /usr/libexec/ibus-x11 --kill-daemon
+mel196    883781  882863  0 112287 7372  21 Nov21 ?        00:01:17 /usr/libexec/ibus-portal
+mel196    883785  882863  0 228808 43252  6 Nov21 ?        00:01:17 /usr/libexec/goa-daemon
+mel196    883795  882863  0 40473  6920   3 Nov21 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+mel196    883809  882863  0 132590 10632  2 Nov21 ?        00:00:00 /usr/libexec/goa-identity-service
+mel196    883829  882863  0 290003 57676 33 Nov21 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+mel196    883853  882863  0 255013 59780 39 Nov21 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+mel196    883882  882863  0 170467 12400 27 Nov21 ?        00:00:14 /usr/libexec/gvfs-udisks2-volume-monitor
+mel196    883889  882863  0 112096 6268  28 Nov21 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+mel196    883893  882863  0 112641 7008   8 Nov21 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+mel196    883899  882863  0 131741 7960  10 Nov21 ?        00:00:08 /usr/libexec/gvfs-afc-volume-monitor
+mel196    883909  882863  0 112079 6560  44 Nov21 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+mel196    883919  882863  0 782171 26780  6 Nov21 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+mel196    884015  882863  0 130663 6752  12 Nov21 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+mel196    884017  882863  0 159914 38492 43 Nov21 ?        00:00:03 /usr/libexec/gsd-color
+mel196    884020  882863  0 139512 15784 20 Nov21 ?        00:00:00 /usr/libexec/gsd-datetime
+mel196    884021  882863  0 131644 8656  33 Nov21 ?        00:01:20 /usr/libexec/gsd-housekeeping
+mel196    884022  882863  0 159438 36476 21 Nov21 ?        00:00:01 /usr/libexec/gsd-keyboard
+mel196    884023  882863  0 226374 39672 37 Nov21 ?        00:00:02 /usr/libexec/gsd-media-keys
+mel196    884024  882863  0 159730 37916 29 Nov21 ?        00:00:03 /usr/libexec/gsd-power
+mel196    884025  882863  0 116601 13464  5 Nov21 ?        00:00:00 /usr/libexec/gsd-print-notifications
+mel196    884028  882863  0 167439 6244  15 Nov21 ?        00:00:00 /usr/libexec/gsd-rfkill
+mel196    884029  882863  0 112043 6444   1 Nov21 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+mel196    884030  882863  0 169591 10340  8 Nov21 ?        00:00:00 /usr/libexec/gsd-sharing
+mel196    884032  882863  0 152397 14244 40 Nov21 ?        00:00:20 /usr/libexec/gsd-smartcard
+mel196    884033  882863  0 133343 9936  24 Nov21 ?        00:00:00 /usr/libexec/gsd-sound
+mel196    884034  882863  0 149668 7528  18 Nov21 ?        00:00:00 /usr/libexec/gsd-usb-protection
+mel196    884035  882863  0 141000 36488 36 Nov21 ?        00:00:01 /usr/libexec/gsd-wacom
+mel196    884036  882863  0 196020 36536  1 Nov21 ?        00:05:06 /usr/libexec/gsd-xsettings
+mel196    884088  882863  0 800605 26648  4 Nov21 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+mel196    884158  882863  0 140003 16732 11 Nov21 ?        00:00:00 /usr/libexec/gsd-printer
+mel196    884361  883716  0 112274 7632   4 Nov21 ?        00:01:16 /usr/libexec/ibus-engine-simple
+mel196    884376  882863  0 1082704 80232 19 Nov21 ?       00:06:44 /usr/bin/nautilus --gapplication-service
+mel196    884379  883175  0 131660 8804  35 Nov21 ?        00:00:05 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+mel196    884625  882886  0  4632  5940  16 Nov21 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+mel196    884627  882863  0 58086  6596  12 Nov21 ?        00:00:00 /usr/libexec/gconfd-2
+mel196    884709  882863  0 123165 21252  7 Nov21 ?        00:00:00 /usr/bin/abrt-applet --gapplication-service
+mel196    884711  883545  0 195380 96660  5 Nov21 ?        00:00:58 /usr/bin/python3 /bin/dnfdragora-updater
+mel196    884713  883545  0 58150  6052  30 Nov21 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+mel196    884719  883545  0 819077 145328 30 Nov21 ?       00:00:15 /usr/bin/python3 -s /usr/bin/firewall-applet
+mel196    884725  883545  0 67239868 26008 41 Nov21 ?      00:00:12 /usr/libexec/baloo_file
+mel196    884729  883545  0 256855 85952 41 Nov21 ?        00:00:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+mel196    884867  882863  0 190910 14004 47 Nov21 ?        00:00:07 /usr/libexec/xdg-desktop-portal
+mel196    884876  882863  0 167665 7364  44 Nov21 ?        00:00:00 /usr/libexec/xdg-document-portal
+root      884880  884876  0   636  1932  42 Nov21 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/8292732/doc
+mel196    884903  882863  0 196001 37656 19 Nov21 ?        00:05:10 /usr/libexec/xdg-desktop-portal-gtk
+mel196    884940  882863  0 201963 71396 34 Nov21 ?        00:00:01 /usr/libexec/xdg-desktop-portal-kde
+mel196    884991  882863  0 63356  7172  44 Nov21 ?        00:00:00 /usr/bin/pipewire
+mel196    885289  884991  0 60090  8240  15 Nov21 ?        00:00:04 /usr/bin/pipewire-media-session
+mel196    886052  882863  0 93752  6624   4 Nov21 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root      903066       2  0     0     0  24 02:00 ?        00:00:00 [kworker/24:2-rcu_gp]
+root      903719       2  0     0     0  26 02:00 ?        00:00:00 [kworker/26:0-events]
+root      910474       2  0     0     0  21 02:05 ?        00:00:00 [kworker/21:2]
+root      914409       2  0     0     0  13 02:07 ?        00:00:00 [kworker/13:0-events]
+root      914412       2  0     0     0  39 02:07 ?        00:00:00 [kworker/39:0-events]
+root      914414       2  0     0     0  12 02:07 ?        00:00:00 [kworker/u96:0-poll_megasas10_status]
+root      917980       2  0     0     0  26 02:10 ?        00:00:00 [kworker/26:1]
+root      931807       2  0     0     0   2 02:20 ?        00:00:01 [kworker/u100:1-xprtiod]
+root      942641       2  0     0     0  42 02:28 ?        00:00:00 [kworker/42:1-events]
+root      954661       2  0     0     0  41 02:38 ?        00:00:00 [kworker/41:1-events]
+root      969213       2  0     0     0  17 02:50 ?        00:00:00 [kworker/17:2-events]
+root      977231       2  0     0     0  45 02:56 ?        00:00:00 [kworker/45:1]
+root      999974       2  0     0     0  32 03:15 ?        00:00:00 [kworker/32:3-dm_bufio_cache]
+root     1030590       2  0     0     0  40 03:40 ?        00:00:00 [kworker/40:0-events]
+root     1035974       2  0     0     0   9 03:45 ?        00:00:00 [kworker/9:2]
+root     1054927       2  0     0     0  28 04:00 ?        00:00:00 [kworker/28:0-events]
+gmo132   1055178       1  0 56161  3940  36 Sep07 ?        00:01:25 tmux
+gmo132   1055179 1055178  0 56567  3080  30 Sep07 pts/15   00:00:00 -bash
+root     1061566       2  0     0     0   7 04:05 ?        00:00:00 [kworker/7:0-events]
+root     1061957       2  0     0     0   4 04:05 ?        00:00:00 [kworker/4:2-events]
+root     1061960       2  0     0     0   6 04:05 ?        00:00:00 [kworker/6:0-events]
+root     1086157       2  0     0     0  29 04:25 ?        00:00:00 [kworker/29:2-mm_percpu_wq]
+root     1087875       2  0     0     0  19 04:27 ?        00:00:00 [kworker/19:0]
+root     1089130       2  0     0     0  31 04:28 ?        00:00:00 [kworker/31:3-events]
+root     1091848       2  0     0     0  41 04:30 ?        00:00:00 [kworker/41:3-cgroup_destroy]
+root     1107152 3272547  0  4595 10960  38 04:43 ?        00:00:00 sshd: eee917 [priv]
+eee917   1107427       1  0  5080 11860  26 04:43 ?        00:00:00 /usr/lib/systemd/systemd --user
+eee917   1107441 1107427  0 43962  6904  22 04:43 ?        00:00:00 (sd-pam)
+eee917   1107624 1107427  0 94020  9672  20 04:43 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+eee917   1107634 1107152  0  4611  7552  28 04:43 ?        00:00:00 sshd: eee917@pts/34
+eee917   1107695 1107634  0 56557  7772   6 04:43 pts/34   00:00:00 -bash
+eee917   1107900 1107624  0  4632  6060   4 04:43 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+eee917   1107901 1107427  0  2474  4412  30 04:43 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+eee917   1107902 1107901  0  1260  1284  42 04:43 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+eee917   1107903 1107427  0 58086  6596  10 04:43 ?        00:00:00 /usr/libexec/gconfd-2
+eee917   1108244 1107695  0 55704  4364  32 04:43 pts/34   00:00:00 /bin/bash
+root     1108750       2  0     0     0  10 04:44 ?        00:00:00 [kworker/10:2-events]
+eee917   1109725 1108244  0 55705  4472  38 04:44 pts/34   00:00:00 /bin/bash
+root     1110397       2  0     0     0  25 04:45 ?        00:00:00 [kworker/25:1]
+root     1110726 3272547  0  4612 11236  36 04:45 ?        00:00:00 sshd: shg550 [priv]
+root     1110773       2  0     0     0  27 04:45 ?        00:00:00 [kworker/27:2]
+shg550   1110850       1  0  5053 11912  24 04:45 ?        00:00:00 /usr/lib/systemd/systemd --user
+shg550   1110903 1110850  0 43930  6896  44 04:45 ?        00:00:00 (sd-pam)
+shg550   1110967 1110850  0 94020  9780  42 04:45 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+shg550   1110970 1110726  0  4612  6072   2 04:45 ?        00:00:00 sshd: shg550@notty
+shg550   1111339 1110970  0  2301  4888  28 04:45 ?        00:00:00 /usr/libexec/openssh/sftp-server
+shg550   1111406 1110967  0  4632  5916  40 04:45 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+shg550   1111407 1110850  0  2473  4204  42 04:45 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+shg550   1111408 1111407  0  1260  1280  20 04:45 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+shg550   1111409 1110850  0 58086  6584  40 04:45 ?        00:00:00 /usr/libexec/gconfd-2
+root     1112239 3272547  0  4612 11284  36 04:46 ?        00:00:00 sshd: shg550 [priv]
+shg550   1112477 1112239  0  4612  6200  30 04:46 ?        00:00:00 sshd: shg550@pts/37
+shg550   1112502 1112477  0 56908  8568  40 04:46 pts/37   00:00:00 -bash
+root     1112508       2  0     0     0  24 04:46 ?        00:00:00 [kworker/24:0-mm_percpu_wq]
+root     1113107       2  0     0     0  15 04:46 ?        00:00:00 [kworker/15:0-events]
+root     1113108       2  0     0     0  33 04:46 ?        00:00:00 [kworker/33:1-events]
+eee917   1113849 1109725  0 55705  4424  24 04:47 pts/34   00:00:00 /bin/bash
+root     1115150       2  0     0     0  39 04:48 ?        00:00:00 [kworker/39:2-mm_percpu_wq]
+root     1116422       2  0     0     0  23 04:49 ?        00:00:00 [kworker/23:0]
+root     1117890       2  0     0     0  10 04:50 ?        00:00:00 [kworker/10:1]
+root     1118335       2  0     0     0  17 04:51 ?        00:00:00 [kworker/17:0-events]
+root     1122941 3272547  0  4612 11188   8 04:55 ?        00:00:00 sshd: shg550 [priv]
+shg550   1123024 1122941  0  4612  6148  44 04:55 ?        00:00:00 sshd: shg550@notty
+shg550   1123541 1123024  0  2047  5008   0 04:55 ?        00:00:00 /usr/libexec/openssh/sftp-server
+root     1123545       2  0     0     0  22 04:55 ?        00:00:00 [kworker/22:1-events]
+root     1124214       2  0     0     0   0 04:55 ?        00:00:00 [kworker/0:2-events]
+root     1134066       2  0     0     0  29 05:03 ?        00:00:00 [kworker/29:0]
+root     1136434       2  0     0     0  42 05:05 ?        00:00:00 [kworker/42:0-events]
+root     1136685       2  0     0     0  18 05:05 ?        00:00:00 [kworker/18:1-events]
+root     1137015       1  0 87468 42984  42 05:05 ?        00:00:00 /usr/bin/python3 -s /usr/sbin/firewalld --nofork --nopid
+root     1137020       1  0 178858 27576 12 05:05 ?        00:00:00 /usr/bin/python3 -s /usr/bin/fail2ban-server -xf start
+root     1137043       2  0     0     0   6 05:05 ?        00:00:00 [kworker/6:1-mm_percpu_wq]
+root     1137103       2  0     0     0   8 05:05 ?        00:00:00 [kworker/8:0-events]
+root     1137392       2  0     0     0  30 05:05 ?        00:00:00 [kworker/30:0-mm_percpu_wq]
+root     1142788       2  0     0     0   7 05:09 ?        00:00:00 [kworker/7:1]
+root     1144811       2  0     0     0  46 05:10 ?        00:00:00 [kworker/46:1-mm_percpu_wq]
+root     1148821       2  0     0     0  47 05:13 ?        00:00:00 [kworker/47:0]
+root     1150208       2  0     0     0  11 05:15 ?        00:00:00 [kworker/11:0]
+root     1153895       2  0     0     0  12 05:18 ?        00:00:00 [kworker/12:1-events]
+root     1154430       2  0     0     0  31 05:18 ?        00:00:00 [kworker/31:0]
+root     1157599       2  0     0     0  37 05:21 ?        00:00:00 [kworker/37:2-events]
+root     1157600       2  0     0     0  43 05:21 ?        00:00:00 [kworker/43:0]
+root     1157881       2  0     0     0  17 05:21 ?        00:00:00 [kworker/u98:1-flush-8:0]
+root     1158360       2  0     0     0  22 05:21 ?        00:00:00 [kworker/22:0-cgroup_destroy]
+postfix  1158708    4678  0 11578  8308   3 05:22 ?        00:00:00 pickup -l -t unix -u
+root     1167348       2  0     0     0   8 05:23 ?        00:00:00 [kworker/8:1-events]
+root     1167579       2  0     0     0   2 05:23 ?        00:00:00 [kworker/2:1-cgroup_destroy]
+root     1167587 3272547  0  4612 11088  14 05:23 ?        00:00:00 sshd: uas571 [priv]
+uas571   1168843       1  0  5053 11712  12 05:24 ?        00:00:00 /usr/lib/systemd/systemd --user
+uas571   1168860 1168843  0 43930  6896   2 05:24 ?        00:00:00 (sd-pam)
+uas571   1168878 1168843  0 94025  9844  40 05:24 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+uas571   1168880 1167587  0  4612  7472  29 05:24 ?        00:00:00 sshd: uas571@pts/3
+uas571   1169085 1168880  0 56557  7800  39 05:24 pts/3    00:00:00 -bash
+root     1169090       2  0     0     0  20 05:24 ?        00:00:00 [kworker/20:1-rcu_par_gp]
+uas571   1169341 1168878  0  4632  6000  46 05:24 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+uas571   1169342 1168843  0  2473  4212   8 05:24 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+uas571   1169343 1169342  0  1260  1216   6 05:24 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+uas571   1169344 1168843  0 58086  6600  40 05:24 ?        00:00:00 /usr/libexec/gconfd-2
+root     1169591       2  0     0     0  40 05:24 ?        00:00:00 [kworker/40:2-events]
+root     1169592       2  0     0     0  34 05:24 ?        00:00:00 [kworker/34:1-events]
+root     1170286       2  0     0     0  34 05:25 ?        00:00:00 [kworker/34:2-events]
+root     1170461       2  0     0     0   1 05:25 ?        00:00:00 [kworker/1:2-events]
+root     1170462       2  0     0     0   3 05:25 ?        00:00:00 [kworker/3:0-events]
+root     1173290       2  0     0     0  38 05:27 ?        00:00:00 [kworker/38:2]
+root     1174487       2  0     0     0   5 05:28 ?        00:00:00 [kworker/5:1-events]
+root     1174865       2  0     0     0  14 05:28 ?        00:00:00 [kworker/14:1-events]
+root     1174866       2  0     0     0  16 05:28 ?        00:00:00 [kworker/16:0-mm_percpu_wq]
+root     1175016       2  0     0     0  13 05:28 ?        00:00:00 [kworker/u98:0-flush-8:0]
+root     1175488       2  0     0     0  44 05:29 ?        00:00:00 [kworker/44:0-rcu_par_gp]
+root     1179459       2  0     0     0   8 05:32 ?        00:00:00 [kworker/u97:0-events_unbound]
+root     1180481       2  0     0     0  13 05:33 ?        00:00:00 [kworker/13:1-mm_percpu_wq]
+root     1181018       2  0     0     0   0 05:33 ?        00:00:00 [kworker/0:0-events]
+root     1181803       2  0     0     0  30 05:34 ?        00:00:00 [kworker/30:2]
+root     1182845       2  0     0     0   2 05:35 ?        00:00:00 [kworker/2:0-events]
+root     1183788       2  0     0     0  12 05:35 ?        00:00:00 [kworker/12:0-events]
+root     1185687       2  0     0     0  35 05:37 ?        00:00:00 [kworker/35:0-mm_percpu_wq]
+root     1186544       2  0     0     0  32 05:37 ?        00:00:00 [kworker/32:1]
+root     1186636       2  0     0     0  36 05:38 ?        00:00:00 [kworker/36:1-cgroup_destroy]
+root     1186755 3272547  0  4612 11140  38 05:38 ?        00:00:00 sshd: eee917 [priv]
+eee917   1187045 1186755  0  4661  7652  10 05:38 ?        00:00:00 sshd: eee917@pts/35
+eee917   1187060 1187045  0 56557  7780  18 05:38 pts/35   00:00:00 -bash
+root     1187065       2  0     0     0  20 05:38 ?        00:00:00 [kworker/20:0-events]
+root     1187066       2  0     0     0  44 05:38 ?        00:00:00 [kworker/44:2-mm_percpu_wq]
+root     1187146       2  0     0     0  16 05:38 ?        00:00:00 [kworker/u100:0-xprtiod]
+root     1187227       2  0     0     0  20 05:38 ?        00:00:00 [kworker/u97:1-rpciod]
+root     1187731       2  0     0     0   4 05:38 ?        00:00:00 [kworker/4:0-cgroup_destroy]
+root     1188396       2  0     0     0  16 05:39 ?        00:00:00 [kworker/16:1]
+root     1188676       2  0     0     0  15 05:39 ?        00:00:00 [kworker/15:2]
+root     1188692       2  0     0     0  28 05:39 ?        00:00:00 [kworker/28:2]
+root     1192297       2  0     0     0  15 05:42 ?        00:00:00 [kworker/u98:2-flush-8:0]
+root     1192777       2  0     0     0  35 05:42 ?        00:00:00 [kworker/35:2-events]
+root     1194130       2  0     0     0  46 05:43 ?        00:00:00 [kworker/u97:2-events_unbound]
+root     1194605       2  0     0     0  30 05:44 ?        00:00:00 [kworker/30:1-events]
+root     1194773       2  0     0     0  42 05:44 ?        00:00:00 [kworker/u100:2-xprtiod]
+root     1195893       2  0     0     0   7 05:45 ?        00:00:00 [kworker/7:2]
+root     1196269       2  0     0     0  22 05:45 ?        00:00:00 [kworker/22:2-events]
+eee917   1197041 1187060  3 57832  6084   3 05:46 pts/35   00:00:00 ps -eF
+eee917   1197042 1187060  0 55178   828   5 05:46 pts/35   00:00:00 tee asn7q2.txt
+eee917   1197043 1187060  0 55183   768   7 05:46 pts/35   00:00:00 tr -s  
+eee917   1197044 1187060  0 55187   832   9 05:46 pts/35   00:00:00 cut -d   -f 7
+eee917   1197045 1187060  0 60148  1768   4 05:46 pts/35   00:00:00 sort -n
+eee917   1197046 1187060  0 55179   828   6 05:46 pts/35   00:00:00 uniq -c
+eee917   1197047 1187060  0 60148  1736  32 05:46 pts/35   00:00:00 sort -r
+eee917   1197048 1187060  0 55183   832  10 05:46 pts/35   00:00:00 tr -s  
+eee917   1197049 1187060  0 55187   768  12 05:46 pts/35   00:00:00 cut -d   -f 3
+eee917   1197050 1187060  0 55180   768  38 05:46 pts/35   00:00:00 head -1
+root     1222448       1  0 112060 3564   0 Sep14 ?        00:00:00 /usr/libexec/power-profiles-daemon
+root     1359472       1  0 118033 13796  2 Oct07 ?        00:00:54 /usr/sbin/abrtd -d -s
+root     1359476       1  0 83718 24396  29 Oct07 ?        00:07:07 /usr/bin/abrt-dump-journal-core -D -T -f -e
+root     1359487       1  0 87512 19240  27 Oct07 ?        00:05:53 /usr/bin/abrt-dump-journal-oops -fxtD
+root     1359554       1  0 83461 14236  31 Oct07 ?        00:05:59 /usr/bin/abrt-dump-journal-xorg -fxtD
+root     1481356       1  0 80228 11752   3 Nov29 ?        00:00:02 /usr/sbin/cupsd -l
+root     1609016  311366  0 58643  6016  34 Nov08 ?        00:00:00 /usr/sbin/xrdp-sesman --nodaemon
+zzz194   1609020       1  0  5262 11636   8 Nov08 ?        00:00:27 /usr/lib/systemd/systemd --user
+zzz194   1609026 1609020  0 43836  6768  44 Nov08 ?        00:00:00 (sd-pam)
+zzz194   1609036 1609020  0 290652 8924  36 Nov08 ?        00:00:01 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+zzz194   1609037 1609016  0 119237 11496 31 Nov08 ?        00:00:00 /usr/libexec/gnome-session-binary
+zzz194   1609038 1609016  0 724131 101940 35 Nov08 ?       00:07:55 Xvnc :12 -auth .Xauthority -geometry 644x480 -depth 32 -rfbauth /student/zzz194/.vnc/sesman_passwd-zzz194@tux5:12 -bs -nolisten tcp -localhost -dpi 96
+zzz194   1609072 1609016  0 75238  4460   0 Nov08 ?        00:00:00 /usr/sbin/xrdp-chansrv
+zzz194   1609226 1609020  0  2505  3940  12 Nov08 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+zzz194   1609227 1609226  0  1845  4592  14 Nov08 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+zzz194   1609235 1609020  0 76964  7268  10 Nov08 ?        00:00:00 /usr/libexec/imsettings-daemon
+zzz194   1609238 1609020  0 113066 6576  27 Nov08 ?        00:00:00 /usr/libexec/gvfsd
+zzz194   1609243 1609020  0 94984  5184   4 Nov08 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/17640730/gvfs -f
+zzz194   1609325 1609020  0 57405  4816  37 Nov08 ?        00:00:00 /usr/lib64/xfce4/xfconf/xfconfd
+zzz194   1609418 1609037  0  1801   524  12 Nov08 ?        00:00:03 /usr/bin/ssh-agent /etc/X11/xinit/Xclients
+zzz194   1609471 1609020  0 77255  6652  34 Nov08 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+zzz194   1609476 1609471  0  2406  3392  25 Nov08 ?        00:00:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+zzz194   1609477 1609476  0  1289  2612  43 Nov08 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+zzz194   1609570 1609020  0 75959  4300  11 Nov08 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+zzz194   1609571 1609020  0 39854  5628  36 Nov08 ?        00:00:00 /usr/libexec/uresourced --user
+zzz194   1609573 1609020  0 156339 14160  0 Nov08 ?        00:00:05 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+zzz194   1609590 1609020  0 131605 6156   0 Nov08 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --components=pkcs11
+zzz194   1609619 1609020  0 1935656 461996 23 Nov08 ?      01:31:42 /usr/bin/gnome-shell
+zzz194   1609678 1609619  0 132222 12924  4 Nov08 ?        00:05:09 ibus-daemon --panel disable --xim
+zzz194   1609697 1609020  0 112167 5372  47 Nov08 ?        00:00:00 /usr/libexec/xdg-permission-store
+zzz194   1609705 1609020  0 179581 43492 20 Nov08 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+zzz194   1609711 1609020  0 349814 45632 15 Nov08 ?        00:00:00 /usr/libexec/evolution-source-registry
+zzz194   1609726 1609020  0 39152  6056  14 Nov08 ?        00:00:01 /usr/libexec/dconf-service
+zzz194   1609743 1609020  0 228815 39132 37 Nov08 ?        00:02:33 /usr/libexec/goa-daemon
+zzz194   1609753 1609020  0 132590 8780  43 Nov08 ?        00:00:00 /usr/libexec/goa-identity-service
+zzz194   1609768 1609678  0 130735 6336  26 Nov08 ?        00:02:29 /usr/libexec/ibus-dconf
+zzz194   1609769 1609678  0 160863 39304 36 Nov08 ?        00:02:46 /usr/libexec/ibus-extension-gtk3
+zzz194   1609771 1609020  0 140994 33180 45 Nov08 ?        00:02:46 /usr/libexec/ibus-x11 --kill-daemon
+zzz194   1609775 1609020  0 112287 6312  18 Nov08 ?        00:02:31 /usr/libexec/ibus-portal
+zzz194   1609787 1609020  0 40473  6992  11 Nov08 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+zzz194   1609825 1609020  0 292053 45248  7 Nov08 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+zzz194   1609840 1609020  0 252965 47312 28 Nov08 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+zzz194   1609861 1609020  0 170440 10748 23 Nov08 ?        00:00:33 /usr/libexec/gvfs-udisks2-volume-monitor
+zzz194   1609868 1609020  0 112096 5412  41 Nov08 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+zzz194   1609872 1609020  0 112641 5944   6 Nov08 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+zzz194   1609876 1609020  0 131740 6756  45 Nov08 ?        00:00:20 /usr/libexec/gvfs-afc-volume-monitor
+zzz194   1609881 1609020  0 112079 5544  13 Nov08 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+zzz194   1609900 1609020  0 782172 25612 24 Nov08 ?        00:00:01 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+zzz194   1610000 1609020  0 130664 5624  33 Nov08 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+zzz194   1610001 1609020  0 160167 35072  7 Nov08 ?        00:00:07 /usr/libexec/gsd-color
+zzz194   1610005 1609020  0 139513 13236 25 Nov08 ?        00:00:00 /usr/libexec/gsd-datetime
+zzz194   1610007 1609020  0 131642 7692  13 Nov08 ?        00:03:08 /usr/libexec/gsd-housekeeping
+zzz194   1610008 1609020  0 159480 33220 22 Nov08 ?        00:00:02 /usr/libexec/gsd-keyboard
+zzz194   1610009 1609020  0 245089 36756 24 Nov08 ?        00:00:05 /usr/libexec/gsd-media-keys
+zzz194   1610014 1609020  0 178172 34196 25 Nov08 ?        00:00:07 /usr/libexec/gsd-power
+zzz194   1610017 1609020  0 116603 10812  5 Nov08 ?        00:00:00 /usr/libexec/gsd-print-notifications
+zzz194   1610018 1609020  0 167439 5304  36 Nov08 ?        00:00:00 /usr/libexec/gsd-rfkill
+zzz194   1610020 1609020  0 112043 5476   4 Nov08 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+zzz194   1610022 1609020  0 169559 8560  38 Nov08 ?        00:00:00 /usr/libexec/gsd-sharing
+zzz194   1610025 1609020  0 152402 11772 31 Nov08 ?        00:00:46 /usr/libexec/gsd-smartcard
+zzz194   1610034 1609020  0 133344 7796  13 Nov08 ?        00:00:00 /usr/libexec/gsd-sound
+zzz194   1610041 1609020  0 149669 6532  45 Nov08 ?        00:00:00 /usr/libexec/gsd-usb-protection
+zzz194   1610047 1609020  0 141249 33916 46 Nov08 ?        00:00:02 /usr/libexec/gsd-wacom
+zzz194   1610058 1609020  0 196023 33820 13 Nov08 ?        00:10:41 /usr/libexec/gsd-xsettings
+zzz194   1610077 1609020  0 782172 24348 16 Nov08 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+zzz194   1610138 1609020  0 140003 13032 20 Nov08 ?        00:00:00 /usr/libexec/gsd-printer
+zzz194   1610270 1609678  0 112274 6756  21 Nov08 ?        00:02:31 /usr/libexec/ibus-engine-simple
+zzz194   1610383 1609036  0  4632  4636  23 Nov08 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+zzz194   1610384 1609020  0 58086  6064   2 Nov08 ?        00:00:02 /usr/libexec/gconfd-2
+zzz194   1610437 1609573  0 213807 86412 37 Nov08 ?        00:02:10 /usr/bin/python3 /bin/dnfdragora-updater
+zzz194   1610439 1609573  0 58150  5164  18 Nov08 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+zzz194   1610445 1609573  0 808650 134824 23 Nov08 ?       00:02:20 /usr/bin/python3 -s /usr/bin/firewall-applet
+zzz194   1610447 1609020  0 123166 17676 32 Nov08 ?        00:00:00 /usr/bin/abrt-applet --gapplication-service
+zzz194   1610452 1609573  0 67239866 17692 36 Nov08 ?      00:00:28 /usr/libexec/baloo_file
+zzz194   1610456 1609573  0 256901 73200 37 Nov08 ?        00:00:04 /usr/libexec/evolution-data-server/evolution-alarm-notify
+zzz194   1610599 1609020  0 172469 12488 25 Nov08 ?        00:00:17 /usr/libexec/xdg-desktop-portal
+zzz194   1610605 1609020  0 167665 5940  41 Nov08 ?        00:00:00 /usr/libexec/xdg-document-portal
+root     1610609 1610605  0   636  1872  42 Nov08 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/17640730/doc
+zzz194   1610628 1609020  0 195943 34600 44 Nov08 ?        00:10:41 /usr/libexec/xdg-desktop-portal-gtk
+zzz194   1610677 1609020  0 202004 56228 26 Nov08 ?        00:00:02 /usr/libexec/xdg-desktop-portal-kde
+zzz194   1610691 1609020  0 63356  6796  47 Nov08 ?        00:00:00 /usr/bin/pipewire
+zzz194   1610927 1610691  0 60090  8012   6 Nov08 ?        00:00:12 /usr/bin/pipewire-media-session
+zzz194   1611548 1609020  0 275764 68056 14 Nov08 ?        00:00:09 /usr/bin/gnome-calendar --gapplication-service
+zzz194   1611559 1609020  0 522135 454864 7 Nov08 ?        00:07:39 /usr/bin/gnome-software --gapplication-service
+zzz194   1611561 1609020  0 163988 46088 28 Nov08 ?        00:00:11 /usr/bin/seahorse --gapplication-service
+zzz194   1611564 1609020  0 211242 61648  1 Nov08 ?        00:00:14 /usr/libexec/gnome-terminal-server
+zzz194   1611578 1609238  0 131653 7444  46 Nov08 ?        00:00:11 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+zzz194   1611671 1609020  0 239807 30644 11 Nov08 ?        00:00:04 /usr/libexec/tracker-miner-fs-3
+zzz194   1611779 1611564  0 55676  4016  33 Nov08 pts/27   00:00:00 bash
+zzz194   1611889 1609590  0  1801  4128  32 Nov08 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/17640730/keyring/.ssh
+zzz194   1611946 1609020  0 93734  5708  44 Nov08 ?        00:00:00 /usr/libexec/gvfsd-metadata
+zzz194   1631751 1611564  0 55676  4356  11 Nov08 pts/33   00:00:00 bash
+root     1667288       1  0 56042  3532  21 Oct24 ?        00:00:03 /usr/sbin/crond -n
+gwm762   1703553 3938907  0 222245 30228 12 Nov18 ?        00:00:03 /usr/libexec/tracker-miner-fs-3
+riz438   1795204       1  0 55944  2228  26 Oct04 ?        00:00:13 SCREEN -L -S Calibration_NoGUI
+riz438   1795205 1795204  0 55711  3984  46 Oct04 pts/40   00:00:00 /bin/bash
+root     1840657 3272547  0  4612 11112  42 Nov29 ?        00:00:00 sshd: dhs404 [priv]
+dhs404   1840754       1  0  5077 11948  32 Nov29 ?        00:00:02 /usr/lib/systemd/systemd --user
+dhs404   1840773 1840754  0 43930  6896   2 Nov29 ?        00:00:00 (sd-pam)
+dhs404   1840892 1840754  0 94032  9760  14 Nov29 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+dhs404   1840903 1840657  0  4612  7552   2 Nov29 ?        00:00:00 sshd: dhs404@notty
+dhs404   1840995 1840903  0  1784  4984  40 Nov29 ?        00:00:00 /usr/libexec/openssh/sftp-server
+dhs404   1841042 1840892  0  4632  5860   8 Nov29 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+dhs404   1841043 1840754  0  2473  4192  34 Nov29 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+dhs404   1841044 1841043  0  1260  1280  12 Nov29 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+dhs404   1841045 1840754  0 58086  6588   7 Nov29 ?        00:00:00 /usr/libexec/gconfd-2
+jih216   1884452       1  0  5119 12164  47 Nov18 ?        00:00:14 /usr/lib/systemd/systemd --user
+jih216   1884459 1884452  0 43929  6832  42 Nov18 ?        00:00:00 (sd-pam)
+jih216   1884566       1  0 55575  3404  36 Nov18 ?        00:00:00 sh /student/jih216/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/server.sh --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /student/jih216/.vscode-server/.3a6960b964327f0e3882ce18fcebd07ed191b316.token
+jih216   1884573 1884566  0 230168 57316  9 Nov18 ?        00:00:43 /student/jih216/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/node /student/jih216/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/out/vs/server/main.js --start-server --host=127.0.0.1 --enable-remote-auto-shutdown --port=0 --connection-secret /student/jih216/.vscode-server/.3a6960b964327f0e3882ce18fcebd07ed191b316.token
+jih216   1884612 1884573  0 153483 38712 35 Nov18 ?        00:00:29 /student/jih216/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/node /student/jih216/.vscode-server/bin/3a6960b964327f0e3882ce18fcebd07ed191b316/out/bootstrap-fork --type=ptyHost
+jih216   1884884 1884452  0  2504  4424  47 Nov18 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+jih216   1884885 1884884  0  1260  1212   1 Nov18 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+jih216   1884886 1884452  0 58086  6604   3 Nov18 ?        00:00:01 /usr/libexec/gconfd-2
+gwm762   1976410 3938907  0 1773255 415984 3 Nov18 ?       00:29:15 /usr/bin/gnome-shell
+gwm762   1976486 1976410  0 132222 13884  6 Nov18 ?        00:03:04 ibus-daemon --panel disable --xim
+gwm762   1976534 1976486  0 130734 7584   9 Nov18 ?        00:01:28 /usr/libexec/ibus-dconf
+gwm762   1976535 1976486  0 160811 42100 23 Nov18 ?        00:01:38 /usr/libexec/ibus-extension-gtk3
+gwm762   1976537 3938907  0 140954 36548  7 Nov18 ?        00:01:37 /usr/libexec/ibus-x11 --kill-daemon
+gwm762   1976540 3938907  0 112288 7452  36 Nov18 ?        00:01:29 /usr/libexec/ibus-portal
+gwm762   1976664 3938907  0 782172 26656  0 Nov18 ?        00:00:01 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gwm762   1976815 1976486  0 112274 7396  37 Nov18 ?        00:01:28 /usr/libexec/ibus-engine-simple
+gmo132   1994296 1055179  0 57386  8744  43 Sep29 pts/15   00:00:00 python
+jih216   2031621       1  0 55695  3344   8 Nov22 ?        00:00:00 tmux
+jih216   2031622 2031621  0 56568  7884  27 Nov22 pts/44   00:00:00 -bash
+jih216   2031759 2031621  0 56568  7964  22 Nov22 pts/45   00:00:00 -bash
+jih216   2031876 2031621  0 56568  7988  13 Nov22 pts/46   00:00:00 -bash
+jih216   2032054 2031621  0 56568  7988  11 Nov22 pts/47   00:00:00 -bash
+qiw436   2040443  463160  0 56740  4268  11 Sep08 pts/1    00:00:00 -bash
+qiw436   2040642  463160  0 56740  1952   7 Sep08 pts/6    00:00:00 -bash
+qiw436   2040846  463160  0 56740  5296   7 Sep08 pts/11   00:00:00 -bash
+jih216   2053071 2032054  0   638  1676  16 Nov22 pts/47   00:00:00 ./sender localhost 30000
+lsg913   2080090       1  0  5116 11108  33 Oct07 ?        00:00:51 /usr/lib/systemd/systemd --user
+lsg913   2080110 2080090  0 130954 6292  18 Oct07 ?        00:00:00 (sd-pam)
+lsg913   2080428 2080090  0  2559  4392   1 Oct07 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+lsg913   2080429 2080428  0  1260  1064  35 Oct07 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+lsg913   2080430 2080090  0 58086  6000   3 Oct07 ?        00:00:05 /usr/libexec/gconfd-2
+root     2134343       2  0     0     0  27 Nov29 ?        00:00:01 [kworker/27:1-events]
+mel196   2220501  883175  0 131773 8784  15 Nov22 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.5 /org/gtk/gvfs/exec_spaw/1
+mel196   2220616  883175  0 132193 9164  20 Nov22 ?        00:00:02 /usr/libexec/gvfsd-dnssd --spawner :1.5 /org/gtk/gvfs/exec_spaw/3
+mel196   2224958  882863  0 275919 81908 20 Nov22 ?        00:00:03 /usr/bin/gnome-calendar --gapplication-service
+mel196   2224963  882863  0 657459 272440 13 Nov22 ?       00:00:35 /usr/bin/gnome-software --gapplication-service
+mel196   2224965  882863  0 145763 52864 12 Nov22 ?        00:00:04 /usr/bin/seahorse --gapplication-service
+mel196   2224966  882863  0 191840 60568  7 Nov22 ?        00:00:05 /usr/libexec/gnome-terminal-server
+mel196   2224979  882863  0 221064 32020 46 Nov22 ?        00:00:02 /usr/libexec/tracker-miner-fs-3
+mel196   2225190 2224966  0 55676  4216  23 Nov22 pts/21   00:00:00 bash
+root     2225814  311366  0 58634  6580  36 Nov22 ?        00:00:00 /usr/sbin/xrdp-sesman --nodaemon
+jeh342   2225819       1  0  5246 12468  39 Nov22 ?        00:00:09 /usr/lib/systemd/systemd --user
+jeh342   2225831 2225819  0 43947  6908  38 Nov22 ?        00:00:00 (sd-pam)
+jeh342   2225840 2225819  0 290650 10576 46 Nov22 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+jeh342   2225841 2225814  0 119235 14440  3 Nov22 ?        00:00:00 /usr/libexec/gnome-session-binary
+jeh342   2225842 2225814  0 720311 109892 34 Nov22 ?       00:00:23 Xvnc :11 -auth .Xauthority -geometry 1920x1080 -depth 32 -rfbauth /student/jeh342/.vnc/sesman_passwd-jeh342@tux5:11 -bs -nolisten tcp -localhost -dpi 96
+jeh342   2225888 2225814  0 75238  6728  44 Nov22 ?        00:00:00 /usr/sbin/xrdp-chansrv
+jeh342   2226114 2225819  0  2505  4528   8 Nov22 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+jeh342   2226115 2226114  0  1907  4888   6 Nov22 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+jeh342   2226123 2225819  0 76961  8908   3 Nov22 ?        00:00:00 /usr/libexec/imsettings-daemon
+jeh342   2226126 2225819  0 113066 8208  15 Nov22 ?        00:00:00 /usr/libexec/gvfsd
+jeh342   2226131 2225819  0 94984  6340  17 Nov22 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/6260878/gvfs -f
+jeh342   2226219 2225819  0 57412  5664  43 Nov22 ?        00:00:00 /usr/lib64/xfce4/xfconf/xfconfd
+jeh342   2226343 2225841  0  1802   528   3 Nov22 ?        00:00:01 /usr/bin/ssh-agent /etc/X11/xinit/Xclients
+jeh342   2226399 2225819  0 77253  7928   8 Nov22 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+jeh342   2226404 2226399  0  2406  3804  25 Nov22 ?        00:00:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+jeh342   2226405 2226404  0  1289  2844  26 Nov22 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+jeh342   2226487 2225819  0 75959  4756  31 Nov22 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+jeh342   2226488 2225819  0 39854  6472   4 Nov22 ?        00:00:00 /usr/libexec/uresourced --user
+jeh342   2226490 2225819  0 156405 16956 41 Nov22 ?        00:00:01 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+jeh342   2226507 2225819  0 113171 6356   3 Nov22 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --components=pkcs11
+jeh342   2226528 2225819  0 2770008 504144 0 Nov22 ?       00:22:34 /usr/bin/gnome-shell
+jeh342   2226610 2226528  0 132169 13740 10 Nov22 ?        00:02:14 ibus-daemon --panel disable --xim
+jeh342   2226618 2225819  0 112167 6704  13 Nov22 ?        00:00:00 /usr/libexec/xdg-permission-store
+jeh342   2226626 2225819  0 179612 53848  9 Nov22 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+jeh342   2226632 2225819  0 366199 56472 45 Nov22 ?        00:00:00 /usr/libexec/evolution-source-registry
+jeh342   2226639 2225819  0 39011  5868  17 Nov22 ?        00:00:00 /usr/libexec/dconf-service
+jeh342   2226649 2225819  0 228812 43700 23 Nov22 ?        00:01:14 /usr/libexec/goa-daemon
+jeh342   2226662 2225819  0 132590 10788 39 Nov22 ?        00:00:00 /usr/libexec/goa-identity-service
+jeh342   2226676 2226610  0 130733 7480  39 Nov22 ?        00:01:13 /usr/libexec/ibus-dconf
+jeh342   2226677 2226610  0 160837 42584 31 Nov22 ?        00:01:20 /usr/libexec/ibus-extension-gtk3
+jeh342   2226679 2225819  0 140969 36624 21 Nov22 ?        00:01:19 /usr/libexec/ibus-x11 --kill-daemon
+jeh342   2226682 2225819  0 112288 7496  29 Nov22 ?        00:01:13 /usr/libexec/ibus-portal
+jeh342   2226721 2225819  0 40473  6740  42 Nov22 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+jeh342   2226731 2225819  0 290001 56936 27 Nov22 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+jeh342   2226774 2225819  0 255011 59836 41 Nov22 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+jeh342   2226919 2225819  0 170471 12340  7 Nov22 ?        00:00:11 /usr/libexec/gvfs-udisks2-volume-monitor
+jeh342   2226926 2225819  0 112096 6160  33 Nov22 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+jeh342   2226930 2225819  0 112675 7000  15 Nov22 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+jeh342   2226934 2225819  0 131741 8016  41 Nov22 ?        00:00:08 /usr/libexec/gvfs-afc-volume-monitor
+jeh342   2226939 2225819  0 112079 6372  20 Nov22 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+jeh342   2226945 2225819  0 782171 26752 19 Nov22 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+jeh342   2227054 2225819  0 130662 6728   1 Nov22 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+jeh342   2227057 2225819  0 160145 38936 41 Nov22 ?        00:00:03 /usr/libexec/gsd-color
+jeh342   2227060 2225819  0 139511 15648 41 Nov22 ?        00:00:00 /usr/libexec/gsd-datetime
+jeh342   2227062 2225819  0 131389 8524  18 Nov22 ?        00:01:07 /usr/libexec/gsd-housekeeping
+jeh342   2227064 2225819  0 159675 37180 10 Nov22 ?        00:00:01 /usr/libexec/gsd-keyboard
+jeh342   2227069 2225819  0 244792 39664 16 Nov22 ?        00:00:02 /usr/libexec/gsd-media-keys
+jeh342   2227072 2225819  0 178408 38956 32 Nov22 ?        00:00:03 /usr/libexec/gsd-power
+jeh342   2227073 2225819  0 116601 13448 36 Nov22 ?        00:00:00 /usr/libexec/gsd-print-notifications
+jeh342   2227075 2225819  0 167439 6276   5 Nov22 ?        00:00:00 /usr/libexec/gsd-rfkill
+jeh342   2227076 2225819  0 112043 6292  43 Nov22 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+jeh342   2227079 2225819  0 169590 10608 29 Nov22 ?        00:00:00 /usr/libexec/gsd-sharing
+jeh342   2227088 2225819  0 152396 14128  7 Nov22 ?        00:00:17 /usr/libexec/gsd-smartcard
+jeh342   2227094 2225819  0 133342 9944   1 Nov22 ?        00:00:00 /usr/libexec/gsd-sound
+jeh342   2227103 2225819  0 149668 7620  33 Nov22 ?        00:00:00 /usr/libexec/gsd-usb-protection
+jeh342   2227107 2225819  0 141242 37392 43 Nov22 ?        00:00:01 /usr/libexec/gsd-wacom
+jeh342   2227118 2225819  0 196025 35772 14 Nov22 ?        00:04:48 /usr/libexec/gsd-xsettings
+jeh342   2227135 2225819  0 782172 26676 24 Nov22 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+jeh342   2227195 2225819  0 140003 16868 12 Nov22 ?        00:00:00 /usr/libexec/gsd-printer
+jeh342   2227434 2226610  0 112274 7424   7 Nov22 ?        00:01:13 /usr/libexec/ibus-engine-simple
+jeh342   2227775 2225840  0  4632  5908  25 Nov22 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+jeh342   2227776 2225819  0 58086  6620  31 Nov22 ?        00:00:00 /usr/libexec/gconfd-2
+jeh342   2227947 2226490  0 195379 96172 16 Nov22 ?        00:00:51 /usr/bin/python3 /bin/dnfdragora-updater
+jeh342   2227948 2226490  0 58150  6172  16 Nov22 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+jeh342   2227954 2226490  0 819058 146340 27 Nov22 ?       00:00:07 /usr/bin/python3 -s /usr/bin/firewall-applet
+jeh342   2227957 2225819  0 123165 21392  1 Nov22 ?        00:00:00 /usr/bin/abrt-applet --gapplication-service
+jeh342   2227961 2226490  0 67239808 25580 1 Nov22 ?       00:00:10 /usr/libexec/baloo_file
+jeh342   2227966 2226490  0 275316 85688 12 Nov22 ?        00:00:02 /usr/libexec/evolution-data-server/evolution-alarm-notify
+jeh342   2227968 2226490  0 9709083 364540 23 Nov22 ?      00:04:00 /bin/java -classpath lib/animal-sniffer-annotations-1.17.jar:lib/annotations-16.0.3.jar:lib/BrowserLauncher2-1.3.jar:lib/checker-qual-2.8.1.jar:lib/commons-cli-1.4.jar:lib/commons-codec-1.3.jar:lib/commons-configuration-1.10.jar:lib/commons-dbutils-1.7.jar:lib/commons-io-2.5.jar:lib/commons-lang-2.6.jar:lib/commons-logging-1.2.jar:lib/error_prone_annotations-2.3.2.jar:lib/failureaccess-1.0.1.jar:lib/forms-1.0.7.jar:lib/guava-28.0-jre.jar:lib/j2objc-annotations-1.3.jar:lib/jansi-1.18.jar:lib/java-semver-0.9.0.jar:lib/jcabi-log-0.18.1.jar:lib/jsr305-3.0.2.jar:lib/kotlin-logging-1.6.26.jar:lib/kotlin-logging-common-1.6.26.jar:lib/kotlin-stdlib-1.2.51.jar:lib/kotlin-stdlib-common-1.2.51.jar:lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:lib/log4j-1.2.17.jar:lib/log4j-api-2.13.3.jar:lib/log4j-core-2.13.3.jar:lib/log4j-slf4j-impl-2.13.3.jar:lib/miglayout-3.7-swing.jar:lib/papercut-client-21.0.1.56836.jar:lib/papercut-common-21.0.1.56836.jar:lib/slf4j-api-1.7.30.jar:lib/winlaf-0.5.1.jar:lib/xmlrpc-2.0.1-pc.jar: -Djava.locale.providers=COMPAT,SPI -Dclient.home=. biz.papercut.pcng.client.uit.UserClient -m
+jeh342   2228058 2225819  0 172467 13952  3 Nov22 ?        00:00:06 /usr/libexec/xdg-desktop-portal
+jeh342   2228063 2225819  0 167665 7284  19 Nov22 ?        00:00:00 /usr/libexec/xdg-document-portal
+root     2228067 2228063  0   636  1936   3 Nov22 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/6260878/doc
+jeh342   2228092 2225819  0 195892 36136 28 Nov22 ?        00:04:48 /usr/libexec/xdg-desktop-portal-gtk
+jeh342   2228169 2225819  0 201977 70984 36 Nov22 ?        00:00:01 /usr/libexec/xdg-desktop-portal-kde
+jeh342   2228207 2225819  0 63356  7008  19 Nov22 ?        00:00:00 /usr/bin/pipewire
+jeh342   2228423 2228207  0 60090  8320  47 Nov22 ?        00:00:03 /usr/bin/pipewire-media-session
+jeh342   2236846 2226126  0 131656 8864  31 Nov22 ?        00:00:04 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+jeh342   2236883 2225819  0 93789  6688  39 Nov22 ?        00:00:00 /usr/libexec/gvfsd-metadata
+jeh342   2237909 2225819  0 275912 82196 43 Nov22 ?        00:00:03 /usr/bin/gnome-calendar --gapplication-service
+jeh342   2237929 2225819  0 654525 259484 16 Nov22 ?       00:00:28 /usr/bin/gnome-software --gapplication-service
+jeh342   2238025 2225819  0 254905 32548 38 Nov22 ?        00:00:03 /usr/libexec/tracker-miner-fs-3
+jeh342   2246490 2225819  0 191630 59696  0 Nov22 ?        00:00:03 /usr/libexec/gnome-terminal-server
+jeh342   2246725 2246490  0 55676  4060   8 Nov22 pts/32   00:00:00 bash
+jeh342   2251101 2246725  0 56375  3728   0 Nov22 pts/32   00:00:00 logger
+jeh342   2258970 2246725  0 56375  3776  46 Nov22 pts/32   00:00:00 logger
+jeh342   2260267 2225819  0 269703 76640 16 Nov22 ?        00:05:58 /usr/bin/nautilus --gapplication-service
+zzz194   2303912 1611564  0 55676  4284  29 Nov09 pts/18   00:00:00 bash
+lsg913   2348484       1  0 993272 31532 44 Oct07 ?        00:00:00 gdb
+gmo132   2430305  457421  0 149997 7096  21 Sep24 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+gmo132   2430321  457421  0 187085 13060 41 Sep24 ?        00:01:00 /usr/libexec/xdg-desktop-portal
+gmo132   2430325  457421  0 167665 6016  23 Sep24 ?        00:00:00 /usr/libexec/xdg-document-portal
+gmo132   2430328  457421  0 112046 4160   9 Sep24 ?        00:00:00 /usr/libexec/xdg-permission-store
+root     2430333 2430325  0   636  1820  47 Sep24 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/4447668/doc
+gmo132   2430541  457421  0 63294  5480  17 Sep24 ?        00:00:00 /usr/bin/pipewire
+gmo132   2430544 2430541  0 60044  6640   3 Sep24 ?        00:00:42 /usr/bin/pipewire-media-session
+gmo132   2431004  457421  0 133576 10200 16 Sep24 ?        00:01:24 /usr/libexec/gvfs-udisks2-volume-monitor
+gmo132   2431022  457421  0 112096 5304   6 Sep24 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+gmo132   2431025  457421  0 228167 32532 14 Sep24 ?        00:06:56 /usr/libexec/goa-daemon
+gmo132   2431063  457421  0 132590 8864  24 Sep24 ?        00:00:27 /usr/libexec/goa-identity-service
+gmo132   2431065  457421  0 112641 5836  45 Sep24 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+gmo132   2431073  457421  0 131741 6792  16 Sep24 ?        00:01:10 /usr/libexec/gvfs-afc-volume-monitor
+gmo132   2431078  457421  0 112079 5372  15 Sep24 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+gmo132   2431083  457938  0 131657 7536  22 Sep24 ?        00:00:28 /usr/libexec/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+gmo132   2431113  457938  0 131776 6612  13 Sep24 ?        00:00:00 /usr/libexec/gvfsd-network --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+gmo132   2431485  457938  0 132193 7496   0 Sep24 ?        00:00:18 /usr/libexec/gvfsd-dnssd --spawner :1.6 /org/gtk/gvfs/exec_spaw/3
+root     2432264       2  0     0     0  47 Sep24 ?        00:00:00 [ib-comp-wq]
+root     2432265       2  0     0     0  37 Sep24 ?        00:00:00 [ib-comp-unb-wq]
+root     2432266       2  0     0     0  39 Sep24 ?        00:00:00 [ib_mcast]
+root     2432267       2  0     0     0  43 Sep24 ?        00:00:00 [ib_nl_sa_wq]
+root     2729727       1  0 66421  6308   5 Sep10 ?        00:00:00 /usr/bin/python3 /usr/bin/salt-minion
+root     2729779 2729727  0 304578 55172 33 Sep10 ?        01:09:04 /usr/bin/python3 /usr/bin/salt-minion KeepAlive MultiMinionProcessManager MinionProcessManager
+root     2729781 2729779  0 86011  4028  37 Sep10 ?        00:00:00 /usr/bin/python3 /usr/bin/salt-minion KeepAlive MultiprocessingLoggingQueue
+root     2857388       2  0     0     0  19 Nov29 ?        00:00:01 [kworker/19:2-events]
+rmk860   3222662       1  0  5113 11388   0 Sep25 ?        00:00:59 /usr/lib/systemd/systemd --user
+rmk860   3222687 3222662  0 46931  3924  44 Sep25 ?        00:00:00 (sd-pam)
+rmk860   3222823 3222662  0  2585  4416  44 Sep25 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+rmk860   3222824 3222823  0  1260   992  46 Sep25 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+rmk860   3222825 3222662  0 58086  5768  42 Sep25 ?        00:00:07 /usr/libexec/gconfd-2
+rmk860   3224166       1  0 56011  2488  16 Sep25 ?        00:00:00 SCREEN
+rmk860   3224167 3224166  0 56225  4352  44 Sep25 pts/5    00:00:01 /bin/bash
+riz438   3246229       1  0 55972  3668   2 Sep16 ?        00:01:50 tmux
+riz438   3246230 3246229  0 56836  1996  34 Sep16 pts/17   00:00:00 -bash
+riz438   3247134 3246230  0 7645589 480820 1 Sep16 pts/17  01:14:21 /usr/lib64/R/bin/exec/R --no-echo --no-restore --file=RInterfaceSuicide.R
+root     3272547       1  0  3688  7244  20 Oct08 ?        00:00:52 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+zgc565   3346425 3458970  0 57103  8224  31 Sep30 pts/9    00:00:00 -bash
+zgc565   3346493 3458970  0 56568  7132  35 Sep30 pts/14   00:00:00 -bash
+zgc565   3346720 3346493  0 62063 20696  30 Sep30 pts/14   00:00:07 vim wrdsh.c
+root     3398913       2  0     0     0  19 Nov23 ?        00:00:00 [kworker/u101:2-xprtiod]
+root     3399099       2  0     0     0  17 Nov23 ?        00:00:00 [kworker/u101:1-xprtiod]
+root     3399106  182255  0  4731  9356   3 Nov23 ?        00:06:07 /var/lib/pcp/pmdas/linux/pmdalinux
+riz438   3423987 3246229  0 56836  2896   5 Sep16 pts/16   00:00:00 -bash
+riz438   3424935 3423987  8 7645589 18629264 3 Sep16 pts/16 6-16:35:52 /usr/lib64/R/bin/exec/R --no-echo --no-restore --file=RInterfaceSuicide.R
+zgc565   3458670       1  0  5118  8828  15 Sep22 ?        00:01:02 /usr/lib/systemd/systemd --user
+zgc565   3458692 3458670  0 46865  1440   2 Sep22 ?        00:00:00 (sd-pam)
+zgc565   3458899 3458670  0  2579  3964   0 Sep22 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+zgc565   3458900 3458899  0  1260  1016  25 Sep22 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+zgc565   3458901 3458670  0 58086  4404  15 Sep22 ?        00:00:07 /usr/libexec/gconfd-2
+zgc565   3458970       1  0 56229  5240  42 Sep22 ?        00:00:30 tmux
+zgc565   3458971 3458970  0 56568  6448  24 Sep22 pts/28   00:00:00 -bash
+zgc565   3459043 3458970  0 56835  6468  32 Sep22 pts/29   00:00:00 -bash
+zgc565   3459081 3458970  0 56568  6464   6 Sep22 pts/30   00:00:00 -bash
+zgc565   3459132 3458970  0 56568  6340   4 Sep22 pts/31   00:00:00 -bash
+systemd+ 3485357       1  0  4430  8348  46 Oct20 ?        04:15:03 /usr/lib/systemd/systemd-oomd
+root     3485398       1  0  8404 10476  15 Oct20 ?        00:00:14 /usr/lib/systemd/systemd-udevd
+root     3486059       1  0 69892 118452 23 Oct20 ?        01:49:41 /usr/lib/systemd/systemd-journald
+root     3486302       1  0 98672 12628  25 Oct20 ?        00:00:23 /usr/libexec/udisks2/udisksd
+zgc565   3520058 3346425  0   597   664  31 Sep30 pts/9    00:00:00 ./wrdsh
+zgc565   3520359 3520058  0 61934 19308  39 Sep30 pts/9    00:00:00 vim testfile
+zgc565   3521778 3458970  0 57106  8008  45 Sep30 pts/20   00:00:00 -bash
+zgc565   3521854 3458970  0 56568  7080  29 Sep30 pts/22   00:00:00 -bash
+zgc565   3522045 3521854  0 62029 20232  14 Sep30 pts/22   00:00:02 vim wrdsh.c
+lkp821   3555818       1  0 997969 45460  1 Nov02 ?        00:00:00 gdb ./a.out
+root     3637239       1  0 83817  8120  13 Sep25 ?        03:24:23 /usr/sbin/gssproxy -D
+nwh397   3746866       1  0  5114 11408   3 Sep30 ?        00:00:54 /usr/lib/systemd/systemd --user
+nwh397   3746892 3746866  0 130954 4604  18 Sep30 ?        00:00:00 (sd-pam)
+nwh397   3747192 3746866  0  2563  4392  14 Sep30 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+nwh397   3747195 3747192  0  1260  1152  31 Sep30 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+nwh397   3747196 3746866  0 58086  5992  13 Sep30 ?        00:00:06 /usr/libexec/gconfd-2
+nwh397   3778622       1  0 60148  1620  35 Sep30 ?        00:00:00 sort
+nwh397   3778623       1  0 55350   804  25 Sep30 ?        00:00:00 grep 5
+nwh397   3783303       1  0 60148  1576  13 Sep30 ?        00:00:00 sort
+nwh397   3783304       1  0 55350   808  27 Sep30 ?        00:00:00 grep 5
+root     3843548 3272547  0  4612 11284  26 Nov30 ?        00:00:00 sshd: raa462 [priv]
+raa462   3843625       1  0  5082 11768  13 Nov30 ?        00:00:01 /usr/lib/systemd/systemd --user
+raa462   3843646 3843625  0 43930  6896  10 Nov30 ?        00:00:00 (sd-pam)
+raa462   3843775 3843625  0 94022  9820  37 Nov30 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+raa462   3843783 3843548  0  4612  4944  22 Nov30 ?        00:00:00 sshd: raa462
+raa462   3843970 3843775  0  4632  6040  10 Nov30 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+raa462   3843972 3843625  0  2474  4392  26 Nov30 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+raa462   3843973 3843972  0  1260  1216   1 Nov30 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+raa462   3843974 3843625  0 58086  6612   8 Nov30 ?        00:00:00 /usr/libexec/gconfd-2
+root     3900510       1  0 79299  6716   6 Nov26 ?        00:00:36 /usr/sbin/rngd -f -x pkcs11 -x nist
+root     3926810       2  0     0     0  10 Oct28 ?        00:00:00 [iprt-VBoxWQueue]
+root     3926825       2  0     0     0  21 Oct28 ?        00:00:00 [iprt-VBoxTscThr]
+root     3938904  311366  0 58596  6104   6 Oct28 ?        00:00:00 /usr/sbin/xrdp-sesman --nodaemon
+gwm762   3938907       1  0  5244 11668  17 Oct28 ?        00:00:32 /usr/lib/systemd/systemd --user
+gwm762   3938910 3938907  0 43848  4920   9 Oct28 ?        00:00:00 (sd-pam)
+gwm762   3938923 3938907  0 225114 8808  17 Oct28 ?        00:00:02 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+gwm762   3938925 3938904  0 119237 11716  6 Oct28 ?        00:00:00 /usr/libexec/gnome-session-binary
+gwm762   3938926 3938904  0 714784 66672 17 Oct28 ?        00:00:30 Xvnc :10 -auth .Xauthority -geometry 1920x1080 -depth 32 -rfbauth /student/gwm762/.vnc/sesman_passwd-gwm762@tux5:10 -bs -nolisten tcp -localhost -dpi 96
+gwm762   3938968 3938904  0 75238  4372  26 Oct28 ?        00:00:00 /usr/sbin/xrdp-chansrv
+gwm762   3939165 3938907  0  2506  3972   1 Oct28 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+gwm762   3939166 3939165  0  1823  4728   1 Oct28 ?        00:00:01 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+gwm762   3939176 3938907  0 76960  7408  14 Oct28 ?        00:00:00 /usr/libexec/imsettings-daemon
+gwm762   3939179 3938907  0 113066 6556  21 Oct28 ?        00:00:00 /usr/libexec/gvfsd
+gwm762   3939184 3938907  0 94984  5200  25 Oct28 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/4706298/gvfs -f
+gwm762   3939280 3938907  0 57412  4824  23 Oct28 ?        00:00:00 /usr/lib64/xfce4/xfconf/xfconfd
+gwm762   3939390 3938925  0  1802    80   2 Oct28 ?        00:00:04 /usr/bin/ssh-agent /etc/X11/xinit/Xclients
+gwm762   3939439 3938907  0 77254  6628   8 Oct28 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+gwm762   3939444 3939439  0  2406  3360  38 Oct28 ?        00:00:00 /usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+gwm762   3939448 3939444  0  1290  2688   3 Oct28 ?        00:00:00 dbus-broker --log 4 --controller 9 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+gwm762   3939552 3938907  0 75959  4368  36 Oct28 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+gwm762   3939553 3938907  0 39854  4008  22 Oct28 ?        00:00:00 /usr/libexec/uresourced --user
+gwm762   3939555 3938907  0 156364 14536 23 Oct28 ?        00:00:06 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+gwm762   3939569 3938907  0 113170 4360   2 Oct28 ?        00:00:00 /usr/bin/gnome-keyring-daemon --start --components=ssh
+gwm762   3939648 3938923  0  4632  4624   6 Oct28 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+gwm762   3939649 3938907  0 58086  6076  33 Oct28 ?        00:00:03 /usr/libexec/gconfd-2
+gwm762   3939695 3938907  0 112167 5428   5 Oct28 ?        00:00:00 /usr/libexec/xdg-permission-store
+gwm762   3939714 3938907  0 178951 39904 26 Oct28 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+gwm762   3939733 3938907  0 40473  5612  25 Oct28 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gwm762   3939735 3938907  0 365568 42156  1 Oct28 ?        00:00:00 /usr/libexec/evolution-source-registry
+gwm762   3939750 3938907  0 39171  6180  12 Oct28 ?        00:00:01 /usr/libexec/dconf-service
+gwm762   3939757 3938907  0 228186 35708  1 Oct28 ?        00:03:30 /usr/libexec/goa-daemon
+gwm762   3939768 3938907  0 132590 8740  18 Oct28 ?        00:00:00 /usr/libexec/goa-identity-service
+gwm762   3939782 3938907  0 289375 42632 34 Oct28 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+gwm762   3939815 3938907  0 254385 43884 23 Oct28 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+gwm762   3939832 3938907  0 170469 11108 10 Oct28 ?        00:00:42 /usr/libexec/gvfs-udisks2-volume-monitor
+gwm762   3939839 3938907  0 112096 5524  20 Oct28 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+gwm762   3939843 3938907  0 112675 6076  35 Oct28 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+gwm762   3939847 3938907  0 131741 6884  37 Oct28 ?        00:00:30 /usr/libexec/gvfs-afc-volume-monitor
+gwm762   3939852 3938907  0 112079 5568  37 Oct28 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+gwm762   3939915 3938907  0 130663 5644  36 Oct28 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+gwm762   3939916 3938907  0 160173 35252 28 Oct28 ?        00:00:10 /usr/libexec/gsd-color
+gwm762   3939918 3938907  0 139512 13020  5 Oct28 ?        00:00:00 /usr/libexec/gsd-datetime
+gwm762   3939922 3938907  0 131672 7556   9 Oct28 ?        00:04:25 /usr/libexec/gsd-housekeeping
+gwm762   3939924 3938907  0 159671 33496 47 Oct28 ?        00:00:03 /usr/libexec/gsd-keyboard
+gwm762   3939928 3938907  0 245043 36444 18 Oct28 ?        00:00:06 /usr/libexec/gsd-media-keys
+gwm762   3939933 3938907  0 178403 34864 45 Oct28 ?        00:00:09 /usr/libexec/gsd-power
+gwm762   3939934 3938907  0 116602 10748 32 Oct28 ?        00:00:00 /usr/libexec/gsd-print-notifications
+gwm762   3939936 3938907  0 167439 5560  35 Oct28 ?        00:00:00 /usr/libexec/gsd-rfkill
+gwm762   3939937 3938907  0 112043 5520  43 Oct28 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+gwm762   3939939 3938907  0 169591 8668  34 Oct28 ?        00:00:00 /usr/libexec/gsd-sharing
+gwm762   3939947 3938907  0 152400 11744  0 Oct28 ?        00:01:07 /usr/libexec/gsd-smartcard
+gwm762   3939954 3938907  0 133343 7760  13 Oct28 ?        00:00:00 /usr/libexec/gsd-sound
+gwm762   3939964 3938907  0 149672 6372   3 Oct28 ?        00:00:00 /usr/libexec/gsd-usb-protection
+gwm762   3939969 3938907  0 141239 33840 46 Oct28 ?        00:00:02 /usr/libexec/gsd-wacom
+gwm762   3939975 3938907  0 195993 32624 16 Oct28 ?        00:15:11 /usr/libexec/gsd-xsettings
+gwm762   3940051 3939555  0 195370 88076 41 Oct28 ?        00:03:02 /usr/bin/python3 /bin/dnfdragora-updater
+gwm762   3940054 3939555  0 58150  4668  13 Oct28 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+gwm762   3940057 3938907  0 123986 21540 36 Oct28 ?        00:00:01 /usr/bin/abrt-applet --gapplication-service
+gwm762   3940061 3939555  0 821392 144228 0 Oct28 ?        00:03:25 /usr/bin/python3 -s /usr/bin/firewall-applet
+gwm762   3940068 3939555  0 67240126 197552 28 Oct28 ?     00:00:45 /usr/libexec/baloo_file
+gwm762   3940072 3939555  0 274744 70340 13 Oct28 ?        00:00:06 /usr/libexec/evolution-data-server/evolution-alarm-notify
+gwm762   3940073 3939555  0 9708827 348092 21 Oct28 ?      00:14:45 /bin/java -classpath lib/animal-sniffer-annotations-1.17.jar:lib/annotations-16.0.3.jar:lib/BrowserLauncher2-1.3.jar:lib/checker-qual-2.8.1.jar:lib/commons-cli-1.4.jar:lib/commons-codec-1.3.jar:lib/commons-configuration-1.10.jar:lib/commons-dbutils-1.7.jar:lib/commons-io-2.5.jar:lib/commons-lang-2.6.jar:lib/commons-logging-1.2.jar:lib/error_prone_annotations-2.3.2.jar:lib/failureaccess-1.0.1.jar:lib/forms-1.0.7.jar:lib/guava-28.0-jre.jar:lib/j2objc-annotations-1.3.jar:lib/jansi-1.18.jar:lib/java-semver-0.9.0.jar:lib/jcabi-log-0.18.1.jar:lib/jsr305-3.0.2.jar:lib/kotlin-logging-1.6.26.jar:lib/kotlin-logging-common-1.6.26.jar:lib/kotlin-stdlib-1.2.51.jar:lib/kotlin-stdlib-common-1.2.51.jar:lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:lib/log4j-1.2.17.jar:lib/log4j-api-2.13.3.jar:lib/log4j-core-2.13.3.jar:lib/log4j-slf4j-impl-2.13.3.jar:lib/miglayout-3.7-swing.jar:lib/papercut-client-21.0.1.56836.jar:lib/papercut-common-21.0.1.56836.jar:lib/slf4j-api-1.7.30.jar:lib/winlaf-0.5.1.jar:lib/xmlrpc-2.0.1-pc.jar: -Djava.locale.providers=COMPAT,SPI -Dclient.home=. biz.papercut.pcng.client.uit.UserClient -m
+gwm762   3940192 3938907  0 140003 13192  4 Oct28 ?        00:00:00 /usr/libexec/gsd-printer
+gwm762   3940238 3938907  0 172468 12596 45 Oct28 ?        00:00:25 /usr/libexec/xdg-desktop-portal
+gwm762   3940247 3938907  0 167665 6028  36 Oct28 ?        00:00:00 /usr/libexec/xdg-document-portal
+root     3940251 3940247  0   636  1792  31 Oct28 ?        00:00:00 fusermount -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/4706298/doc
+gwm762   3940264 3938907  0 195909 34068 47 Oct28 ?        00:15:19 /usr/libexec/xdg-desktop-portal-gtk
+gwm762   3940387 3938907  0 201964 56468 20 Oct28 ?        00:00:03 /usr/libexec/xdg-desktop-portal-kde
+gwm762   3940410 3938907  0 63358  6844  46 Oct28 ?        00:00:00 /usr/bin/pipewire
+gwm762   3940839 3938907  0 256666 64000 11 Oct28 ?        00:00:12 /usr/bin/gnome-calendar --gapplication-service
+gwm762   3940847 3938907  0 552345 465428 40 Oct28 ?       00:10:38 /usr/bin/gnome-software --gapplication-service
+gwm762   3940851 3938907  0 164199 46812 10 Oct28 ?        00:00:14 /usr/bin/seahorse --gapplication-service
+gwm762   3940868 3939179  0 131658 7680  44 Oct28 ?        00:00:14 /usr/libexec/gvfsd-trash --spawner :1.5 /org/gtk/gvfs/exec_spaw/0
+gwm762   3941057 3940410  0 60090  8040  34 Oct28 ?        00:00:16 /usr/bin/pipewire-media-session
+root     3941140       1  0 118140 14184 36 Oct28 ?        00:00:28 /usr/sbin/abrt-dbus -t133
+gwm762   3941415 3938907  0 93784  6028  41 Oct28 ?        00:00:00 /usr/libexec/gvfsd-metadata
+root     3948492       2  0     0     0  11 Nov30 ?        00:00:01 [kworker/11:3-events]
+root     3957532 3272547  0  4601 11332   2 Nov30 ?        00:00:00 sshd: shm572 [priv]
+shm572   3957654       1  0  5084 11712  37 Nov30 ?        00:00:01 /usr/lib/systemd/systemd --user
+shm572   3957679 3957654  0 43962  6904  22 Nov30 ?        00:00:00 (sd-pam)
+shm572   3957770 3957654  0 94032  9748   2 Nov30 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+shm572   3957772 3957532  0  4634  6128  18 Nov30 ?        00:00:17 sshd: shm572@pts/4
+shm572   3957773 3957772  0 56824  7940  26 Nov30 pts/4    00:00:00 -bash
+shm572   3958073 3957770  0  4632  5868  10 Nov30 ?        00:00:00 /usr/libexec/pulse/gconf-helper
+shm572   3958074 3957654  0  2473  4168  12 Nov30 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+shm572   3958075 3958074  0  1260  1216  25 Nov30 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+shm572   3958076 3957654  0 58086  6592   7 Nov30 ?        00:00:00 /usr/libexec/gconfd-2
+root     3964894 3272547  0  4601 11352  38 Nov30 ?        00:00:00 sshd: shm572 [priv]
+shm572   3964963 3964894  0  4634  6144  17 Nov30 ?        00:00:00 sshd: shm572@pts/7
+shm572   3964965 3964963  0 56838  7980   6 Nov30 pts/7    00:00:00 -bash
+lkp821   3988434       1  0  5107 11172  11 Oct28 ?        00:00:32 /usr/lib/systemd/systemd --user
+lkp821   3988438 3988434  0 43912  6824  30 Oct28 ?        00:00:00 (sd-pam)
+lkp821   3988639 3988434  0  2474  3948  24 Oct28 ?        00:00:00 /usr/bin/dbus-broker-launch --scope user
+lkp821   3988640 3988639  0  1260  1108  17 Oct28 ?        00:00:00 dbus-broker --log 4 --controller 10 --machine-id 6633c6156fdc4de3b1ae2b255caecf29 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+lkp821   3988641 3988434  0 58086  5860  39 Oct28 ?        00:00:03 /usr/libexec/gconfd-2
