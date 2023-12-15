@@ -1,0 +1,17 @@
+commit b267b945b319bc44ff6d57c84696f23148fba57b (HEAD -> refs/heads/master, refs/heads/develop)
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Sun Nov 21 02:55:32 2021 -0600
+
+    Created a Makefile to build rs and added it to the repository
+
+commit d1e7fa779bd0e0248395eaad0dfab8755de9bf7f
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Sun Nov 21 00:43:09 2021 -0600
+
+    modified rs.c file; removed the lines containing the #ifdef and #endif diretives. Also modified a line with the __printflike() attribute and __dead attritbute removing both attributes.
+
+commit 42ee62c23c08aabb7d2c4a7cf23f783c48f364c5
+Author: Emmanuella Eyo (eee917) <eee917@mail.usask.ca>
+Date:   Sat Nov 20 23:10:47 2021 -0600
+
+    Added rs.c to master branch

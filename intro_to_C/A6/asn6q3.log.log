@@ -1,0 +1,85 @@
+tux8
+arm-linux-gnueabi    arm-linux-gnueabihf  arm-none-eabi        bin
+etc                  games                include              lib
+lib64                libexec              local                powerpc64-linux-gnu
+sbin                 share                src                  
+
+eee917@tux8:/usr/lib> ls -p | grep '/' | tr -d '/'|/student/eee917/A6Q1/subq1/asn6q1/rs 0 4
+abrt-java-connector  alsa                 audit                binfmt.d
+blueberry            bonobo               common-lisp          cups
+debug                dkms                 dracut               dtrace
+eclipse              environment.d        erlang               fipscheck
+firewalld            firmware             fontconfig           games
+gcc                  gconv                geeqie               gems
+golang               grub                 gtk-sharp-2.0        ibus-cangjie
+java                 jvm                  jvm-commmon          jvm-private
+kbd                  kconf_update_bin     kde3                 kde4
+kdump                kernel               lightdm-settings     linuxmint
+locale               lsb                  mate-menu            modprobe.d
+modules              modules-load.d       mono                 motd.d
+mozilla              NetworkManager       node_modules         nvidia
+omake                ostree               pam.d                pkgconfig
+polkit-1             python2.7            python3.6            python3.7
+python3.8            python3.9            qt5                  realmd
+rpm                  rstudio              rustlib              sbcl
+swidtag              sysctl.d             sysimage             systemd
+sysusers.d           tmpfiles.d           udev                 xorg
+
+eee917@tux8:/usr/include> ls -p | grep '/' | tr -d '/'|/student/eee917/A6Q1/subq1/asn6q1/rs 0 3
+arpa                       asm                        asm-generic
+assimp                     atk-1.0                    atlas-x86_64-base
+at-spi-2.0                 at-spi2-atk                bits
+blkid                      boost                      brotli
+c++                        cairo                      cblas
+clang                      clang-c                    clc
+cloudproviders             curl                       datrie
+dbus-1.0                   double-conversion          drm
+EGL                        eigen3                     elfutils
+epoxy                      et                         fdk-aac
+finclude                   flexiblas                  flexiblas64
+fontconfig                 freetype2                  fribidi
+fuse                       fuzzer                     gail-3.0
+gdal                       gdb                        gdk-pixbuf-2.0
+gforth                     gio-unix-2.0               GL
+GLES                       GLES2                      GLES3
+GLFW                       glib-2.0                   glm
+glvnd                      gnu                        gobject-introspection-1.0
+graphite2                  gsl                        gssapi
+gssrpc                     gtk-3.0                    gtksourceview-3.0
+harfbuzz                   json                       kadm5
+kde4                       KF5                        KHR
+krb5                       lame                       lapacke
+libdb                      libdrm                     libkms
+libmount                   libpng16                   libpq
+libxml2                    linux                      lzma
+menu-cache                 misc                       mpich-x86_64
+mtd                        mysql                      ncurses
+ncursesw                   net                        netash
+netatalk                   netax25                    neteconet
+netinet                    netipx                     netiucv
+netpacket                  netpbm                     netrom
+netrose                    nfs                        ogg
+openblas                   openmpi-x86_64             openslide
+openssl                    opus                       pango-1.0
+pcp                        pgsql                      pixman-1
+PlasmaKeyData              profile                    proj
+protocols                  python2.7                  python3.9
+Qt                         Qt3Support                 qt5
+QtCore                     QtDBus                     QtDeclarative
+QtDesigner                 QtGui                      QtHelp
+QtMultimedia               QtNetwork                  QtOpenGL
+QtScript                   QtScriptTools              QtSql
+QtSvg                      QtTest                     QtUiTools
+QtWebKit                   QtXml                      QtXmlPatterns
+R                          rdma                       readline
+reiserfs                   rpc                        sanitizer
+scsi                       security                   selinux
+sepol                      sound                      sys
+sysprof-4                  tao                        tcl-private
+telepathy-1.0              thai                       theora
+tirpc                      tk-private                 tre
+unicode                    utf8                       utf8cpp
+uuid                       valgrind                   video
+vk_video                   vtk                        vulkan
+X11                        xcb                        xen
+xkbcommon                  xorg                       xray
