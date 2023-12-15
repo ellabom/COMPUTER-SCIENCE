@@ -1,0 +1,25 @@
+Emmanuella Eyo 
+eee917
+11291003
+CMPT 270
+
+
+*Status
+The MainMenuFrame class and the GuiHospitalSystem class are to be invoked for
+the program to run.
+
+Still have an issue adding a manager to the system, I keep getting an error
+but aside from that other parts (the student operations, the residence operations)
+of the GuiResidencesystem works apart from that.
+
+
+Classes Added to the GUI package
+*ManagerAddFrame
+*ManagerAddPanel
+*ManagerFrame
+*ManagerOpsFrame
+*ManagerOpsPanel
+*ManagerAcessPanel
+*ManagerPanel
+*MainMenuFrame
+*MainMenuPanel
