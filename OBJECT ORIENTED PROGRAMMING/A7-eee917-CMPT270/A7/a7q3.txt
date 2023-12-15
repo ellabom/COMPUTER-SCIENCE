@@ -1,0 +1,50 @@
+//EMMANUELLA EYO 11291003 EEE917
+A7Q3
+
+file: model/Player
+lines: 42-25
+current: 
+	protected Timer overheatTimer;
+
+    	protected Timer coolDownTimer;
+
+    	public int heatBuildup = 0;
+
+    	boolean isOverheat = false;
+
+    	boolean coolDown = true;
+
+lines: 71-89
+Current:
+	overheatTimer = new Timer(10000, new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                heatBuildup = 0;
+                isOverheat = false;
+            }
+        });
+        coolDownTimer = new Timer(500, new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                heatBuildup -=1;
+                coolDown = false;
+            }
+
+        });
+
+        rechargeTimer.setRepeats(false);
+        overheatTimer.setRepeats(false);
+        coolDownTimer.setRepeats(false);
+
+lines: 124-133
+Current:
+	if(coolDown){
+            coolDownTimer.start();
+        }
+        if(fireRecharge && coolDownTimer.isRunning()){
+            coolDownTimer.restart();
+        }
+        if (heatBuildup >= 5) {
+        rechargeTimer = overheatTimer;
+        overheatTimer.start();
+        } else {fireRecharge = true;}

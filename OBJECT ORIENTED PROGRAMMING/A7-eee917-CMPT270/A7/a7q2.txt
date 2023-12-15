@@ -1,0 +1,89 @@
+//EMMANUELLA EYO EEE917  11291003
+//ASSIGNMENT 7
+
+===============================================================
+Question A7Q2 .a: Add a container for multiple lasers
+===============================================================
+File: model/Game.java
+Lines: 69
+Previous:
+	protcted Laser laser;
+Current:
+	protected List<Laser> laserlist;
+
+Line: 95
+Current:
+	laserlist = new LinkedList<Laser>();
+
+Line: 173
+Previous:
+	laser = null;
+Current:
+	laserList.clear();
+
+Lines: 251-258
+Current:
+	Iterator<Laser> laserIterator = laserList.iterator;
+	while (laserIterator.hasNext()){
+		Laser laser = laserIterator.next();
+		laser.update();
+		if (!laser.isDead())
+			laser.update();
+		if (laser.isDead())
+			lasetIterator.remove();
+		}
+
+Lines: 365-366
+Current:
+	for (Laser laser : laserList)
+		gameObject.add(laser)
+
+Line: 385-387
+Previous:
+	if (laser != null)
+		gameObject.add(laser)
+Current:
+	protected void addLaser(Laser laser)
+		laserList.add(laser)
+
+File: view/Player.java
+Lines: 90
+
+Previous:
+	if(laser == null);
+Current:
+	if(laserList != null);
+
+===============================================================
+Question A7Q2 .b: implement 
+===============================================================
+File: model/Player.java
+
+Line:45
+Current:
+	boolean fireRecharge = true;
+
+Line:48
+Current:
+	Timer timer;
+
+Lines: 60-66
+Current:
+	timer = new Timer(300, new ActionListener(){
+		@Override
+		public void actionPerformed(ActionEvent e){fireRecharge = true;}
+	});
+	timer.setRepeats(false);
+
+	}
+
+Lines: 92
+Previous:
+	if (game.laserList !=null)
+Current:
+	if(fireRecharge)
+
+Line:96-97
+Current:
+	fireRecharge = false;
+	timer.start;

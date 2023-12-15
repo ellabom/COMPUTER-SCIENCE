@@ -1,0 +1,60 @@
+//EMMANUELLA EYO 11291003 eee917 
+//ASSIGNMENT 7
+
+===============================================================
+Question A7Q1 .a : Changing the Green button to Red buttons
+===============================================================
+
+File: view/WelcomePanel.java
+Lines: 65-87
+Previous:
+	newGameButton.setForground(Color.GREEN)
+Current:
+	newGameButton.setForground(Color.RED)
+
+Previous:
+	highScoreButton.setForground(Color.GREEN)
+Current:
+	highScoreButton.setForground(Color.RED)
+
+Previous:
+	quitButton.setForground(Color.GREEN)
+Current:
+	quitButton.setForground(Color.RED)
+
+
+File: view/HighScoresPanel.java
+Lines: 75
+Previous:
+
+	backButton.setForeground(Color.GREEN)
+Current:
+	backButton.setForeground(Color.RED)
+
+
+===============================================================
+Question A7Q2 .b : Changing the movements to 'A' and 'D'
+===============================================================
+File: control/Controller.java
+Lines: 110
+Previous:
+	KeyEvent.VK_LEFT
+Current:
+	KeyEvent.VK_A
+
+Line:113
+Previous:
+	KeyEvent.VK_RIGHT
+Current:
+	KeyEvent.VK_D
+
+
+===============================================================
+Question A7Q1 .c: Modifying laser speed (twice as quickly)
+===============================================================
+File: model/Laser.java
+Lines: 24
+Previous:
+	public static int MOVE_DISTANCE = 6;
+Current:
+	public static int MOVE_DISTANCE = 12;
