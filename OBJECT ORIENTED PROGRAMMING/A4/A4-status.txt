@@ -1,0 +1,16 @@
+EMMANUELLA EYO
+eee917
+11291003
+CMPT 270
+
+
+
+STATUS:
+The student and manager classes from the test cases work alright, except for the toString 
+method in the Manager class results in an error. The method prints out the same thing as the expected output
+but the test case fails, could be from whitespace.
+The changes made to the Residence class provided for A4 work fine, some test cases were added to make sure
+the changed don't cause more damage to the program.
+
+For the StudentResidenceSystem, all the function were correctly implemented with the scanner for console user input.
+The displayEmptyBeds() and releaseStudent() were not implemented as instructed in the requirements. The main method asks the user for console input and correctly displays the information.
