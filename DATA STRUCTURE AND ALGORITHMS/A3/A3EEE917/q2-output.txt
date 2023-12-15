@@ -1,0 +1,36 @@
+EMMANUELLA EYO	EEE917	11291003 CMPT 280
+
+My Skill Tree: 
+
+1: Shield Slam, Cost: 2
+     2: Shield Block, Cost: 0
+          3: Victory Rush, Cost: 2
+               4: Kinetic Slam, Cost: 4
+                    5: Kinetic Burst, Cost: 3
+                    5: - 
+                    5: - 
+               4: Victory Slam, Cost: 2
+          3: Taunt, Cost: 2
+          3: Counter Strike, Cost: 3
+               4: Unyielding Might, Cost: 0
+                    5: Execute Throw, Cost: 4
+                    5: - 
+               4: - 
+     2: Iron Gauntlet, Cost: 4
+          3: Thruster Uppercut, Cost: 4
+          3: - 
+          3: - 
+          3: - 
+
+Dependencies for Kinetic Burst: 
+Shield Block, Cost: 0, Victory Rush, Cost: 2, Kinetic Slam, Cost: 4, Kinetic Burst, Cost: 3, 
+Dependencies for Thruster Uppercut: 
+Iron Gauntlet, Cost: 4, Thruster Uppercut, Cost: 4, 
+Dependencies for Iron: 
+Iron not found
+Dependencies for Aerial Thrust
+Aerial Thrust not found
+To get Execution Throw you must invest 9 points
+To get Thruster Uppercut you must invest 10 points
+To get Shield Slam you must invest 2 points
+Iron skill not found
