@@ -1,0 +1,1 @@
+Focuses on data structure design and use in Java. Basic data structures are reviewed in an object oriented context and new data structures and related algorithms are introduced: ordered trees, balanced trees, simple spatial trees; graph representations and searching: path algorithms, depth/breadth first searches, direct and B- tree files; and advanced sorting algorithms.
