@@ -1,0 +1,45 @@
+﻿EMMANUELLA EYO 11291003 EEE917
+scala> import Tree.inOrder
+import Tree.inOrder
+
+
+scala> import Tree.postOrder, Tree.preOrder, Tree.search
+import Tree.postOrder
+import Tree.preOrder
+import Tree.search
+
+
+scala> val tree1 : Tree[Int] = Node(Leaf(2), 1, Leaf(3))
+val tree1: Tree[Int] = Node(Leaf(2),1,Leaf(3))
+
+
+scala> preOrder(tree1)
+val res0: List[Int] = List(1, 2, 3)
+
+
+scala> val tree2 : Tree[Int] = Node(Node(Leaf(1), 3, Leaf(4)), 5, Node(Leaf(6), 7, Leaf(8)))
+val tree2: Tree[Int] = Node(Node(Leaf(1),3,Leaf(4)),5,Node(Leaf(6),7,Leaf(8)))
+
+
+scala> preOrder(tree2)
+val res1: List[Int] = List(5, 3, 1, 4, 7, 6, 8)
+
+
+scala> inOrder(tree2)
+val res2: List[Int] = List(1, 3, 4, 5, 6, 7, 8)
+
+
+scala> postOrder(tree2)
+val res3: List[Int] = List(1, 4, 3, 6, 8, 7, 5)
+
+
+scala> search(tree1, 1)
+val res4: Boolean = true
+
+
+scala> search(tree1, 14)
+val res5: Boolean = false
+
+
+scala> search(tree2, 8)
+val res6: Boolean = true

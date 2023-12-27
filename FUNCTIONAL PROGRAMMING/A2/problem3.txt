@@ -1,0 +1,49 @@
+﻿EMMANUELLA EYO 11291003 EEE917
+
+
+
+
+scala> import Problem3.luhn, Problem3.luhnDouble, Problem3.altMap
+import Problem3.luhn
+import Problem3.luhnDouble
+import Problem3.altMap
+
+
+scala> altMap[Int, Int](List((x: Int) => x + 1, (x: Int) => x * 2), List(1, 2, 3, 4))
+val res0: List[Int] = List(2, 4, 4, 8)
+
+
+scala> altMap[Int, Int](List((x: Int) => x * x, (x: Int) => x + 1), List(1, 2, 3, 4))
+val res1: List[Int] = List(1, 3, 9, 5)
+
+
+scala> altMap[Int, String](List((x: Int) => x.toString, (x: Int) => (x + 1).toString), List(2, 3, 4, 5))
+val res2: List[String] = List(2, 4, 4, 6)
+
+
+scala> luhnDouble(1)
+val res3: Int = 2
+
+
+scala> luhnDouble(50)
+val res4: Int = 91
+
+
+scala> luhn(List(1, 2, 3, 4, 5))
+val res5: Boolean = false
+
+
+scala> luhn(List(7, 9, 9, 2, 7, 3, 9, 8, 7, 1, 6, 6, 2, 7, 3, 7))
+val res6: Boolean = false
+
+
+scala> luhn(List(1, 2, 3, 4))
+val res8: Boolean = false
+
+
+scala> luhn(List(6, 5, 3, 1, 6, 4, 6, 4, 6, 1, 8, 0, 8, 9, 4, 8, 9))
+val res10: Boolean = false
+
+
+scala> luhn(List(4, 5, 5, 6, 7, 3, 7, 5, 8, 6, 8, 9, 9, 8, 5, 5))
+val res25: Boolean = true
