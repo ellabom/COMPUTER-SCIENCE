@@ -1,0 +1,217 @@
+<! -- EMMANUELLA EYO 11291003 EEE917-- >
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0)
+        );
+      }
+
+      body {
+        background: linear-gradient(to right, #fdfbfb, #ebedee);
+      }
+      h2 {
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      }
+      label {
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+      }
+      input {
+        align-items: center;
+        appearance: none;
+        background-color: #fafbfc;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+          rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+        box-sizing: border-box;
+        color: #24292e;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 6px 16px;
+        position: relative;
+        transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+        word-wrap: break-word;
+      }
+
+      button {
+        appearance: none;
+        background-color: #fafbfc;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+          rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+        box-sizing: border-box;
+        color: #24292e;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 6px 16px;
+        position: relative;
+        transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+        word-wrap: break-word;
+      }
+
+      button:hover {
+        background-color: #f3f4f6;
+        text-decoration: none;
+        transition-duration: 0.1s;
+      }
+
+      button:active {
+        background-color: #edeff2;
+        box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+        transition: none 0s;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Create Post</h2>
+    <form id="create-post-form">
+      <label for="post-id">ID:</label><br />
+      <input type="text" id="post-id" name="id" /><br />
+
+      <label for="post-topic">Topic:</label><br />
+      <input type="text" id="post-topic" name="topic" /><br />
+
+      <label for="post-data">Data:</label><br />
+      <input type="text" id="post-data" name="data" /><br />
+
+      <button type="submit">Create Post</button>
+      <button id="getButton" type="button">Retrieve Post</button>
+    </form>
+
+    <h2>Posts</h2>
+    <div id="output"></div>
+    <br />
+    <br />
+
+    <script>
+      const postForm = document.getElementById("create-post-form");
+      const getPostBtn = document.getElementById("getButton");
+      const outputDiv = document.getElementById("output");
+
+      // function to create a new post
+      function addPost(event) {
+        event.preventDefault();
+
+        fetch("/posts", {
+          method: "POST",
+          body: new URLSearchParams({
+            id: document.getElementById("post-id").value,
+            topic: document.getElementById("post-topic").value,
+            data: document.getElementById("post-data").value,
+          }).toString(),
+          headers: {
+            "Content-type": "application/x-www-form-urlencoded",
+          },
+        })
+          .then((response) => response.json())
+          .then((data) => console.log(data))
+          .catch((error) => console.error(error));
+
+        alert("New Post inserted");
+        postForm.reset();
+      }
+
+      function getPost() {
+        fetch("/posts", {
+          method: "GET",
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            let output = "";
+            data.posts.forEach((post) => {
+              output += `
+                <div>
+                  <p>topic: ${post.topic}</p>
+                  <p>data: ${post.data}</p>
+                  <button onclick="showComments('${post.id}')">View Comments</button>
+                  <div id="${post.id}-comments"></div>
+                  <form onsubmit="addComment(event, '${post.id}')">
+                    <input type="text" name="commentText" />
+                    <button type="submit">Add Comment</button>
+                  </form>
+                </div>
+                <hr>
+              `;
+            });
+            outputDiv.innerHTML = output || alert("No comments yet");
+          })
+          .catch((error) => console.error(error));
+      }
+
+      function addComment(event, postId) {
+        event.preventDefault();
+        const commentText = event.target.elements.commentText.value;
+        fetch(`/posts/${postId}/comments`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ commentText }),
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            showComments(postId);
+            event.target.reset();
+          })
+          .catch((err) => console.log(err));
+      }
+
+      function showComments(postId) {
+        fetch(`/posts/${postId}/comments`, {
+          method: "GET",
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            let commentsHtml = "";
+            data.comment.forEach((comment) => {
+              commentsHtml += `
+                <div>
+                  <p>${comment.id}: ${comment.text}</p>
+                </div>
+              `;
+            });
+            document.getElementById(`${postId}-comments`).innerHTML =
+              commentsHtml;
+          })
+          .catch((err) => console.log(err));
+      }
+
+      postForm.addEventListener("submit", addPost);
+      getPostBtn.addEventListener("click", getPost);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+<! -- EMMANUELLA EYO 11291003 EEE917-- >
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      hr {
+        border: 0;
+        height: 1px;
+        background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0),
+          rgba(0, 0, 0, 0.75),
+          rgba(0, 0, 0, 0)
+        );
+      }
+
+      body {
+        background: linear-gradient(to right, #fdfbfb, #ebedee);
+      }
+      h2 {
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+      }
+      label {
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+      }
+      input {
+        align-items: center;
+        appearance: none;
+        background-color: #fafbfc;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+          rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+        box-sizing: border-box;
+        color: #24292e;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 6px 16px;
+        position: relative;
+        transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+        word-wrap: break-word;
+      }
+
+      button {
+        appearance: none;
+        background-color: #fafbfc;
+        border: 1px solid rgba(27, 31, 35, 0.15);
+        border-radius: 6px;
+        box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+          rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+        box-sizing: border-box;
+        color: #24292e;
+        cursor: pointer;
+        display: inline-block;
+        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+          sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        list-style: none;
+        padding: 6px 16px;
+        position: relative;
+        transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+        touch-action: manipulation;
+        vertical-align: middle;
+        white-space: nowrap;
+        word-wrap: break-word;
+      }
+
+      button:hover {
+        background-color: #f3f4f6;
+        text-decoration: none;
+        transition-duration: 0.1s;
+      }
+
+      button:active {
+        background-color: #edeff2;
+        box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+        transition: none 0s;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Create Post</h2>
+    <div>
+      <form id="create-post-form">
+        <label for="post-id">ID:</label><br />
+        <input type="text" id="post-id" name="id" /><br />
+
+        <label for="post-topic">Topic:</label><br />
+        <input type="text" id="post-topic" name="topic" /><br />
+
+        <label for="post-data">Data:</label><br />
+        <input type="text" id="post-data" name="data" /><br />
+
+        <br />
+
+        <button type="submit">Create Post</button>
+      </form>
+    </div>
+
+    <br />
+    <hr />
+    <div>
+      <form id="create-comment-form">
+        <label for="postId">ID:</label><br />
+        <input type="text" id="postId" name="id" /><br />
+
+        <label for="comment-data">Comment:</label><br />
+        <input type="text" id="comment-data" name="data" /><br />
+
+        <br />
+        <button type="submit">Create comment</button>
+      </form>
+    </div>
+    <hr />
+    <h2>Posts and Comments</h2>
+    <button id="getButton" type="button">Show Post and Comments</button>
+    <div id="output"></div>
+    <br />
+    <br />
+
+    <script>
+      const postForm = document.getElementById("create-post-form");
+      const getPostBtn = document.getElementById("getButton");
+      const outputDiv = document.getElementById("output");
+
+      function addPost(event) {
+        event.preventDefault();
+
+        const id = document.getElementById("post-id").value;
+        const topic = document.getElementById("post-topic").value;
+        const data = document.getElementById("post-data").value;
+
+        fetch("/posts", {
+          method: "POST",
+          body: new URLSearchParams({
+            id,
+            topic,
+            data,
+          }).toString(),
+          headers: {
+            "Content-type": "application/x-www-form-urlencoded",
+          },
+        })
+          .then((response) => response.json())
+          .then((data) => console.log(data))
+          .catch((error) => console.error(error));
+
+        alert("New Post inserted");
+        postForm.reset();
+      }
+
+      async function getPost() {
+        try {
+          const response = await fetch("/posts");
+          const data = await response.json();
+
+          let posts = "";
+          for (const post of data) {
+            const commentResponse = await fetch(`/posts/${post._id}/comments`);
+            const comments = await commentResponse.json();
+
+            let commentsHTML = "";
+            for (const comment of comments) {
+              commentsHTML += `
+                <div id="comment-${comment._id}">
+                  <p>Comment: ${comment.text}</p>
+                </div>
+              `;
+            }
+
+            posts += `
+              <div id="post-${post._id}">
+                <p>Topic: ${post.topic}</p>
+                <p>Data: ${post.data}</p>
+                <div>
+                  <strong><h3>Comments:</h3></strong>
+                  ${commentsHTML}
+                </div>
+              </div>
+              <hr>`;
+          }
+
+          outputDiv.innerHTML = posts;
+        } catch (error) {
+          console.error(error);
+        }
+      }
+
+      const commentForm = document.getElementById("create-comment-form");
+
+      function addComment(event) {
+        event.preventDefault();
+
+        const postId = document.getElementById("postId").value;
+        const commentText = document.getElementById("comment-data").value;
+
+        fetch(`/posts/${postId}/comments`, {
+          method: "POST",
+          body: JSON.stringify({
+            id: postId,
+            commentText: commentText,
+          }),
+          headers: {
+            "Content-type": "application/json",
+          },
+        })
+          .then((response) => response.json())
+          .then((commentText) => console.log(commentText))
+          .catch((error) => console.error(error));
+
+        alert("New comment inserted");
+        commentForm.reset();
+      }
+
+      postForm.addEventListener("submit", addPost);
+      getPostBtn.addEventListener("click", getPost);
+      commentForm.addEventListener("submit", addComment);
+    </script>
+  </body>
+</html>
