@@ -1,0 +1,33 @@
+﻿EMMNUELLA EYO 11291003 EEE917
+
+
+---test1--- 
+ test1 = List(9, 5, 64, 1, 15, 2)
+Current minimum value: 1, sorted list so far: List(1)
+Current minimum value: 2, sorted list so far: List(1, 2)
+Current minimum value: 5, sorted list so far: List(1, 2, 5)
+Current minimum value: 9, sorted list so far: List(1, 2, 5, 9)
+Current minimum value: 15, sorted list so far: List(1, 2, 5, 9, 15)
+Current minimum value: 64, sorted list so far: List(1, 2, 5, 9, 15, 64)
+
+
+
+
+---test2--- 
+ test2 = List(6,6, 6, 6, 6)
+Current minimum value: 6, sorted list so far: List(6)
+Current minimum value: 6, sorted list so far: List(6, 6)
+Current minimum value: 6, sorted list so far: List(6, 6, 6)
+Current minimum value: 6, sorted list so far: List(6, 6, 6, 6)
+Current minimum value: 6, sorted list so far: List(6, 6, 6, 6, 6)
+
+
+---test3---
+ List()
+Current minimum value: 0, sorted list so far: List(0)
+
+
+---test4---
+ test4 = List(5, 2)
+Current minimum value: 2, sorted list so far: List(2)
+Current minimum value: 5, sorted list so far: List(2, 5)
