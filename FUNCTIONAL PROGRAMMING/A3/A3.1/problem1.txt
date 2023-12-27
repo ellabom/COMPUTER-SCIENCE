@@ -1,0 +1,96 @@
+﻿// EMMANUELLA EYO 11291003 EEEE917
+
+
+
+
+scala> import Problem1.brothers, Problem1.sisters, Problem1.children, Problem1.uncles, Problem1.siblings
+import Problem1.brothers
+import Problem1.sisters
+import Problem1.children
+import Problem1.uncles
+import Problem1.siblings
+
+
+scala> import
+     | Problem1.parents, Problem1.grandparents
+import Problem1.parents
+import Problem1.grandparents
+
+
+scala> import Problem1.royalParent
+import Problem1.royalParent
+
+
+scala> children("Elizabeth", "Philip")
+val res0: Option[List[String]] = Some(List(Anne, Charles, Edward, Andrew))
+
+
+scala> children("Philip", "Elizabeth")
+val res1: Option[List[String]] = Some(List(Anne, Charles, Edward, Andrew))
+
+
+scala> children("Meghan", "Harry")
+val res2: Option[List[String]] = Some(List(Archie, Lilibet))
+
+
+scala> children("Meghan", "William")
+val res3: Option[List[String]] = None
+
+
+scala> children("James", "Anabelle")
+val res4: Option[List[String]] = None
+
+
+scala> grandparents("Lilibeth")
+val res5: Option[List[String]] = None
+
+
+scala> grandparents("Lilibet")
+val res6: Option[List[String]] = Some(List(Diana, Charles))
+
+
+scala> grandparents("Louis")
+val res7: Option[List[String]] = Some(List(Diana, Charles))
+
+
+scala> grandparents("Savannah")
+val res8: Option[List[String]] = Some(List(Mark, Anne))
+
+
+scala> grandparents("Catherine")
+val res9: Option[List[String]] = None
+
+
+scala> sisters("Archie")
+val res10: Option[List[String]] = Some(List(Lilibet))
+
+
+scala> sisters("George")
+val res11: Option[List[String]] = Some(List(Charlotte))
+
+
+scala> sisters("Charles")
+val res12: Option[List[String]] = Some(List(Anne))
+
+
+scala> sisters("Anne")
+val res13: Option[List[String]] = Some(List())
+
+
+scala> uncles("Harry")
+val res14: Option[List[String]] = Some(List(Edward, Andrew))
+
+
+scala> uncles("Sophie")
+val res15: Option[List[String]] = None
+
+
+scala> uncles("Zara")
+val res16: Option[List[String]] = Some(List(Charles, Edward, Andrew))
+
+
+scala> uncles("Emmanuella")
+val res17: Option[List[String]] = None
+
+
+scala>

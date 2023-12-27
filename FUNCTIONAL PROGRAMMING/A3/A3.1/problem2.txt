@@ -1,0 +1,169 @@
+EMMAUELLA EYO 11291003 EEE917
+
+
+scala> val t: Partial[String, Int] = Success(20)
+val t: Partial[String,Int] = Success(20)
+
+
+scala> val t1: Partial[String, Int] = Errors(List("testingError1", "testingError2"))
+val t1: Partial[String,Int] = Errors(List(testingError1, testingError2))
+
+
+scala> println("Testing map()")
+Testing map()
+
+
+scala> val tmap = t.map(_ * 3)
+val tmap: Partial[String,Int] = Success(60)
+
+
+scala> val tmap1 = t.map(_/5)
+val tmap1: Partial[String,Int] = Success(4)
+
+
+scala> val tmap1 = tmap.map(_/5)
+val tmap1: Partial[String,Int] = Success(12)
+
+
+scala> val tmap3 = t1.map( _ * 4)
+val tmap3: Partial[String,Int] = Errors(List(testingError1, testingError2))
+
+
+scala> println(tmap, tmap1, tmap3, t1, t)
+(Success(60),Success(12),Errors(List(testingError1, testingError2)),Errors(List(testingError1, testingError2)),Success(20))
+
+
+scala> tmap.getOrElse(0)
+val res3: Int = 60
+
+
+scala> t1.getOrElse(0)
+val res4: Int = 0
+
+
+scala> val t2 : Partial[String, String] = Success("CMPT340") 
+val t2: Partial[String,String] = Success(CMPT340)
+
+
+scala> val t2 : Partial[Int, String] = Success("CMPT340") 
+val t2: Partial[Int,String] = Success(CMPT340)
+
+
+scala> t2.flatMap(s => Success(s.compareTo("CMPT360")))
+val res5: Partial[Int,Int] = Success(-2)
+
+
+scala> t2.flatMap(s => Success(s.compareTo("CMPT340")))
+val res6: Partial[Int,Int] = Success(0)
+
+
+
+
+scala> t1.flatMap(_ => Success(10))
+val res8: Partial[String,Int] = Errors(List(testingError1, testingError2))
+
+
+scala> tmap.flatMap(_ => Success(10))
+val res9: Partial[String,Int] = Success(10)
+
+
+scala> val t3 : Partial[String, Int] = Errors(Seq("NO!!!"))
+val t3: Partial[String,Int] = Errors(List(NO!!!))
+
+
+scala> t3.orElse(tmap)
+val res10: Partial[String,Int] = Success(60)
+
+
+scala> val t4 : Partial[String, Int] = Success(50)
+val t4: Partial[String,Int] = Success(50)
+
+
+scala> t3.orElse(t4)
+val res11: Partial[String,Int] = Success(50)
+
+
+scala> println(t1)
+Errors(List(testingError1, testingError2))
+
+
+scala> println(t2)
+Success(CMPT340)
+
+
+scala> println(t)
+Success(20)
+
+
+scala> t4.map2(t)(_ + _)
+val res15: Partial[String,Int] = Success(70)
+
+
+scala> t1.map2(t)(_ + _)
+val res16: Partial[String,Int] = Errors(List(testingError1, testingError2))
+.
+
+
+scala> val t5 : Partial[String, Int] = Success(5)
+val t5: Partial[String,Int] = Success(5)
+
+
+scala> val tList: List[Int] = List(1, 2, 3, 4, 5, 6)
+val tList: List[Int] = List(1, 2, 3, 4, 5, 6)
+
+
+scala> def func(x: Int): Partial[String, Double] = {
+   if (x > 0) Success(x + 2.0)
+   else Errors(Seq("less than zero"))
+ }
+     |      |      | def func(x: Int): Partial[String,Double]
+
+
+scala> val result: Partial[String, List[Double]] = t5.traverse(tList)(func)
+val result: Partial[String,List[Double]] = Success(List(3.0, 4.0, 5.0, 6.0, 7.0, 8.0))
+
+
+scala> val t6 : Partial[String, Int] = Errors(Seq("oh no no no"))
+val t6: Partial[String,Int] = Errors(List(oh no no no))
+
+
+scala> val result1: Partial[String, List[Double]] = t6.traverse(tList)(func)
+val result1: Partial[String,List[Double]] = Success(List(3.0, 4.0, 5.0, 6.0, 7.0, 8.0))
+
+
+scala> val tList1: List[Int] = List(1, 2, 3, 4)
+val tList1: List[Int] = List(1, 2, 3, 4)
+
+
+scala> val result1: Partial[String, List[Double]] = t6.traverse(tList1)(func)
+val result1: Partial[String,List[Double]] = Success(List(3.0, 4.0, 5.0, 6.0))
+
+
+scala> val tList3  = List(-1, -3, -5, 3)
+val tList3: List[Int] = List(-1, -3, -5, 3)
+
+
+scala> val result1: Partial[String, List[Double]] = t5.traverse(tList3)(func)
+val result1: Partial[String,List[Double]] = Errors(List(less than zero))
+
+
+scala> val t7: Partial[String, Int] = Success(1)
+val t7: Partial[String,Int] = Success(1)
+
+scala> t7.Try(88/11)
+val res0: Partial[Exception,Int] = Success(8)
+
+scala> t7.Try(88/11 == 5)
+val res1: Partial[Exception,Boolean] = Success(false)
+
+scala> t7.Try("friends".nonEmpty)
+val res2: Partial[Exception,Boolean] = Success(true)
+
+scala> t7.Try("friends".toBoolean)
+val res3: Partial[Exception,Boolean] = Errors(List(java.lang.IllegalArgumentException: For input string: "friends"))
+
+
+scala> t7.Try("friends".toDouble)
+val res5: Partial[Exception,Double] = Errors(List(java.lang.NumberFormatException: For input string: "friends"))
+
+scala> 

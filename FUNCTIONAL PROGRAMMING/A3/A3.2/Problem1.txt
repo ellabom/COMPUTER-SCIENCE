@@ -1,0 +1,40 @@
+EMMANUELLA EYO 11291004 EEE917
+
+scala> import Problem1.unfold, Problem1.pyth
+import Problem1.unfold
+import Problem1.pyth
+
+
+scala> pyth(1) // List()
+val res0: List[(Int, Int, Int)] = List()
+
+
+scala> pyth(0) // 
+val res1: List[(Int, Int, Int)] = List()
+
+
+scala> pyth(5)
+val res2: List[(Int, Int, Int)] = List((3,4,5), (4,3,5))
+
+
+scala> pyth(8) 
+val res3: List[(Int, Int, Int)] = List((3,4,5), (4,3,5))
+
+
+scala> pyth(10) 
+val res4: List[(Int, Int, Int)] = List((3,4,5), (4,3,5), (6,8,10), (8,6,10))
+
+
+scala> pyth(12)  //
+val res5: List[(Int, Int, Int)] = List((3,4,5), (4,3,5), (6,8,10), (8,6,10))
+
+
+scala> pyth(20)
+val res6: List[(Int, Int, Int)] = List((3,4,5), (4,3,5), (5,12,13), (6,8,10), (8,6,10), (8,15,17), (9,12,15), (12,5,13), (12,9,15), (12,16,20), (15,8,17), (16,12,20))
+
+
+scala> pyth(-1)
+val res7: List[(Int, Int, Int)] = List()
+
+
+scala>

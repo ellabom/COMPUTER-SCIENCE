@@ -1,0 +1,33 @@
+﻿EMMANUELLA EYO 11291003 EEE91
+scala> import Problem2.unfold, Problem2.perfects
+import Problem2.unfold
+import Problem2.perfects
+
+
+scala> perfects.take(0).foreach(println)
+ 
+
+
+scala> perfects.take(1).foreach(println)
+6
+
+
+scala> perfects.take(2).foreach(println)
+6
+28
+
+
+scala> perfects.take(3).foreach(println)
+6
+28
+496
+
+
+scala> perfects.take(4).foreach(println)
+6
+28
+496
+8128
+
+
+scala>
