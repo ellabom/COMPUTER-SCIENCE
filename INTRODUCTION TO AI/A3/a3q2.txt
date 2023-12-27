@@ -1,0 +1,6 @@
+﻿EMMANUELLA EYO EEE917 11291003
+QUESTION 2
+
+
+The neighbors() t takes a state "s" and returns a list of all its neighbors. A neighbor is a state that can be reached from the current state by removing or adding a block. The code generates all possible neighboring states by checking the blocks in the s.used list and creating a new state by removing a block. It also checks all possible positions in the grid to see if a block can be placed and creates a new state by adding a block if it can.
+For the get_score() function, the fitness score is determined by counting the number of unoccupied cells in the grid.
