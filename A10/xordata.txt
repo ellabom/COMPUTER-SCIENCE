@@ -1,5 +1,0 @@
-sample_id x y xor_gate
-1 t t no
-2 t f yes
-3 f t yes
-4 f f no
