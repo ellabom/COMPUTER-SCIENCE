@@ -1,0 +1,5 @@
+sample_id x y andgate
+1 t t yes
+2 t f no
+3 f t no
+4 f f no
