@@ -1,0 +1,44 @@
+NAME: EMMANUELLA EYO
+NSID: eee917
+STUDENT ID: 11291003
+
+Activity
+
+EYO ELLA@ellabom MINGW64 ~/PycharmProjects/CMPT 145/Lab04 (master)
+$ git --no-pager log
+commit 7e23965cef078065121fcb3a5472ba72a37101ca (HEAD -> master)
+Author: ellabom <eyoemmanuella1@yahoo.com>
+Date:   Tue Aug 10 01:17:50 2021 -0600
+
+    Fixed a bug in loop implementation of factorial()
+
+commit 4d45f6d8cea03dd991079fcf6342ed8567381e33
+Author: ellabom <eyoemmanuella1@yahoo.com>
+Date:   Tue Aug 10 00:59:03 2021 -0600
+
+    Created 3 test cases for factorial()
+
+commit 207e9d0cb2cad213e156c96725ad5942f97448d1
+Author: ellabom <eyoemmanuella1@yahoo.com>
+Date:   Tue Aug 10 00:28:59 2021 -0600
+
+    Revert from loop implementation to factorial implementation.
+
+commit e1dd622cdd82e6111e6aac6759b051eb5f62a68c
+Author: ellabom <eyoemmanuella1@yahoo.com>
+Date:   Tue Aug 10 00:24:08 2021 -0600
+
+    Replaced the recursion in factorial() with a loop.
+
+commit ea9fe5ee029a202690d3324bfe32f62b7d81e3eb
+Author: ellabom <eyoemmanuella1@yahoo.com>
+Date:   Mon Aug 9 23:58:55 2021 -0600
+
+    Coded up a recursive implementation of factorial.
+
+commit a689604f9e757822bc5fd21a35a506e506fa38bf
+Author: ellabom <eyoemmanuella1@yahoo.com>
+Date:   Mon Aug 9 23:56:29 2021 -0600
+
+    Added factorial stub function.
+

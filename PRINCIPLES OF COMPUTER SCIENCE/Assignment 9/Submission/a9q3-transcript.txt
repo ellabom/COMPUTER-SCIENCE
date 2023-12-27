@@ -1,0 +1,23 @@
+#NAME: EMMANUELLA EYO
+#NSID: eee917
+#STUDENT ID: 11291003
+
+Activity 2
+$ python fact.py 13
+6227020800
+
+$ python fact.py 53
+4274883284060025564298013753389399649690343788366813724672000000000000
+
+$ python fact.py 2
+2
+
+$ python fact.py
+Traceback (most recent call last):
+  File "C:\Users\EYO ELLA\PycharmProjects\CMPT 145\lab03\fact.py", line 4, in <module>
+    example = int(sys.argv[1])
+IndexError: list index out of range
+
+$ python fact.py 1 askf
+Give an integer argument for fact.py
+

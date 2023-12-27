@@ -1,0 +1,19 @@
+# NAME: EMMANUELLA EYO
+# NSID: eee917
+# STUDENT ID: 11291003
+# COURSE NUMBER: 145
+
+1. example1 == example2 returns False. A node chain is not like a python list which you can 
+   analyse as an overall container of values and compare with another similar list. Node chains
+   are not builtins like list, so to determine if example1 and example2 are equal we'd have to 
+   access each value in the node chain and compare
+
+2. example1 = N.node(1, N.node(2, N.node(3)))
+   example3 = double_chain(example1)
+   example4 = N.node(2, N.node(4, N.node(6)))
+   test = a5.check_chains(example3, example4)
+   expected = 'same values'
+   reason = 'nodes are equal'
+
+   if test != expected:
+	print('Test failed: got {}, expected {}, reason: {}'.format(test, expected, reason))

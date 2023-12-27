@@ -1,0 +1,45 @@
+NAME: EMMANUELLA EYO
+NSID: eee917
+STUDENT ID: 11291003
+
+$ python self-avoiding-random-walk.py
+9.0% dead ends
+
+$ python self-avoiding-random-walk.py
+10.0% dead ends
+
+$ python self-avoiding-random-walk.py
+7.0% dead ends
+
+$ python self-avoiding-random-walk.py
+9.0% dead ends
+
+#After revising the script to take 2 command-line arguments
+
+$ python self-avoiding-random-walk.py 30 15
+73.33333333333333% dead ends
+
+$ python self-avoiding-random-walk.py 30 11
+27.272727272727273% dead ends
+
+$ python self-avoiding-random-walk.py 29 10
+20.0% dead ends
+
+# exploring values for n and trials
+$ python self-avoiding-random-walk.py 29 15
+46.666666666666664% dead ends
+
+EYO ELLA@ellabom MINGW64 ~/PycharmProjects/CMPT 145/lab03
+$ python self-avoiding-random-walk.py 29 16
+43.75% dead ends
+
+EYO ELLA@ellabom MINGW64 ~/PycharmProjects/CMPT 145/lab03
+$ python self-avoiding-random-walk.py 29 17
+58.8235294117647% dead ends
+
+$ python self-avoiding-random-walk.py 29 18
+66.66666666666667% dead ends
+
+$ python self-avoiding-random-walk.py 25 5
+60.0% dead ends
+

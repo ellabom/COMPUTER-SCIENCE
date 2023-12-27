@@ -1,0 +1,11 @@
+# NAME: EMMANUELLA EYO
+# NSID: eee917
+# STUDENT NUMBER: 11291003
+# COURSE NUMBER: 145
+# LAB SECTION: LO1
+
+
+1. I created the attribute __max and __min which are initialized to none
+
+2. I modified the add() and added the code to include max attribute if the value added to add is greater than __max
+and min if the value added to add() is less than __min.

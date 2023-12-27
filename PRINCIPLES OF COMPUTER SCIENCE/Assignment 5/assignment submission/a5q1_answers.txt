@@ -1,0 +1,18 @@
+# NAME: EMMANUELLA EYO
+# NSID: eee917
+# STUDENT ID: 11291003
+# COURSE NUMBER: 145
+
+#1. A text is printed to the console indicating the object's address on the heap.
+
+#2. I would prefer to use print(to_string(example)), the to_string() function implement
+#   methods [.get_next() and .get_data()] from the node ADT which makes displaying the content
+#   of 'example' easier by breaking it into each node composed in the node chain.
+
+#3. test_case:
+    node_data = to_chain([1, 2, 3])
+    expected = '[ 1 | *-]-->[ 2 | *-]-->[ 3 | / ]'
+
+    result = a5q1.to_string(node_data)
+    if result != expected:
+        print('Test failed: {}: got "{}" expected "{}" -- {}'.format(test_‪item, result, expected, reason))

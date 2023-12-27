@@ -1,0 +1,57 @@
+# thisquestion-transcript.txt
+#NAME: EMMANUELLA EYO
+#NSID: eee917
+#STUDENT ID: 11291003
+
+Activity: working directory with pwd
+$ pwd
+/c/Users/EYO ELLA/PycharmProjects/CMPT 145/lab03
+
+Activity: listing the contents of a directory with ls
+$ ls
+__pycache__/  count.py  d.py  factorial.py  main.py  temp/  venv/
+
+Activity: Creating folders with mkdir
+$ mkdir cmpt145
+
+EYO ELLA@ellabom MINGW64 ~/PycharmProjects/CMPT 145/lab03
+$ ls
+__pycache__/  cmpt145/  count.py  d.py  factorial.py  main.py  temp/  venv/
+
+Activity: Changing Working Directory
+$ cd cmpt145
+
+EYO ELLA@ellabom MINGW64 ~/PycharmProjects/CMPT 145/lab03/cmpt145
+$ pwd
+/c/Users/EYO ELLA/PycharmProjects/CMPT 145/lab03/cmpt145
+
+Activity: Creating New files
+$ ls
+lab03file.txt
+
+Acitivity:
+lab03file.txt
+
+Emmanuella Eyo, 11291003, eee917
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+~
+(END)
+        
