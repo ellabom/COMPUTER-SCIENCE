@@ -1,0 +1,19 @@
+# base image
+FROM node:latest
+
+# set working directory
+WORKDIR /usr/src/app
+
+# copy package.json and package-lock.json
+COPY package*.json ./
+
+# install dependencies
+RUN npm install
+
+# copy source code
+COPY . .
+
+# expose port
+EXPOSE 8080
+
+CMD ["/bin/bash"]

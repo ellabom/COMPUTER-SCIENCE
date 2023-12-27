@@ -1,0 +1,45 @@
+#Emmauella Eyo 11291003 eee917
+version: "3.9"
+services:
+  mysql1:
+    image: mysql:5.7
+    platform: linux/amd64
+    container_name: db1
+    volumes:
+      - ./db:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_DATABASE: "postdb"
+      MYSQL_USER: "root"
+      MYSQL_PASSWORD: "admin"
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test:
+        ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-padmin"]
+      timeout: 5s
+      retries: 2
+  node1:
+    build: .
+    container_name: nodejs1
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      mysql1:
+        condition: service_healthy
+    stdin_open: true
+    tty: true
+  node2:
+    build: .
+    container_name: nodejs2
+    ports:
+      - "3080:3080"
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      mysql1:
+        condition: service_healthy
+    stdin_open: true
+    tty: true

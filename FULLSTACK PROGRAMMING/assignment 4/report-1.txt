@@ -1,0 +1,13 @@
+EMMANUELLA EYO 11291003 EEE917
+
+
+1. first i tested to see if the backend API was working and if i would get a response.
+so in the server.js file there is app.get("/", (req, res) => {
+  res.send("API is working");
+});
+ and when i ran "curl http://localhost:3080/", it gave the response indicating it was working properly.
+
+2. After initializing the database, i used this "curl -X POST -H "Content-Type: application/json" -d '{"topic": "Sample topic", "data": "Sample data"}' http://localhost:3080/addPost"
+to add to the database, and it indicating that a new post was added "New post added: topic - Sample topic : data - Sample data% " 
+
+i also used loadtest -n 1 -c 1 -m POST -T 'application/x-www-form-urlencoded' --data  '{"topic":"testing", "data": "testing testing 123"}' http://localhost:3080/addPost to add into the database.

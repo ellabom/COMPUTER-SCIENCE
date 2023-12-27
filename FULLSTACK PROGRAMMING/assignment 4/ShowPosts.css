@@ -1,0 +1,20 @@
+/*Emmanuella Eyo 11291003 eee917*/
+
+table {
+  font-size: 15px;
+  border-collapse: collapse;
+  text-align: center;
+  width: 200%;
+  margin-top: 30%;
+}
+th,
+td {
+  border: 1px solid black;
+  width: auto;
+  height: 20px;
+  padding: 10px;
+}
+
+body {
+  font-family: sans-serif;
+}
