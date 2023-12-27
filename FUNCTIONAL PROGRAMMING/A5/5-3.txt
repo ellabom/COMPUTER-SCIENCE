@@ -1,0 +1,19 @@
+?- consult('5-1-2.pl').
+true.
+
+?- findall(Y, (grandmother_of(X, Y), deceased(X)), Z).
+Z = [george, charlotte, louis, archie, lilibet].
+
+?- findall(Y, (stepmother_of(camilla, Y), senior_royal(Y)), Z).
+Z = [william].
+
+?- parent_of(X, william), parent_of(X, harry).
+X = diana .
+
+?- parent_of(X, william), parent_of(X, harry).
+X = diana ;
+X = charles.
+
+?- findall(Y, (uncle_of(X, Y), male(Y), child_of(Z, X), female(Z)), V).
+V = [].
+
