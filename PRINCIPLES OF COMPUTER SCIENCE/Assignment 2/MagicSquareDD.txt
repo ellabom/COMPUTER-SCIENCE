@@ -1,0 +1,246 @@
+# File: MagicSquareDD.txt
+# CMPT 145 Course material
+# Copyright (c) 2017-2021 Michael C Horsch
+# All rights reserved.
+
+# This document contains resources for homework assigned to students of
+# CMPT 145 and shall not be distributed without permission.  Posting this 
+# file to a public or private website, or providing this file to a person 
+# not registered in CMPT 145, constitutes Academic Misconduct, according 
+# to the University of Saskatchewan Policy on Academic Misconduct.
+
+
+######################################################################
+# 3x3 Magic Square Detection 
+# Design Document
+#
+# Application's Purpose:
+#   To determine if a given arrangement of 9 numbers is a magic square.  
+#
+# Magic Square Definition: 
+#   - 3x3 grid  
+#   - contains integers 1 through 9 
+#   - every integer in 1-9 must appear exactly once
+#   - all rows, columns, and diagonals of the grid add up to 15
+#
+#   E.g.  Magic   not Magic
+#         8 1 6     1 9 6
+#         3 5 7     5 3 7
+#         4 9 2     4 8 2
+# 
+# High level behaviour (See Algorithm 1 below)
+#   Ask for the sequence of numbers ("square")
+#   Check whether it is magic!
+#   Program should display "YES" if it's magic, "NO" otherwise
+######################################################################
+
+
+######################################################################
+#     Algorithms in Bottom-to-Top Order
+#     To implement this program, start at Alg 7, and work down.
+#     The design was created by refinement, starting with Alg 1.
+#     Design top-down.  Build bottom-up.  
+#     Test each function before you move on to the next.
+######################################################################
+
+
+######################################################################
+# Algorithm 7: check_diagonals(square)
+#   Inputs: square: a 3x3 list of integers
+#   Return: True if all the diagonals sum to 15
+#           False otherwise
+#
+#  1. check the sum of the values from upward diagonal
+#  2. check the sum of the values from downward diagonal
+#  3. if any one of the checks resulted in an incorrect sum, return False
+#     otherwise, return True
+#
+# Test cases for Algorithm 7
+# 1.  Inputs: [[8, 1, 6], [3, 5, 7], [4, 9, 2]]
+#     Output: True
+#     Reason: Both diagonal entries sum to 15
+# 2.  Inputs: [[1, 9, 6], [5, 3, 7], [4, 8, 2]]
+#     Output: False
+#     Reason: Both diagonal entries do not sum to 15
+# 3.  Inputs: [[5, 5, 5], [5, 5, 5], [5, 5, 0]]
+#     Output: False
+#     Reason: Down-right diagonal does not sum to 15
+# 4.  Inputs: [[5, 5, 5], [5, 5, 5], [0, 5, 5]]
+#     Output: False
+#     Reason: Up-right diagonal does not sum to 15
+
+
+
+######################################################################
+# Algorithm 6: check_rows(square)
+#   Inputs: square: a 3x3 list of integers
+#   Return: True if all the rows sum to 15
+#           False otherwise
+#
+#  1. check the sum of the values from first row
+#  2. check the sum of the values from second row
+#  3. check the sum of the values from third row
+#  4. if any one of the checks resulted in an incorrect sum, return False
+#     otherwise, return True
+#
+# Test cases for Algorithm 6
+# 1.  Inputs: [[8, 1, 6], [3, 5, 7], [4, 9, 2]]
+#     Output: True
+#     Reason: All three rows sum to 15
+# 2.  Inputs: [[1, 2, 3], [5, 5, 5], [5, 5, 5]]
+#     Output: False
+#     Reason: First row does not sum to 15
+# 3.  Inputs: [[5, 5, 5], [3, 2, 1], [5, 5, 5]]
+#     Output: False
+#     Reason: Second row does not sum to 15
+# 4.  Inputs: [[5, 5, 5], [5, 5, 5], [6, 2, 4]]
+#     Output: False
+#     Reason: Third row does not sum to 15
+
+
+
+######################################################################
+# Algorithm 5: check_columns(square)
+#   Inputs: square: a 3x3 list of integers
+#   Return: True if all the columns sum to 15
+#           False otherwise
+#
+#  1. check the sum of the values from first column
+#  2. check the sum of the values from second column
+#  3. check the sum of the values from third column
+#  4. if any one of the checks resulted in an incorrect sum, return False
+#     otherwise, return True
+#
+# Test cases for Algorithm 5
+# 1.  Inputs: [[8, 1, 6], [3, 5, 7], [4, 9, 2]]
+#     Output: True
+#     Reason: All three columns sum to 15
+# 2.  Inputs: [[5, 5, 5], [5, 5, 5], [0, 5, 5]]
+#     Output: False
+#     Reason: First column does not sum to 15
+# 3.  Inputs: [[5, 5, 5], [5, 5, 5], [5, 0, 5]]
+#     Output: False
+#     Reason: Second column does not sum to 15
+# 4.  Inputs: [[5, 5, 5], [5, 5, 5], [5, 5, 0]]
+#     Output: False
+#     Reason: Third column does not sum to 15
+
+
+
+######################################################################
+# Algorithm 4: check_range(square)
+#   Inputs: square: a 3x3 list of integers
+#   Return: True if the square contains all the integers 1 .. 9
+#           False otherwise
+#
+#   1. Create a list of 9 boolean values, called seen
+#      Initialize every value in seen to False
+#   2. for every value in the square
+#         seen[value-1] = True
+#      (Note: using the value as an index.  
+#            valid values: 1-9
+#            valid indices: 0-8
+#             So to convert a value to an index, subtract 1)
+#   3. if any value in seen is still False, return False
+#      otherwise, return True
+#
+# Known Bug: check_range() fails badly if square contains values out of range!
+#
+# Test cases for Algorithm 4
+# 1.  Inputs: [[8, 1, 6], [3, 5, 7], [4, 9, 2]]
+#     Output: True
+#     Reason: All entries in range are present
+# 2.  Inputs: [[8, 1, 6], [3, 5, 7], [4, 9, 4]]
+#     Output: False
+#     Reason: Entries in correct range, one missing value last row
+# 3.  Inputs: [[8, 1, 6], [1, 5, 7], [4, 9, 2]]
+#     Output: False
+#     Reason: Entries in correct range, one missing value middle row
+# 4.  Inputs: [[4, 1, 6], [1, 5, 7], [4, 9, 2]]
+#     Output: False
+#     Reason: Entries in correct range, one missing value first row
+# 5.  Inputs: [[8, -1, 6], [1, 5, 7], [4, 9, 2]]
+#     Output: False
+#     Reason: Entry out of range first row 
+# 6.  Inputs: [[8, 1, 6], [1, 5, 0], [4, 9, 2]]
+#     Output: False
+#     Reason: Entry out of range second row 
+# 7.  Inputs: [[8, 1, 6], [1, 5, 7], [4, 9, -2]]
+#     Output: False
+#     Reason: Entry out of range last row 
+
+
+
+######################################################################
+# Algorithm 3: check_square(square)
+#   Inputs: a 3x3 list of integers
+#   Return: True if the square has all the properties of a magic
+#           square; False otherwise
+#
+#   1. To check the square has all integers 1 ... 9
+#      call function check_range()
+#   2. To check 3 rows of the square sum to 15
+#      call function check_rows()
+#   3. To check 3 columns of the square sum to 15
+#      call function check_columns()
+#   4. To check 2 diagonals of the square sum to 15
+#      call function check_diagonals()
+#   5. If any of the checks above is False, return False
+#
+# Test cases for Algorithm 3
+# 1.  Inputs: [[8, 1, 6], [3, 5, 7], [4, 9, 2]]
+#     Output: True
+#     Reason: Magic Square
+# 2.  Inputs: [[1, 9, 6], [5, 3, 7], [4, 8, 2]]
+#     Output: False
+#     Reason: All values present, sums not okay
+# 3.  Inputs: [[-8, 1, 6], [3, -5, 7], [4, 9, -2]]
+#     Output: False
+#     Reason: Values out of range
+# 4.  Inputs: [[5, 5, 5], [5, 5, 5], [5, 5, 5]]
+#     Output: False
+#     Reason: All row, column, diagonal sums okay, values missing
+# 5.  Inputs: [[6, 8, 1], [7, 3, 5], [2, 4, 9]]
+#     Output: False
+#     Reason: Range okay, row and column sums okay, diagonal sums not okay
+# 6.  Inputs: [[8, 1, 6], [7, 5, 3], [4, 9, 2]]
+#     Output: False
+#     Reason: Range okay, row and diagonal sums okay, column sums not okay
+# 7.  Inputs: [[4, 1, 2], [3, 5, 7], [8, 9, 6]]
+#     Output: False
+#     Reason: Range okay, column and diagonal sums okay, row sums not okay
+
+
+
+######################################################################
+# Algorithm 2: get_square()
+#   Inputs: none
+#   Return: returns a 3x3 list of lists 
+#
+#   1. Display a friendly prompt 
+#   2. Obtain 9 integers from the console
+#   3. Puts them in a 3x3 list of lists
+# Testing:
+#   We can test this informally, b because test cases for functions like 
+#   this are hard to write.  Not impossible.  Just not convenient for us.
+ 
+
+
+######################################################################
+# Algorithm 1: main()
+#   Inputs: nothing
+#   Return: 0
+#
+#   1. Ask for the sequence of numbers
+#      using function get_square()
+#   2. Check that it is magic by 
+#      calling function check_square()
+#   3. Display "YES" if it's magic, "NO" otherwise
+# Testing:
+#   Use the given example files.  No formal test cases required.
+
+
+######################################################################
+#  End of Design Document
+######################################################################
+

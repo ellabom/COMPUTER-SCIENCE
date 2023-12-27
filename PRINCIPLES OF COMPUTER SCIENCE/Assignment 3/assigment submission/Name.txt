@@ -1,0 +1,138 @@
+# Name: Emmanuella Eyo
+# Student Id: 11291003
+# Course number: 145
+# Lab section: L01
+
+
+# WORD CHAIN DESIGN DOCUMENT
+# Application's Purpose:
+       To determine if a given document of words is a valid word-chain/
+# Valid word chain definition:
+* A sequence of word where each sequential par of words differs by exactly one letter
+* E.g., shop stop step
+# High level behavior:
+
+# Functions are in a Top-to-Bottom Order
+# To implement this program, start with function1, and work your way down
+
+	# check whether it is a valid word chain 
+	# Print ‘Valid!’ if the list is a valid word chain, otherwise an invalid statement.
+
+###################################################################################################################
+###################################################################################################################
+
+ Function 1: determine_length(word_list):
+    Input: word_list: list of word from read file
+    Return: True, if the length of the list is at least 2, otherwise an invalid statement
+
+	* Check the length of word_list to determine if list is at least 2 words
+
+Test cases for Function 1
+	1. Input: [shop, stop, step]
+	Output: True
+	Reason: List contains more than 2 words
+
+	2. Input: [trip, trap]
+	Output: True
+	Reason: List contains more than 2 words
+
+	3. Input: [trip]
+	Output: False, ‘Invalid: too short’
+	Reason: Length of list is less than 2 OR list contains less than 2 words
+
+	4. Input:[]
+	Output: False, ‘Invalid: too short’
+	Reason: List is empty
+
+####################################################################################################################
+####################################################################################################################
+
+Function2: check_valid_word(word_list):
+    Input: word_list: : list of word from read file
+    Return: True, if all the words are valid inputs, otherwise return an invalid statement 
+
+	* Read a file called ‘four.txt’ into a list
+	* Check if the words in word_list is in four.txt
+	* If in ‘four.txt’ return True, else False
+Test cases for Function 2:
+	1. Input: [bill, fill, fail, rail]
+	   Output: True
+	   Reason: All word in the list is in ‘four.txt’ list, Valid
+
+	2. Input: [rice, rise, ride, wide, wife]
+	   Output: True
+	   Reason: All words in word_list is in the ‘four.txt’ list, Valid
+
+	3. Input: [bill, fill, pill, rail]
+	   Output: False, ‘Invalid word: pill’
+	   Reason: The word ‘pill’ does not appear in four.txt
+
+	4. Input: [rice, lice, rise, wide, wife]
+   	   Output: False, ‘Invalid word: lice’
+   	   Reason: The word ‘lice’ does not appear in four.txt
+
+########################################################################################################################
+########################################################################################################################
+
+Function 3: word_occurence(word_list):
+   Input: word_list: list of word from read file
+   Return: True, if words do not occur more than once or are repeated more than once, otherwise an invalid statement
+
+
+Test cases for Function 3:
+	1. Input: [shop, stop, step]
+	   Output: True
+	   Reason: No word is repeated in word chain
+
+	2. Input: [rice, rise, ride, wide, wife]
+	   Output: True
+	   Reason: No word is repeated in word chain
+
+	3. Input: [bill, fill, fill, rail, rain]
+	   Output: False, ‘Invalid: repeated word: fill’
+	   Reason: There is a word that occurred more than once in word chain 
+
+	4. Input: [rice, lice, rise, wide, rice]
+	   Output: False, ‘Invalid: repeated word: fill’
+           Reason: There is a word that occurred more than once in word chain 
+	   
+
+##########################################################################################################################
+##########################################################################################################################
+
+
+Function 4: word_difference(word_list):
+    Input: word_list: list of word from read file
+    Return: True if each sequential pair of words differ by exactly one letter. Otherwise, an invalid statement
+* For each word in word_list, 
+* check if each pair has at 3 letters similar to the next word, return True 
+* else, return False and an invalid statement
+
+Test cases for function 4:
+	1. Input: [cold, coat, boat]
+	   Output: False, 'Invalid step from cold --> coat’
+	   Reason: a pair of words differ by more than one letter
+
+	2. Input: [fort, ford, form, fuel]
+           Output: False, ‘Invalid step from form --> fuel’
+	   Reason: a pair of words differ by more than one letter
+
+	3. Input: [been, keen, keep, deep]
+ 	   Output: True
+	   Reason: pair of words differ by exactly one word
+
+	4. Input: [sick, pick, pink, link, line, fine]
+	   Output: True
+ 	   Reason: pair of words differ by exactly one word
+
+############################################################################################################################
+############################################################################################################################
+
+Function 5: valid_chain(word_list):
+    Input: word_list: list of word from read file
+    Return: ‘Valid’ if word_list is a valid word chain , otherwise an invalid statement
+
+
+	* Prompt user to enter the file name 
+	* Check if word_list is a valid word chain by calling determine_length(), check_valid_word(), word_occurence(), word_difference()
+	* Print ‘Valid!’ if the list is a valid word chain, otherwise an invalid statement.

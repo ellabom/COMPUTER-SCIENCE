@@ -1,0 +1,15 @@
+# Name: Emmanuella Eyo
+# NSID: eee917
+# Student Id: 11291003
+# Course number: 145
+# Lab section: L01
+
+
+1. My plan did not take long to create, at most between 10 to 15 mins 
+
+2. I did not really revise my design and no, there was no significant difference, I followed everything i planned step by step,
+   although for the last function, I wanted it to prompt the user to enter the filename but decided to go about that another way.
+
+3. Yes, the implementation and debugging phase for some functions took longer than expected. I overestimated my understanding of the task
+   especially in situations involving indexing. I think one way to avoid this problem is, after reading the requirements if I am still not
+   sure on how to go about it I'd have to do a little research or refer back to similar examples.

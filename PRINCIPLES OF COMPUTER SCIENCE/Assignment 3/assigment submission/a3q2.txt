@@ -1,0 +1,26 @@
+# Name: Emmanuella Eyo
+# NSID: eee917
+# Student Id: 11291003
+# Course number: 145
+# Lab section: L01
+
+
+
+
+#1. I think it is quite correct, so far, it does everthing it is meant to do and does nothing out of the box.
+    In addition to testing, i think the fact that i tried my best to write the code in the easiest form i could,
+    heightened my leve, of confidence.I think my program could be incorrect regarding my return/ printing out values.
+
+#2. I think the program is quite efficient in the sense that it runs the task without delay, multitasking was at its prime.
+
+#3. If there a minor/ necessary changes to be made in the program it would be easy to to so, especially if the code would still have the same purpose at the end of the day,
+    and since they are mostly encapsulated in functions, it is easier to focus on certain problems and changes
+
+#4. The program could possible crash if the wrong file name is given as input, or if the file is not in the same directory.
+
+#5. In total, I spend close 6 to 7 hours to complete this program, thats including design and development plan and testing. 
+    Well i wouldn't say shorter, It was well within the time range i planned to spend on this task. And yes, i used the given impelementation to do my work.
+
+#6.No, not really, when i wanted to focus on a pariticular aspect of the program  I avoided any possible distraction, what really delayed my timing was testing and debugging.
+   Of course, there were certain distractions i could not prevent (minial errand round the house), for these i just had to state the fact that i was kind of busy
+   and tried to accomplish the task as fast as possible.
